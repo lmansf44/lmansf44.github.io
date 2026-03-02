@@ -1,0 +1,23 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Lucas Mansfield"
+  site-url: https://lucasmansfield.github.io
+  navbar:
+    left:
+      - href: index.qmd
+        text: About
+      - href: research.qmd
+        text: Research
+      - href: cv.qmd
+        text: CV
+      - href: photos.qmd
+        text: Photos
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
