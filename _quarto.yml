@@ -4,7 +4,7 @@ project:
 
 website:
   title: "Lucas Mansfield"
-  site-url: https://lucasmansfield.github.io
+  site-url: https://lmansf44.github.io
   navbar:
     left:
       - href: index.qmd
