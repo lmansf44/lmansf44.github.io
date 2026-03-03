@@ -19,8 +19,8 @@ My current work focuses on species interaction networks, and understanding the d
 
 ### Contact
 
-- [mansfi79@msu.edu](mailto:mansfi79@msu.edu)
-- [GitHub](https://github.com/lmansf44)
+<i class="bi bi-envelope"></i> [mansfi79@msu.edu](mailto:mansfi79@msu.edu)\
+<i class="bi bi-github"></i> [GitHub](https://github.com/lmansf44)
 :::
 
 ::::

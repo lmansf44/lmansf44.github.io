@@ -4,14 +4,14 @@
     "href": "index.html",
     "title": "Lucas Mansfield",
     "section": "",
-    "text": "Hi! I’m Lucas Mansfield, and I’m an ecologist with interests in birds, ecological communities, spatial analyses, and global change ecology.\nI’m currently a PhD student at Michigan State University in the Department of Integrative Biology and Ecology, Evolution, and Behavior program as a part of the Spatial and Community Ecology (SpaCE) Lab.\nMy current work focuses on species interaction networks, and understanding the drivers of ecological network change across temporal and spatial scales in North America. To do this, I am leveraging data on species interactions, species occurrences, land cover change, and climate.\n\n\n\nmansfi79@msu.edu\nGitHub"
+    "text": "Hi! I’m Lucas Mansfield, and I’m an ecologist with interests in birds, ecological communities, spatial analyses, and global change ecology.\nI’m currently a PhD student at Michigan State University in the Department of Integrative Biology and Ecology, Evolution, and Behavior program as a part of the Spatial and Community Ecology (SpaCE) Lab.\nMy current work focuses on species interaction networks, and understanding the drivers of ecological network change across temporal and spatial scales in North America. To do this, I am leveraging data on species interactions, species occurrences, land cover change, and climate.\n\n\n mansfi79@msu.edu\n GitHub"
   },
   {
     "objectID": "index.html#about-me",
     "href": "index.html#about-me",
     "title": "Lucas Mansfield",
     "section": "",
-    "text": "Hi! I’m Lucas Mansfield, and I’m an ecologist with interests in birds, ecological communities, spatial analyses, and global change ecology.\nI’m currently a PhD student at Michigan State University in the Department of Integrative Biology and Ecology, Evolution, and Behavior program as a part of the Spatial and Community Ecology (SpaCE) Lab.\nMy current work focuses on species interaction networks, and understanding the drivers of ecological network change across temporal and spatial scales in North America. To do this, I am leveraging data on species interactions, species occurrences, land cover change, and climate.\n\n\n\nmansfi79@msu.edu\nGitHub"
+    "text": "Hi! I’m Lucas Mansfield, and I’m an ecologist with interests in birds, ecological communities, spatial analyses, and global change ecology.\nI’m currently a PhD student at Michigan State University in the Department of Integrative Biology and Ecology, Evolution, and Behavior program as a part of the Spatial and Community Ecology (SpaCE) Lab.\nMy current work focuses on species interaction networks, and understanding the drivers of ecological network change across temporal and spatial scales in North America. To do this, I am leveraging data on species interactions, species occurrences, land cover change, and climate.\n\n\n mansfi79@msu.edu\n GitHub"
   },
   {
     "objectID": "research.html",
@@ -60,14 +60,14 @@
     "href": "cv.html#education",
     "title": "Curriculum Vitae",
     "section": "Education",
-    "text": "Education\nPh.D. in [Your Field] — Expected [Year]\nYour University, City, State\nAdvisor: Professor Name\nDissertation: “Working Title of Your Dissertation”\nB.S. / B.A. in [Your Field] — [Year]\nUndergraduate University, City, State\nHonors / GPA if relevant"
+    "text": "Education\nPh.D. in Integrative Biology — August 2025 - Present\nMichigan State University, East Lansing, MI\nDual-degree with Ecology, Evolution, and Behavior (EEB) Program Cumulative GPA: 4.00/4.00\nB.S. in Biology (Ecology, Evolution and Conservation Biology) — December 2024\nUniversity of Washington, Seattle, WA\nMinors: Quantitative Science; Chemistry Cumulative GPA: 3.90/4.00"
   },
   {
     "objectID": "cv.html#research-experience",
     "href": "cv.html#research-experience",
     "title": "Curriculum Vitae",
     "section": "Research Experience",
-    "text": "Research Experience\nGraduate Research Assistant — [Year]–Present\nLab or Center Name, Your University\nDescription of your research responsibilities.\nUndergraduate Research Assistant — [Year]–[Year]\nLab Name, University\nDescription of work done."
+    "text": "Research Experience\nPh.D. Student — August 2025–Present\nSpatial and Community Ecology Lab Michigan State University, East Lansing, MI\n\nCurrent research is investigating the effects of human disturbance on avian interaction networks across various temporal and spatial scales in North America.\nContributed to a database of avian interspecies interactions for North and Central America.\nDeveloped R scripts for formatting and processing interaction data.\n\nResearch Assistant — February 2022–June 2025\nLab Name, University\nDescription of work done."
   },
   {
     "objectID": "cv.html#publications",
@@ -137,14 +137,14 @@
     "href": "research.html#the-avianmetanetwork",
     "title": "Lucas Mansfield",
     "section": "The AvianMetaNetwork",
-    "text": "The AvianMetaNetwork\n\n\n\nSpecies interactions are a crucial aspect of ecosystem functioning and biodiversity, yet we lack comprehensive information on interactions at broad scales. The AvianMetaNetwork is a comprehensive database of bird-bird species interactions that attempts to fill this knowledge gap and enable research that answers macroecological and eco-evolutionary questions about species interactions. The database is built by undergraduates in the SpaCE lab through systematic literature review! Currently, the database is complete for North America (Canada, Alaska and the conterminous United States).\nProject Website\nProject Github\nPaper:\nThe AvianMetaNetwork: biotic interactions among birds of the continental United States and Canada (In preparation)\nZarnetske, P., Bills, P., Kapsar, K., Mansfield, L., Parker, E., Roche, C., Hirschowitz, I., DePasquale, G., & Zonneveld, S.\n\n\n\n\n Example network generated from the AvianMetaWeb."
+    "text": "The AvianMetaNetwork\n\n\n\nSpecies interactions are a crucial aspect of ecosystem functioning and biodiversity, yet we lack comprehensive information on interactions at broad scales. The AvianMetaNetwork is a comprehensive database of bird-bird species interactions that attempts to fill this knowledge gap and enable research that answers macroecological and eco-evolutionary questions about species interactions. The database is built by undergraduates in the SpaCE lab through systematic literature review! Currently, the database is complete for North America (Canada, Alaska and the conterminous United States).\nProject Website\nProject Github\nPaper:\nThe AvianMetaNetwork: biotic interactions among birds of the continental United States and Canada (In preparation)\nZarnetske, P., Bills, P., Kapsar, K., Mansfield, L., Parker, E., Roche, C., Hirschowitz, I., DePasquale, G., & Zonneveld, S.\n\n\n\n\n\n\n Example network generated from the AvianMetaWeb."
   },
   {
     "objectID": "research.html#disturbance-and-climate-on-species-networks-at-neon-sites",
     "href": "research.html#disturbance-and-climate-on-species-networks-at-neon-sites",
     "title": "Lucas Mansfield",
     "section": "Disturbance and Climate on Species Networks at NEON Sites",
-    "text": "Disturbance and Climate on Species Networks at NEON Sites\n\n\n\nThis project leverages data from the National Ecological Observatory Network (NEON) to study the impacts of anthropogenic disturbance and climate change across the United States. Terrestrial NEON sites contain annually sampled data on breeding birds, ground beetles, plants an small mammals, which is used to produce a taxa list. This is supplemented with interaction data from sources such as the AvianMetaNetwork and Global Biotic Interactions (GloBI) to build species interaction networks. Using rasters of land cover change and climate, I am exploring the factors that cause interaction network strucutre change across space and time.\n\n\n\n Workflow for network analysis at one terrestrial NEON site: Talladega Forest."
+    "text": "Disturbance and Climate on Species Networks at NEON Sites\n\n\n\nThis project leverages data from the National Ecological Observatory Network (NEON) to study the impacts of anthropogenic disturbance and climate change across the United States. Terrestrial NEON sites contain annually sampled data on breeding birds, ground beetles, plants an small mammals, which is used to produce a taxa list. This is supplemented with interaction data from sources such as the AvianMetaNetwork and Global Biotic Interactions (GloBI) to build species interaction networks. Using rasters of land cover change and climate, I am exploring the factors that cause interaction network strucutre change across space and time.\n\n\n\n\n\n Workflow for network analysis at one terrestrial NEON site: Talladega Forest."
   },
   {
     "objectID": "research.html#past-projects",
@@ -158,20 +158,27 @@
     "href": "research.html#green-hermit-sexual-dimorphism",
     "title": "Lucas Mansfield",
     "section": "Green Hermit Sexual Dimorphism",
-    "text": "Green Hermit Sexual Dimorphism\n\n\n\nGreen Hermits (Phaethornis guy) are tropical species of hummingbirds that engage in aggressive leks during the breeding season. This species is also notable for its bill sexual dimorphism, in which females have visibly curvier bills than males. Using 3D bill models generated from museum specimens using photogrammetry, we showed that male bills are significantly straighter, stronger and sharper than female bills, indicating the sexual dimorphism might benefit male green hermits who spar with their bills during intense leks.\nPress:\nScientific American\nSmithsonian Magazine\nUW News\nInside JEB\nPaper:\nSharper, straighter, stiffer, stronger: sexually dimorphic bill shape enhances male stabbing performance in the green hermit hummingbird (Phaethornis guy) (2025)\nGarzón-Agudelo, F., Mansfield, L., Epperly, K., Rico-Guevara, A. Journal of Experimental Biology, 228(21), pages.\n[PDF] [DOI]\n\n\n\n Graphical abstract of hermit bill measurements. \nCover of JEB issue with photo by Jan Lenaert!"
+    "text": "Green Hermit Sexual Dimorphism\n\n\n\nGreen Hermits (Phaethornis guy) are tropical species of hummingbirds that engage in aggressive leks during the breeding season. This species is also notable for its bill sexual dimorphism, in which females have visibly curvier bills than males. Using 3D bill models generated from museum specimens using photogrammetry, we showed that male bills are significantly straighter, stronger and sharper than female bills, indicating the sexual dimorphism might benefit male green hermits who spar with their bills during intense leks.\nPress:\nScientific American\nSmithsonian Magazine\nUW News\nInside JEB\nPaper:\nSharper, straighter, stiffer, stronger: sexually dimorphic bill shape enhances male stabbing performance in the green hermit hummingbird (Phaethornis guy) (2025)\nGarzón-Agudelo, F., Mansfield, L., Epperly, K., Rico-Guevara, A. Journal of Experimental Biology, 228(21): jeb250769.\n[PDF] [DOI]\n\n\n\n\n\n Graphical abstract of hermit bill measurements. \nCover of JEB issue with photo by Jan Lenaert!"
   },
   {
     "objectID": "research.html#rainforest-remote-sensing-and-tree-emergence",
     "href": "research.html#rainforest-remote-sensing-and-tree-emergence",
     "title": "Lucas Mansfield",
     "section": "Rainforest Remote Sensing and Tree Emergence",
-    "text": "Rainforest Remote Sensing and Tree Emergence\n\n\n\n\n\n\n\n\n\n\nPicoCam: Photogrammetry"
+    "text": "Rainforest Remote Sensing and Tree Emergence\n\n\n\nIn 2024, I joined Team Welcome to the Jungle as part of the XPRIZE Rainforest Competition and The Morton Arboretum! I traveled to the Tiputini Biodiversity Station in the Ecuadorian Amazon to collect LiDAR and multispectral drone data of the Amazonian canopy. Using trees identified and geotagged on the ground, we developed a method to identify canopy trees using segmentation techniques and multispectral imagery. This technique was used by our team in the finals of the XPRIZE Rainforest Competition in Manaus, Brazil. Later, using the same dataset, we developed a metric for quantifying canopy tree emergence and analyzed patterns of emergence across Tiputini.\nPaper:\nBeyond Height: Spatial Distribution of Emergent Trees in the Amazonian Rainforest Using Unmanned Aerial System (UAS) at Tiputini, Ecuador (In preparation)\nHo, H. J., Jung, M. Y., Mansfield, L., Cannon, C., Kua, C. S., Rivas-Torres, G., Chang, A. J., & Jung, J.\n\n\n\n\n\n\n\nCollecting data at Tiputini.\n\nSegmentation of Tiputini canopy trees."
   },
   {
     "objectID": "research.html#picocam-photogrammetry",
     "href": "research.html#picocam-photogrammetry",
     "title": "Lucas Mansfield",
     "section": "PicoCam: Photogrammetry",
-    "text": "PicoCam: Photogrammetry"
+    "text": "PicoCam: Photogrammetry\n\n\n\nPicoCam is a device at the Burke Museum of Natural History and Culture that uses photogrammetry to build 3D models of bird bills from a series of 2D photos. This method allows biologists to get complex morphological measurements (such as sharpness or curvature) with a high degree of accuracy from living organisms in the field. PicoCam has aided several morphological studies at the Burke (see the Green Hermit Project) and is currently being used to build a library of bird bill models.\nPress:\nBurke Museum\nPaper:\nPicoCam: High-resolution 3D imaging of live animals and preserved specimens (2024)\nMedina, J., Irschick, D., Epperly, K., Cuban, D., Elting, R., Mansfield, L., Lee, N., Fernandes, A. M., Garzón-Agudelo, F., Rico-Guevara, A. Methods in Ecology and Evolution, 15(11), 1980-1989.\n[PDF] [Data] [DOI]\n\n\n\n\n\n\nPicoCam setup at the Burke."
+  },
+  {
+    "objectID": "research.html#tuamotu-sandpiper-and-hyoid-morphology",
+    "href": "research.html#tuamotu-sandpiper-and-hyoid-morphology",
+    "title": "Lucas Mansfield",
+    "section": "Tuamotu Sandpiper and Hyoid Morphology",
+    "text": "Tuamotu Sandpiper and Hyoid Morphology\n\n\n\nThe Tuamotu Sandpiper (Prosobonia parvirostris) is a unique species of shorebird native to the Tuamotu Archipelago of French Polynesia. It has been observed to feed on nectar, a behavior that is exceedingly rare for shorebirds. To investigate the morphological precursors that enable this adaptation (and similar dietary habits like biofilm feeding), we took morphological measurements of the hyoid, bill and skull from species across the Scolopacidae family, and compared these with dietary categorizations.\nPaper:\nHyoid apparatus elongation as a morphological precursor to nectarivory in the Tuamotu Sandpiper (Prosobonia parvirostris) (In preparation)\nEdison, I., Mansfield, L., Gous, A., Smith, J., Srinivasan, P., Epperly, K., & Rico-Guevara, A.\n\n\n\n\n\n\n\nTuamotu sandpiper (Prosobonia parvirostris). Image by James Eaton from Avicommons."
   }
 ]
