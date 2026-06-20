@@ -26,6 +26,38 @@
   just delete this file.
 {% endcomment %}
 
+<style>
+  /* Profile photo in the Contact Information card */
+  .cv-profile-photo {
+    display: block;
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0.5rem 0 1rem 0;
+  }
+
+  /* The al-folio-cv templates use list markup (<ul>/<li>) for entries,
+     but this site doesn't load the Bootstrap CSS those classes assume
+     (list-group, list-group-item, etc. normally come with
+     `list-style: none` baked in). Without that, browsers fall back to
+     default bullet markers — the stray black dots. This resets them. */
+  .cv ul,
+  .cv li {
+    list-style: none !important;
+    margin: 0;
+    padding-left: 0;
+  }
+
+  .cv .items {
+    padding-left: 1.1rem;
+  }
+
+  .cv .items li {
+    list-style: disc !important;
+  }
+</style>
+
 <div class="post">
   <header class="post-header">
     <h1 class="post-title">
@@ -74,9 +106,16 @@
         {% assign cv = site.data.cv.cv %}
 
         <!-- Header/Contact Information -->
-        {% if cv.name or cv.label or cv.location or cv.email or cv.phone or cv.website %}
+        {% if cv.name or cv.label or cv.location or cv.email or cv.phone or cv.website or cv.image %}
           <div class="card mt-3 p-3">
             <h3 class="card-title font-weight-medium">Contact Information</h3>
+            {% if cv.image %}
+              <img
+                class="cv-profile-photo"
+                src="{{ cv.image | relative_url }}"
+                alt="{{ cv.name | default: 'Profile photo' }}"
+              />
+            {% endif %}
             <table class="table table-cv table-sm table-borderless">
               {% if cv.name %}
                 <tr>
