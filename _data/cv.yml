@@ -16,23 +16,24 @@ cv:
         area: Integrative Biology; Ecology, Evolution, and Behavior
         studyType: PhD
         start_date: 2025-08
-        end_date: Present
+        end_date: "Present"
 
 
       - institution: University of Washington
         location: Seattle, WA
         area: Biology (Ecology, Evolution and Conservation Biology)
         studyType: BS
+        start_date: 2021-09
         end_date: 2024-12
         highlights:
           - "Minors: Quantitative Science; Chemistry."
 
     Experience:
       - company: Spatial and Community Ecology Lab, Michigan State University
-        position: Ph.D. Student
+        position: Graduate Research Assistant
         location: East Lansing, MI
         start_date: 2025-08
-        end_date: Present
+        end_date: "Present"
         summary: "Advisor: Dr. Phoebe Zarnetske"
         highlights:
           - Investigating the effects of human disturbance on avian interaction networks across various temporal and spatial scales in North America.
@@ -52,9 +53,9 @@ cv:
           - Performed field research on modeling live hummingbirds on Shaw Island, Washington.
 
       - company: Ecological Evolution Lab, The Morton Arboretum
-        position: Research Experience Extension Fellow (REEF)
+        position: Research Experience for Undergraduates (REU) Intern; Research Experience Extension Fellow (REEF)
         location: Lisle, IL
-        start_date: 2024-09
+        start_date: 2024-06
         end_date: 2025-01
         summary: "Advisors: Dr. Chuck Cannon and Dr. Chai-Shian Kua"
         highlights:
@@ -63,22 +64,12 @@ cv:
           - Devised a method for extracting landscape statistics from remotely sensed data of rainforests.
           - Designed a metric for calculating tree emergence in complex rainforest canopies.
 
-      - company: Ecological Evolution Lab, The Morton Arboretum
-        position: Research Experience for Undergraduates (REU) Intern
-        location: Lisle, IL
-        start_date: 2024-06
-        end_date: 2024-08
-        summary: "Advisors: Dr. Chuck Cannon and Dr. Chai-Shian Kua"
-        highlights:
-          - Contributed to a workflow for identifying rainforest trees using remotely sensed LiDAR and multispectral imaging data.
-          - Performed field research in the Ecuadorian Amazon and learned to identify local trees.
-
     Teaching:
       - company: Michigan State University
         position: "Graduate Student TA, IBIO 355: Ecology (Summer Semester A, 2026)"
         location: East Lansing, MI
-        start_date: 2025-08
-        end_date: Present
+        start_date: 2026-05
+        end_date: "Present"
         summary: "Supervisor: Dr. Jaime Grace"
         highlights:
           - Assisted in a lecture course covering population ecology, community ecology, and global change biology.
@@ -88,6 +79,8 @@ cv:
       - company: Michigan State University
         position: "Graduate Student TA, BS 162: Organismal and Population Biology (Spring Semester, 2026)"
         location: East Lansing, MI
+        start_date: 2026-01
+        end_date: 2026-05
         summary: "Supervisors: Dr. Corrine Monks and Dr. Sara Garnett"
         highlights:
           - Assisted in a lecture course covering genetics, evolution, and ecology.
@@ -97,6 +90,8 @@ cv:
       - company: Michigan State University
         position: "Graduate Student TA, ISB 208L: Applications in Biological Sciences Laboratory (Fall Semester, 2025)"
         location: East Lansing, MI
+        start_date: 2025-08
+        end_date: 2025-12
         summary: "Supervisor: Dr. Saroopa Taylor"
         highlights:
           - Taught a lab course designed to introduce scientific concepts to non-STEM students.
@@ -109,7 +104,7 @@ cv:
         position: Co-chair
         location: East Lansing, MI
         start_date: 2026-05
-        end_date: Present
+        end_date: "Present"
         highlights:
           - Organize the EEB student colloquium, including soliciting participants, organizing speakers, reserving and setting up venues, advertising colloquia, ordering refreshments, and cleaning up.
 
