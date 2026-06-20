@@ -134,50 +134,18 @@
         {% endif %}
 
         {% comment %}
-          Precompute the merged Experience+Volunteer entries, but DO NOT
-          render them yet — render at whichever position "Experience"
-          (or, failing that, "Volunteer") naturally occupies in cv.sections.
+          Render every section exactly where it appears in cv.sections.
+          No merging, no special-casing of Experience/Volunteer — each
+          gets its own card, in YAML order. Sections that share the same
+          underlying field shape as a recognized type reuse that type's
+          sub-template (e.g. Teaching/Volunteer look just like Experience
+          entries; Presentations look like Publications entries; Trainings
+          look like Certificates entries) so nothing falls into the blank
+          generic fallback.
         {% endcomment %}
-        {% assign empty_array = '' | split: ',' %}
-        {% assign exp = cv.sections.Experience | default: empty_array %}
-        {% assign vol = cv.sections.Volunteer | default: empty_array %}
-        {% assign combined_experience = exp | concat: vol %}
-        {% assign experience_rendered = false %}
-
         {% for section_pair in cv.sections %}
           {% assign section_title = section_pair[0] %}
           {% assign section_entries = section_pair[1] %}
-
-          {% if section_title == 'Volunteer' %}
-            {% comment %} Volunteer entries are merged into Experience; only render the merged block here if there's no separate "Experience" key. {% endcomment %}
-            {% if experience_rendered == false and combined_experience.size > 0 and cv.sections.Experience == nil %}
-              <a class="anchor" id="experience"></a>
-              <div class="card mt-3 p-3">
-                <h3 class="card-title font-weight-medium">Experience</h3>
-                <div>
-                  {% assign entries = combined_experience %}
-                  {% include cv/experience.liquid %}
-                </div>
-              </div>
-              {% assign experience_rendered = true %}
-            {% endif %}
-            {% continue %}
-          {% endif %}
-
-          {% if section_title == 'Experience' %}
-            {% if experience_rendered == false and combined_experience.size > 0 %}
-              <a class="anchor" id="experience"></a>
-              <div class="card mt-3 p-3">
-                <h3 class="card-title font-weight-medium">Experience</h3>
-                <div>
-                  {% assign entries = combined_experience %}
-                  {% include cv/experience.liquid %}
-                </div>
-              </div>
-              {% assign experience_rendered = true %}
-            {% endif %}
-            {% continue %}
-          {% endif %}
 
           <a class="anchor" id="{{ section_title | slugify }}"></a>
           <div class="card mt-3 p-3">
@@ -186,10 +154,15 @@
               {% if section_title == 'Education' %}
                 {% assign entries = section_entries %}
                 {% include cv/education.liquid %}
+              {% elsif section_title == 'Experience' or section_title == 'Volunteer' or section_title == 'Teaching' %}
+                {% comment %} company/position/start_date/end_date/location/summary/highlights — same shape as Experience {% endcomment %}
+                {% assign entries = section_entries %}
+                {% include cv/experience.liquid %}
               {% elsif section_title == 'Awards' or section_title == 'Honors and Awards' %}
                 {% assign entries = section_entries %}
                 {% include cv/awards.liquid %}
-              {% elsif section_title == 'Publications' %}
+              {% elsif section_title == 'Publications' or section_title == 'Presentations' %}
+                {% comment %} title/summary/date(or releaseDate) — same shape as Publications {% endcomment %}
                 {% assign entries = section_entries %}
                 {% include cv/publications.liquid %}
               {% elsif section_title == 'Skills' %}
@@ -201,7 +174,8 @@
               {% elsif section_title == 'Interests' or section_title == 'Academic Interests' %}
                 {% assign entries = section_entries %}
                 {% include cv/interests.liquid %}
-              {% elsif section_title == 'Certificates' %}
+              {% elsif section_title == 'Certificates' or section_title == 'Trainings' %}
+                {% comment %} name/issuer/date(optional) — same shape as Certificates {% endcomment %}
                 {% assign entries = section_entries %}
                 {% include cv/certificates.liquid %}
               {% elsif section_title == 'Projects' or section_title == 'Open Source Projects' %}
@@ -210,8 +184,23 @@
               {% elsif section_title == 'References' %}
                 {% assign entries = section_entries %}
                 {% include cv/references.liquid %}
+              {% elsif section_title == 'Memberships' %}
+                <ul class="card-text font-weight-light list-group list-group-flush">
+                  {% for entry in section_entries %}
+                    <li class="list-group-item">
+                      <strong>{{ entry.name }}</strong>
+                      {% if entry.start_date %}
+                        <span class="ml-1">
+                          {{ entry.start_date | split: '-' | first }}
+                          -
+                          {{ entry.end_date | split: '-' | first | default: 'Present' }}
+                        </span>
+                      {% endif %}
+                    </li>
+                  {% endfor %}
+                </ul>
               {% else %}
-                <!-- Generic section -->
+                <!-- Generic section: bullet/label entries only -->
                 {% for entry in section_entries %}
                   {% if entry.bullet %}
                     <ul class="card-text font-weight-light list-group list-group-flush">
@@ -227,18 +216,6 @@
             </div>
           </div>
         {% endfor %}
-
-        {% comment %} Fallback: combined_experience exists but neither "Experience" nor "Volunteer" key was found above (shouldn't normally happen). {% endcomment %}
-        {% if experience_rendered == false and combined_experience.size > 0 %}
-          <a class="anchor" id="experience"></a>
-          <div class="card mt-3 p-3">
-            <h3 class="card-title font-weight-medium">Experience</h3>
-            <div>
-              {% assign entries = combined_experience %}
-              {% include cv/experience.liquid %}
-            </div>
-          </div>
-        {% endif %}
 
       {% elsif render_jsonresume and site.data.resume %}
         {% comment %} JSONResume format — unchanged from upstream {% endcomment %}

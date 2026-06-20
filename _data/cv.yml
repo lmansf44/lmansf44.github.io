@@ -2,6 +2,7 @@ cv:
   name: Lucas Mansfield
   label: Ph.D. Student in Integrative Biology
   email: mansfi79@msu.edu
+  image: /assets/img/labwork.png
   phone: "(360)-842-6460"
   location: East Lansing, MI 48823
 
@@ -151,6 +152,21 @@ cv:
         summary: "Award amount: $5,000"
 
     Publications:
+      - title: "The AvianMetaNetwork: biotic interactions among birds of the continental United States and Canada"
+        authors:
+          - Zarnetske, P.
+          - Bills, P.
+          - Kapsar, K.
+          - Mansfield, L.
+          - Parker, E. G.
+          - Roche, C.
+          - Hirschowitz, I.
+          - DePasquale, G.
+          - Zonneveld, S.
+        publisher: Scientific Data
+        releaseDate: 2026-01
+        summary: Submitted.
+
       - title: "Sharper, straighter, stiffer, stronger: Sexually dimorphic bill shape enhances male stabbing performance in the Green Hermit (Phaethornis guy)"
         authors:
           - Garzón-Agudelo, F.
@@ -177,44 +193,6 @@ cv:
         releaseDate: 2024-01-01
         summary: "Vol. 00, pp. 1-10"
 
-      - title: "The AvianMetaNetwork: biotic interactions among birds of the continental United States and Canada"
-        authors:
-          - Zarnetske, P.
-          - Bills, P.
-          - Kapsar, K.
-          - Mansfield, L.
-          - Parker, E. G.
-          - Roche, C.
-          - Hirschowitz, I.
-          - DePasquale, G.
-          - Zonneveld, S.
-        publisher: Scientific Data
-        summary: Submitted.
-
-      - title: "Morphology, ecology, and phylogeny of feeding in sandpipers and allies (Aves: Scolopacidae)"
-        authors:
-          - Edison, I.
-          - Mansfield, L.
-          - Gous, A.
-          - Smith, J.
-          - Srinivasan, P.
-          - Remmers, A.
-          - Epperly, K.
-          - Rico-Guevara, A.
-        summary: In preparation.
-
-      - title: "Beyond Height: Spatial Distribution of Emergent Trees in the Amazonian Rainforest Using Unmanned Aerial System (UAS) at Tiputini, Ecuador"
-        authors:
-          - Ho, H. J.
-          - Jung, M. Y.
-          - Mansfield, L.
-          - Cannon, C.
-          - Kua, C. S.
-          - Rivas-Torres, G.
-          - Chang, A. J.
-          - Jung, J.
-        summary: In preparation.
-
     Presentations:
       - title: "Exploring the Effects of Disturbance and Climate on Terrestrial Communities Using Network Analysis Across NEON Sites"
         summary: Poster presentation at the annual EEB Research Symposium, East Lansing, MI.
@@ -235,14 +213,6 @@ cv:
       - title: "Macro photogrammetry on live animals: Hummingbird bills as a case study"
         summary: Poster presentation at the Society for Integrative and Comparative Biology (SICB) Annual Meeting, Seattle, WA.
         date: 2024-01-05
-
-    Projects:
-      - name: Functional Morphology Undergraduate Research Project (BIOL439)
-        summary: "Advisors: Dr. Amanda Hewes and Edú Guerra. Burke Museum of Natural History and Culture, Seattle, WA."
-        highlights:
-          - Analyzed shorebird skull measurements and compared with dietary information to identify trends between bill morphology and diet using R.
-        start_date: 2024-03
-        end_date: 2024-06
 
     Memberships:
       - name: American Ornithological Society
