@@ -1,189 +1,272 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  name: Lucas Mansfield
+  label: Ph.D. Student in Integrative Biology
+  email: mansfi79@msu.edu
+  phone: "(360)-842-6460"
+  location: East Lansing, MI 48823
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+      username: lmansf44
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
+      - institution: Michigan State University
+        location: East Lansing, MI
+        area: Integrative Biology; Ecology, Evolution, and Behavior
         studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
+        start_date: 2025-08
+        end_date: Present
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+
+      - institution: University of Washington
+        location: Seattle, WA
+        area: Biology (Ecology, Evolution and Conservation Biology)
+        studyType: BS
+        end_date: 2024-12
         highlights:
-          - Description 1.
-          - Description 2.
+          - "Minors: Quantitative Science; Chemistry."
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Spatial and Community Ecology Lab, Michigan State University
+        position: Ph.D. Student
+        location: East Lansing, MI
+        start_date: 2025-08
+        end_date: Present
+        summary: "Advisor: Dr. Phoebe Zarnetske"
         highlights:
-          - Relativity
-          - Description 2.
+          - Investigating the effects of human disturbance on avian interaction networks across various temporal and spatial scales in North America.
+          - Contributed to a database of avian interspecies interactions for North and Central America.
+          - Developed R scripts for formatting and processing interaction data at NEON sites.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Behavioral Ecophysics Lab, Burke Museum of Natural History and Culture
+        position: Research Assistant
+        location: Seattle, WA
+        start_date: 2022-02
+        end_date: 2025-06
+        summary: "Advisor: Dr. Alejandro Rico-Guevara"
         highlights:
-          - Description 1.
-          - Description 2.
+          - Developed a method using photogrammetry to quickly create 3D models of hummingbird bills for high-level morphometric research of live specimens in the field.
+          - Conducted research on hummingbird sexual dimorphism using measurements such as curvature and sharpness with photogrammetry-derived models.
+          - Mentored undergraduate students in applying morphometric methods to analyze sandpiper skeletons.
+          - Performed field research on modeling live hummingbirds on Shaw Island, Washington.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+      - company: Ecological Evolution Lab, The Morton Arboretum
+        position: Research Experience Extension Fellow (REEF)
+        location: Lisle, IL
+        start_date: 2024-09
+        end_date: 2025-01
+        summary: "Advisors: Dr. Chuck Cannon and Dr. Chai-Shian Kua"
+        highlights:
+          - Contributed to a workflow for identifying rainforest trees using remotely sensed LiDAR and multispectral imaging data.
+          - Performed field research in the Ecuadorian Amazon and learned to identify local trees.
+          - Devised a method for extracting landscape statistics from remotely sensed data of rainforests.
+          - Designed a metric for calculating tree emergence in complex rainforest canopies.
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
+      - company: Ecological Evolution Lab, The Morton Arboretum
+        position: Research Experience for Undergraduates (REU) Intern
+        location: Lisle, IL
+        start_date: 2024-06
+        end_date: 2024-08
+        summary: "Advisors: Dr. Chuck Cannon and Dr. Chai-Shian Kua"
+        highlights:
+          - Contributed to a workflow for identifying rainforest trees using remotely sensed LiDAR and multispectral imaging data.
+          - Performed field research in the Ecuadorian Amazon and learned to identify local trees.
 
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
+    Teaching:
+      - company: Michigan State University
+        position: "Graduate Student TA, IBIO 355: Ecology (Summer Semester A, 2026)"
+        location: East Lansing, MI
+        start_date: 2025-08
+        end_date: Present
+        summary: "Supervisor: Dr. Jaime Grace"
+        highlights:
+          - Assisted in a lecture course covering population ecology, community ecology, and global change biology.
+          - Aided students through regular office hours and online communications.
+          - Helped develop class materials, such as exam questions and weekly video assignments.
+
+      - company: Michigan State University
+        position: "Graduate Student TA, BS 162: Organismal and Population Biology (Spring Semester, 2026)"
+        location: East Lansing, MI
+        summary: "Supervisors: Dr. Corrine Monks and Dr. Sara Garnett"
+        highlights:
+          - Assisted in a lecture course covering genetics, evolution, and ecology.
+          - Aided student learning by answering questions and providing alternative explanations for key biological concepts.
+          - Provided further student support through help hours and exam review sessions.
+
+      - company: Michigan State University
+        position: "Graduate Student TA, ISB 208L: Applications in Biological Sciences Laboratory (Fall Semester, 2025)"
+        location: East Lansing, MI
+        summary: "Supervisor: Dr. Saroopa Taylor"
+        highlights:
+          - Taught a lab course designed to introduce scientific concepts to non-STEM students.
+          - Instructed, managed, and graded three lab sections of 30 students each.
+          - Developed weekly PowerPoint lectures covering statistical and scientific concepts.
+          - Supported students through the development and implementation of independent projects.
 
     Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: EEB Student Colloquium
+        position: Co-chair
+        location: East Lansing, MI
+        start_date: 2026-05
+        end_date: Present
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Organize the EEB student colloquium, including soliciting participants, organizing speakers, reserving and setting up venues, advertising colloquia, ordering refreshments, and cleaning up.
+
+      - company: EEB Research Symposium
+        position: Judge
+        location: East Lansing, MI
+        start_date: 2026-05
+        end_date: 2026-05
+        highlights:
+          - Served as a judge for oral presentations at the 2026 Ecology, Evolution and Behavior Research Symposium held at MSU.
+
+      - company: University Undergraduate Research and Arts Forum (UURAF)
+        position: Poster Judge
+        location: East Lansing, MI
+        start_date: 2026-04
+        end_date: 2026-04
+        highlights:
+          - Served as a judge for biology poster presentations at the 2026 UURAF held at MSU.
+
+      - company: Science Olympiad
+        position: Test Writer and Proctor
+        location: ""
+        start_date: 2021-12
+        end_date: 2025-06
+        highlights:
+          - Created tests on subjects such as ecology, ornithology, and forestry for middle and high school Science Olympiad competitions, including state and national level competitions.
+
+      - company: STEM Pals UW
+        position: Volunteer
+        location: Seattle, WA
+        start_date: 2024-10
+        end_date: 2025-01
+        highlights:
+          - Volunteered and presented at an expo designed to engage students from underrepresented backgrounds and areas of the Puget Sound region in scientific research.
 
     Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - title: John R. Shaver Research Fellowship
+        summary: "Award amount: $1,950"
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - title: EEB Professional Horizons Grant
+        summary: "Award amount: $500"
+
+      - title: EEB Engagement Fellowship
+        summary: "Award amount: $5,000"
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "Sharper, straighter, stiffer, stronger: Sexually dimorphic bill shape enhances male stabbing performance in the Green Hermit (Phaethornis guy)"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Garzón-Agudelo, F.
+          - Mansfield, L.
+          - Epperly, K.
+          - Rico-Guevara, A.
+        publisher: Journal of Experimental Biology
+        releaseDate: 2025-11-01
+        summary: "Vol. 228 (21): jeb.250769"
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: "PicoCam: High-resolution 3D imaging of live animals and preserved specimens"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Medina, J.
+          - Irschick, D.
+          - Epperly, K.
+          - Cuban, D.
+          - Elting, R.
+          - Mansfield, L.
+          - Lee, N.
+          - Fernandes, A. M.
+          - Garzón-Agudelo, F.
+          - Rico-Guevara, A.
+        publisher: Methods in Ecology and Evolution
+        releaseDate: 2024-01-01
+        summary: "Vol. 00, pp. 1-10"
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: "The AvianMetaNetwork: biotic interactions among birds of the continental United States and Canada"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - Zarnetske, P.
+          - Bills, P.
+          - Kapsar, K.
+          - Mansfield, L.
+          - Parker, E. G.
+          - Roche, C.
+          - Hirschowitz, I.
+          - DePasquale, G.
+          - Zonneveld, S.
+        publisher: Scientific Data
+        summary: Submitted.
 
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - title: "Morphology, ecology, and phylogeny of feeding in sandpipers and allies (Aves: Scolopacidae)"
+        authors:
+          - Edison, I.
+          - Mansfield, L.
+          - Gous, A.
+          - Smith, J.
+          - Srinivasan, P.
+          - Remmers, A.
+          - Epperly, K.
+          - Rico-Guevara, A.
+        summary: In preparation.
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
+      - title: "Beyond Height: Spatial Distribution of Emergent Trees in the Amazonian Rainforest Using Unmanned Aerial System (UAS) at Tiputini, Ecuador"
+        authors:
+          - Ho, H. J.
+          - Jung, M. Y.
+          - Mansfield, L.
+          - Cannon, C.
+          - Kua, C. S.
+          - Rivas-Torres, G.
+          - Chang, A. J.
+          - Jung, J.
+        summary: In preparation.
 
-      - name: English
-        summary: "Fluent"
+    Presentations:
+      - title: "Exploring the Effects of Disturbance and Climate on Terrestrial Communities Using Network Analysis Across NEON Sites"
+        summary: Poster presentation at the annual EEB Research Symposium, East Lansing, MI.
+        date: 2026-05-05
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - title: "Q&A: Sharper, straighter, stiffer, stronger: Sexually dimorphic bill shape enhances male stabbing performance in the Green Hermit (Phaethornis guy)"
+        summary: Virtual guest lecture for University of Cincinnati BIOL 3041, Biology of Sex.
+        date: 2025-11-18
 
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+      - title: "Utilizing Remotely Sensed Drone Data for Rainforest Analysis"
+        summary: Oral presentation at The Morton Arboretum Center for Tree Science Undergraduate Research Symposium, Lisle, IL.
+        date: 2024-07-31
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
+      - title: "Portable, Quick-capture Macro Photogrammetry: Hummingbird Bills as a Case Study"
+        summary: Oral presentation at the University of Washington Undergraduate Research Symposium, Seattle, WA.
+        date: 2024-05-17
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - title: "Macro photogrammetry on live animals: Hummingbird bills as a case study"
+        summary: Poster presentation at the Society for Integrative and Comparative Biology (SICB) Annual Meeting, Seattle, WA.
+        date: 2024-01-05
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: Functional Morphology Undergraduate Research Project (BIOL439)
+        summary: "Advisors: Dr. Amanda Hewes and Edú Guerra. Burke Museum of Natural History and Culture, Seattle, WA."
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - Analyzed shorebird skull measurements and compared with dietary information to identify trends between bill morphology and diet using R.
+        start_date: 2024-03
+        end_date: 2024-06
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    Memberships:
+      - name: American Ornithological Society
+        start_date: 2026-01
+        end_date: Present
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    Trainings:
+      - name: Responsible and Ethical Conduct of Research
+        issuer: Michigan State University
+
+      - name: Cloud Computing Foundations
+        issuer: Amazon Web Services Academy
+
+      - name: "AI for Sustainability: Translating Environmental Data into Decisions"
+        issuer: ESIIL Innovation Summit
+
+    Skills:
+      - name: Field and Analytical Skills
+        keywords: "Biological field research (live bird handling, bird and tree identification), Statistical analysis (hypothesis testing, regression, modeling), Scientific paper writing, Scientific poster creation"
+
+      - name: Software
+        keywords: "RStudio (ggplot2, tidyverse, glmmTMB, shiny), Python (pandas, PyTorch, scikit-learn), Git and GitHub, QGIS (SAGA GIS, LecoS), 3D model/point cloud software (Metashape, Blender, LAStools)"
