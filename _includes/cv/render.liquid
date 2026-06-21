@@ -58,50 +58,57 @@
   }
 
   .cv .date-column {
-    flex: 0 0 110px;
+    width: 110px;
+    min-width: 110px;
     max-width: 110px;
-    padding: 0 0.75rem 0 0;
+    padding-right: 0.45rem;
+    padding-left: 0;
+    flex: 0 0 110px;
+    box-sizing: border-box;
+    overflow: hidden;
   }
 
-  .cv .table-cv {
-    width: auto;
-    margin: 0 auto;
-    border-collapse: separate;
-    border-spacing: 0;
-  }
-
-  .cv .table-cv td {
-    padding: 0;
-    border: 0;
-    vertical-align: top;
-  }
-
-  .cv .table-cv .badge {
-    display: block;
+  .cv .cv-date-block {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
     width: 100%;
     min-width: 0;
-    white-space: nowrap;
+  }
+
+  .cv .cv-date-badge {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 0.22rem 0.2rem;
+    text-align: center;
+    font-size: 0.78rem;
+    line-height: 1.15;
+    white-space: normal;
     box-shadow: none !important;
     text-shadow: none !important;
     filter: none !important;
   }
 
-  .cv .table-cv .location {
+  .cv .cv-location {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 0.35rem;
-    margin: 0.35rem 0 0;
-    line-height: 1.2;
+    margin: 0.25rem 0 0;
+    line-height: 1.1;
     text-align: center;
     white-space: normal;
     word-break: break-word;
+    font-size: 0.78rem;
   }
 
-  .cv .table-cv .iconlocation {
+  .cv .cv-location-icon {
     display: inline-block;
     flex: 0 0 auto;
     line-height: 1;
+    margin-top: 1px;
   }
 </style>
 
@@ -257,7 +264,7 @@
                     <li class="list-group-item">
                       <div class="d-flex align-items-start">
                         {% if entry.icon %}
-                          <i class="fa-solid {{ entry.icon }} mr-2 mt-1"></i>
+                          <i class="fa-solid {{ entry.icon }} fa-fw mr-2 mt-1" aria-hidden="true"></i>
                         {% endif %}
                         <div>
                           {% if entry.name %}<strong>{{ entry.name }}</strong>{% endif %}
@@ -291,7 +298,7 @@
                     <li class="list-group-item">
                       <div class="d-flex align-items-start">
                         {% if entry.icon %}
-                          <i class="fa-solid {{ entry.icon }} mr-2 mt-1"></i>
+                          <i class="fa-solid {{ entry.icon }} fa-fw mr-2 mt-1" aria-hidden="true"></i>
                         {% endif %}
                         <div>
                           <strong>{{ entry.name }}</strong>

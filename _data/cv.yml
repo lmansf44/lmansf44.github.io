@@ -233,14 +233,14 @@ cv:
         issuer: ESIIL Innovation Summit
 
     Skills:
-      - name: Analytical 
+      - name: Analytical
         icon: fa-chart-area
         keywords: "Statistical analysis (hypothesis testing, regression, modeling), Scientific paper writing, Scientific poster creation"
       
-      - name: Field 
+      - name: Field
         icon: fa-tree
         keywords: "Bird and tree identification, live bird handling"
 
-      - name: Software 
+      - name: Software
         icon: fa-code
         keywords: "RStudio (ggplot2, tidyverse, glmmTMB, shiny), Python (pandas, PyTorch, scikit-learn), Git and GitHub, QGIS (SAGA GIS, LecoS), 3D model/point cloud software (Metashape, Blender, LAStools)"
