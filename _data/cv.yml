@@ -218,6 +218,7 @@ cv:
 
     Memberships:
       - name: American Ornithological Society
+        icon: fa-crow
         start_date: 2026-01
         end_date: Present
 
@@ -232,8 +233,14 @@ cv:
         issuer: ESIIL Innovation Summit
 
     Skills:
-      - name: Field and Analytical Skills
-        keywords: "Biological field research (live bird handling, bird and tree identification), Statistical analysis (hypothesis testing, regression, modeling), Scientific paper writing, Scientific poster creation"
+      - name: Analytical 
+        icon: fa-chart-area
+        keywords: "Statistical analysis (hypothesis testing, regression, modeling), Scientific paper writing, Scientific poster creation"
+      
+      - name: Field 
+        icon: fa-tree
+        keywords: "Bird and tree identification, live bird handling"
 
-      - name: Software
+      - name: Software 
+        icon: fa-code
         keywords: "RStudio (ggplot2, tidyverse, glmmTMB, shiny), Python (pandas, PyTorch, scikit-learn), Git and GitHub, QGIS (SAGA GIS, LecoS), 3D model/point cloud software (Metashape, Blender, LAStools)"
