@@ -20,23 +20,2354 @@
 # chronologically (#1 = the first bird you ever ID'd) automatically.
 # -----------------------------------------------------------------------------
 
-- code: norcar
-  date: 2012-08-03
-  location: "Backyard, East Lansing, MI"
-  notes: "The one that started it all."
+- species: "Black Tern"
+  date: 2026-06-06
+  location: "Michigan"
 
-- code: amerob
-  date: 2012-08-03
-  location: "Backyard, East Lansing, MI"
+- species: "Kirtland's Warbler"
+  date: 2026-06-06
+  location: "Michigan"
+
+- species: "Black-billed Cuckoo"
+  date: 2026-06-06
+  location: "Michigan"
+
+- species: "Bay-breasted Warbler"
+  date: 2026-06-05
+  location: "Michigan"
+
+- species: "Scarlet Tanager"
+  date: 2026-05-27
+  location: "Michigan"
+
+- species: "Veery"
+  date: 2026-05-27
+  location: "Michigan"
+
+- species: "Acadian Flycatcher"
+  date: 2026-05-27
+  location: "Michigan"
+
+- species: "Tennessee Warbler"
+  date: 2026-05-21
+  location: "Michigan"
+
+- species: "MacGillivray's Warbler"
+  date: 2026-05-15
+  location: "Colorado"
+
+- species: "Virginia's Warbler"
+  date: 2026-05-15
+  location: "Colorado"
+
+- species: "Plumbeous Vireo"
+  date: 2026-05-15
+  location: "Colorado"
+
+- species: "Broad-tailed Hummingbird"
+  date: 2026-05-15
+  location: "Colorado"
+
+- species: "Black-throated Blue Warbler"
+  date: 2026-05-11
+  location: "Michigan"
+
+- species: "Northern Parula"
+  date: 2026-05-11
+  location: "Michigan"
+
+- species: "Ovenbird"
+  date: 2026-05-10
+  location: "Michigan"
+
+- species: "Solitary Sandpiper"
+  date: 2026-05-09
+  location: "Michigan"
+
+- species: "Nashville Warbler"
+  date: 2026-05-02
+  location: "Michigan"
+
+- species: "Louisiana Waterthrush"
+  date: 2026-04-11
+  location: "Michigan"
+
+- species: "Yellow-bellied Sapsucker"
+  date: 2026-04-11
+  location: "Michigan"
+
+- species: "Rusty Blackbird"
+  date: 2026-04-09
+  location: "Michigan"
+
+- species: "American Woodcock"
+  date: 2026-03-07
+  location: "Michigan"
+
+- species: "Crested Caracara"
+  date: 2026-02-07
+  location: "Michigan"
+
+- species: "Horned Lark"
+  date: 2026-01-31
+  location: "Michigan"
+
+- species: "American Black Duck"
+  date: 2026-01-11
+  location: "Michigan"
+
+- species: "Red-throated Loon"
+  date: 2026-01-04
+  location: "Washington"
+
+- species: "Eurasian Wigeon"
+  date: 2026-01-03
+  location: "Oregon"
+
+- species: "Iceland Gull"
+  date: 2026-01-03
+  location: "Oregon"
+
+- species: "Sedge Wren"
+  date: 2025-10-05
+  location: "Michigan"
+
+- species: "Wood Thrush"
+  date: 2025-09-28
+  location: "Michigan"
+
+- species: "Gray-cheeked Thrush"
+  date: 2025-09-28
+  location: "Michigan"
+
+- species: "Black-throated Green Warbler"
+  date: 2025-09-07
+  location: "Michigan"
+
+- species: "Blackpoll Warbler"
+  date: 2025-09-07
+  location: "Michigan"
+
+- species: "Chestnut-sided Warbler"
+  date: 2025-09-07
+  location: "Michigan"
+
+- species: "Carolina Wren"
+  date: 2025-09-07
+  location: "Michigan"
+
+- species: "Yellow-throated Vireo"
+  date: 2025-09-07
+  location: "Michigan"
+
+- species: "Blackburnian Warbler"
+  date: 2025-09-01
+  location: "Michigan"
+
+- species: "Magnolia Warbler"
+  date: 2025-09-01
+  location: "Michigan"
+
+- species: "Rose-breasted Grosbeak"
+  date: 2025-08-23
+  location: "Michigan"
+
+- species: "American Redstart"
+  date: 2025-08-23
+  location: "Michigan"
+
+- species: "Tufted Titmouse"
+  date: 2025-08-23
+  location: "Michigan"
+
+- species: "Great Crested Flycatcher"
+  date: 2025-08-23
+  location: "Michigan"
+
+- species: "Least Flycatcher"
+  date: 2025-08-23
+  location: "Michigan"
+
+- species: "Yellow-bellied Flycatcher"
+  date: 2025-08-23
+  location: "Michigan"
+
+- species: "Cassin's Vireo"
+  date: 2025-08-02
+  location: "Washington"
+
+- species: "Calliope Hummingbird"
+  date: 2025-08-02
+  location: "Washington"
+
+- species: "White-headed Woodpecker"
+  date: 2025-08-01
+  location: "Washington"
+
+- species: "Cassin's Finch"
+  date: 2025-05-27
+  location: "Washington"
+
+- species: "Clark's Grebe"
+  date: 2025-05-26
+  location: "Washington"
+
+- species: "Eastern Warbling Vireo"
+  date: 2025-04-25
+  location: "Illinois"
+
+- species: "White-throated Sparrow"
+  date: 2025-04-25
+  location: "Illinois"
+
+- species: "Purple Finch"
+  date: 2025-04-19
+  location: "Washington"
+
+- species: "Bonaparte's Gull"
+  date: 2025-04-19
+  location: "Washington"
+
+- species: "Great Gray Owl"
+  date: 2025-01-05
+  location: "Washington"
+
+- species: "Summer Tanager"
+  date: 2025-01-04
+  location: "Washington"
+
+- species: "Snowy Owl"
+  date: 2024-12-01
+  location: "Washington"
+
+- species: "Western Screech-Owl"
+  date: 2024-11-28
+  location: "Oregon"
+
+- species: "Hudsonian Godwit"
+  date: 2024-08-19
+  location: "Washington"
+
+- species: "Eastern Towhee"
+  date: 2024-07-07
+  location: "Indiana"
+
+- species: "Red-eyed Vireo"
+  date: 2024-07-07
+  location: "Indiana"
+
+- species: "Indigo Bunting"
+  date: 2024-07-06
+  location: "Illinois"
+
+- species: "Baltimore Oriole"
+  date: 2024-07-06
+  location: "Illinois"
+
+- species: "Bobolink"
+  date: 2024-07-06
+  location: "Illinois"
+
+- species: "Brown Thrasher"
+  date: 2024-07-06
+  location: "Illinois"
+
+- species: "Red-bellied Woodpecker"
+  date: 2024-07-04
+  location: "Illinois"
+
+- species: "Eastern Meadowlark"
+  date: 2024-07-01
+  location: "Illinois"
+
+- species: "Field Sparrow"
+  date: 2024-07-01
+  location: "Illinois"
+
+- species: "Swamp Sparrow"
+  date: 2024-06-29
+  location: "Illinois"
+
+- species: "Eastern Bluebird"
+  date: 2024-06-29
+  location: "Illinois"
+
+- species: "Eastern Wood-Pewee"
+  date: 2024-06-29
+  location: "Illinois"
+
+- species: "Eastern Kingbird"
+  date: 2024-06-29
+  location: "Illinois"
+
+- species: "Eastern Phoebe"
+  date: 2024-06-27
+  location: "Illinois"
+
+- species: "Chimney Swift"
+  date: 2024-06-23
+  location: "Illinois"
+
+- species: "Eared Dove"
+  date: 2024-06-15
+  location: "Pichincha, Ecuador"
+
+- species: "Swallow-winged Puffbird"
+  date: 2024-06-14
+  location: "Orellana, Ecuador"
+
+- species: "Roadside Hawk"
+  date: 2024-06-14
+  location: "Orellana, Ecuador"
+
+- species: "Plumbeous Kite"
+  date: 2024-06-14
+  location: "Orellana, Ecuador"
+
+- species: "Tawny-bellied Screech-Owl"
+  date: 2024-06-13
+  location: "Orellana, Ecuador"
+
+- species: "Opal-rumped Tanager"
+  date: 2024-06-13
+  location: "Orellana, Ecuador"
+
+- species: "Green Oropendola"
+  date: 2024-06-13
+  location: "Orellana, Ecuador"
+
+- species: "Thick-billed Euphonia"
+  date: 2024-06-13
+  location: "Orellana, Ecuador"
+
+- species: "White-breasted Wood-Wren"
+  date: 2024-06-13
+  location: "Orellana, Ecuador"
+
+- species: "Scaly-breasted Wren"
+  date: 2024-06-13
+  location: "Orellana, Ecuador"
+
+- species: "Rufous-fronted Greenlet"
+  date: 2024-06-13
+  location: "Orellana, Ecuador"
+
+- species: "Golden-faced Tyrannulet"
+  date: 2024-06-13
+  location: "Orellana, Ecuador"
+
+- species: "Double-banded Pygmy-Tyrant"
+  date: 2024-06-13
+  location: "Orellana, Ecuador"
+
+- species: "White-winged Becard"
+  date: 2024-06-13
+  location: "Orellana, Ecuador"
+
+- species: "Elegant Woodcreeper"
+  date: 2024-06-13
+  location: "Orellana, Ecuador"
+
+- species: "Amazonian Barred-Woodcreeper"
+  date: 2024-06-13
+  location: "Orellana, Ecuador"
+
+- species: "Rusty-belted Tapaculo"
+  date: 2024-06-13
+  location: "Orellana, Ecuador"
+
+- species: "Dugand's Antwren"
+  date: 2024-06-13
+  location: "Orellana, Ecuador"
+
+- species: "Black-headed Parrot"
+  date: 2024-06-13
+  location: "Orellana, Ecuador"
+
+- species: "Chestnut Woodpecker"
+  date: 2024-06-13
+  location: "Orellana, Ecuador"
+
+- species: "King Vulture"
+  date: 2024-06-13
+  location: "Orellana, Ecuador"
+
+- species: "Gray-rumped Swift"
+  date: 2024-06-13
+  location: "Orellana, Ecuador"
+
+- species: "Common Potoo"
+  date: 2024-06-13
+  location: "Orellana, Ecuador"
+
+- species: "Ruddy Pigeon"
+  date: 2024-06-13
+  location: "Orellana, Ecuador"
+
+- species: "Variegated Tinamou"
+  date: 2024-06-13
+  location: "Orellana, Ecuador"
+
+- species: "Cinereous Tinamou"
+  date: 2024-06-13
+  location: "Orellana, Ecuador"
+
+- species: "Coraya Wren"
+  date: 2024-06-12
+  location: "Orellana, Ecuador"
+
+- species: "Violaceous Jay"
+  date: 2024-06-12
+  location: "Orellana, Ecuador"
+
+- species: "Cinnamon-throated Woodcreeper"
+  date: 2024-06-12
+  location: "Orellana, Ecuador"
+
+- species: "Scarlet Macaw"
+  date: 2024-06-12
+  location: "Orellana, Ecuador"
+
+- species: "Bat Falcon"
+  date: 2024-06-12
+  location: "Orellana, Ecuador"
+
+- species: "Crimson-crested Woodpecker"
+  date: 2024-06-12
+  location: "Orellana, Ecuador"
+
+- species: "Gilded Barbet"
+  date: 2024-06-12
+  location: "Orellana, Ecuador"
+
+- species: "Double-toothed Kite"
+  date: 2024-06-12
+  location: "Orellana, Ecuador"
+
+- species: "Undulated Tinamou"
+  date: 2024-06-12
+  location: "Orellana, Ecuador"
+
+- species: "Green Honeycreeper"
+  date: 2024-06-11
+  location: "Orellana, Ecuador"
+
+- species: "Blue Dacnis"
+  date: 2024-06-11
+  location: "Orellana, Ecuador"
+
+- species: "Black-faced Dacnis"
+  date: 2024-06-11
+  location: "Orellana, Ecuador"
+
+- species: "Green-and-gold Tanager"
+  date: 2024-06-11
+  location: "Orellana, Ecuador"
+
+- species: "Fulvous Shrike-Tanager"
+  date: 2024-06-11
+  location: "Orellana, Ecuador"
+
+- species: "Blue-and-white Swallow"
+  date: 2024-06-11
+  location: "Orellana, Ecuador"
+
+- species: "Crowned Slaty Flycatcher"
+  date: 2024-06-11
+  location: "Orellana, Ecuador"
+
+- species: "Yellow-crowned Tyrannulet"
+  date: 2024-06-11
+  location: "Orellana, Ecuador"
+
+- species: "Gray-crowned Flatbill"
+  date: 2024-06-11
+  location: "Orellana, Ecuador"
+
+- species: "Screaming Piha"
+  date: 2024-06-11
+  location: "Orellana, Ecuador"
+
+- species: "Purple-throated Fruitcrow"
+  date: 2024-06-11
+  location: "Orellana, Ecuador"
+
+- species: "Black-faced Antbird"
+  date: 2024-06-11
+  location: "Orellana, Ecuador"
+
+- species: "Gray Antbird"
+  date: 2024-06-11
+  location: "Orellana, Ecuador"
+
+- species: "Pygmy Antwren"
+  date: 2024-06-11
+  location: "Orellana, Ecuador"
+
+- species: "Laughing Falcon"
+  date: 2024-06-11
+  location: "Orellana, Ecuador"
+
+- species: "Greater Yellow-headed Vulture"
+  date: 2024-06-11
+  location: "Orellana, Ecuador"
+
+- species: "Great-billed Hermit"
+  date: 2024-06-11
+  location: "Orellana, Ecuador"
+
+- species: "Fork-tailed Palm Swift"
+  date: 2024-06-11
+  location: "Orellana, Ecuador"
+
+- species: "Short-tailed Swift"
+  date: 2024-06-11
+  location: "Orellana, Ecuador"
+
+- species: "Black-bellied Cuckoo"
+  date: 2024-06-11
+  location: "Orellana, Ecuador"
+
+- species: "Plumbeous Pigeon"
+  date: 2024-06-11
+  location: "Orellana, Ecuador"
+
+- species: "Blue-throated Piping-Guan"
+  date: 2024-06-11
+  location: "Orellana, Ecuador"
+
+- species: "Yellow-rumped Cacique"
+  date: 2024-06-09
+  location: "Orellana, Ecuador"
+
+- species: "Buff-throated Woodcreeper"
+  date: 2024-06-09
+  location: "Orellana, Ecuador"
+
+- species: "Red-throated Caracara"
+  date: 2024-06-09
+  location: "Orellana, Ecuador"
+
+- species: "Yellow-tufted Woodpecker"
+  date: 2024-06-09
+  location: "Orellana, Ecuador"
+
+- species: "Great Jacamar"
+  date: 2024-06-09
+  location: "Orellana, Ecuador"
+
+- species: "Salvin's Curassow"
+  date: 2024-06-09
+  location: "Orellana, Ecuador"
+
+- species: "Great Tinamou"
+  date: 2024-06-09
+  location: "Orellana, Ecuador"
+
+- species: "Masked Crimson Tanager"
+  date: 2024-06-08
+  location: "Orellana, Ecuador"
+
+- species: "Thrush-like Wren"
+  date: 2024-06-08
+  location: "Orellana, Ecuador"
+
+- species: "Dusky-capped Greenlet"
+  date: 2024-06-08
+  location: "Orellana, Ecuador"
+
+- species: "Blue-capped Manakin"
+  date: 2024-06-08
+  location: "Orellana, Ecuador"
+
+- species: "Mouse-colored Antshrike"
+  date: 2024-06-08
+  location: "Orellana, Ecuador"
+
+- species: "Plain-winged Antshrike"
+  date: 2024-06-08
+  location: "Orellana, Ecuador"
+
+- species: "Chestnut-fronted Macaw"
+  date: 2024-06-08
+  location: "Orellana, Ecuador"
+
+- species: "Orange-cheeked Parrot"
+  date: 2024-06-08
+  location: "Orellana, Ecuador"
+
+- species: "Cobalt-winged Parakeet"
+  date: 2024-06-08
+  location: "Orellana, Ecuador"
+
+- species: "White-throated Toucan"
+  date: 2024-06-08
+  location: "Orellana, Ecuador"
+
+- species: "Many-banded Aracari"
+  date: 2024-06-08
+  location: "Orellana, Ecuador"
+
+- species: "White-fronted Nunbird"
+  date: 2024-06-08
+  location: "Orellana, Ecuador"
+
+- species: "Black-fronted Nunbird"
+  date: 2024-06-08
+  location: "Orellana, Ecuador"
+
+- species: "White-necked Puffbird"
+  date: 2024-06-08
+  location: "Orellana, Ecuador"
+
+- species: "Fork-tailed Woodnymph"
+  date: 2024-06-08
+  location: "Orellana, Ecuador"
+
+- species: "Bright-rumped Attila"
+  date: 2024-06-08
+  location: "Orellana, Ecuador"
+
+- species: "Collared Forest-Falcon"
+  date: 2024-06-08
+  location: "Orellana, Ecuador"
+
+- species: "Spectacled Owl"
+  date: 2024-06-08
+  location: "Orellana, Ecuador"
+
+- species: "Common Pauraque"
+  date: 2024-06-08
+  location: "Orellana, Ecuador"
+
+- species: "Silver-beaked Tanager"
+  date: 2024-06-07
+  location: "Orellana, Ecuador"
+
+- species: "Red-capped Cardinal"
+  date: 2024-06-07
+  location: "Orellana, Ecuador"
+
+- species: "Drab Water Tyrant"
+  date: 2024-06-07
+  location: "Orellana, Ecuador"
+
+- species: "Black Caracara"
+  date: 2024-06-07
+  location: "Orellana, Ecuador"
+
+- species: "Green Kingfisher"
+  date: 2024-06-07
+  location: "Orellana, Ecuador"
+
+- species: "Amazon Kingfisher"
+  date: 2024-06-07
+  location: "Orellana, Ecuador"
+
+- species: "Ringed Kingfisher"
+  date: 2024-06-07
+  location: "Orellana, Ecuador"
+
+- species: "Cocoi Heron"
+  date: 2024-06-07
+  location: "Orellana, Ecuador"
+
+- species: "Striated Heron"
+  date: 2024-06-07
+  location: "Orellana, Ecuador"
+
+- species: "Sunbittern"
+  date: 2024-06-07
+  location: "Orellana, Ecuador"
+
+- species: "Cattle Tyrant"
+  date: 2024-06-07
+  location: "Orellana, Ecuador"
+
+- species: "Southern Lapwing"
+  date: 2024-06-07
+  location: "Orellana, Ecuador"
+
+- species: "Hoatzin"
+  date: 2024-06-07
+  location: "Orellana, Ecuador"
+
+- species: "Greater Ani"
+  date: 2024-06-07
+  location: "Orellana, Ecuador"
+
+- species: "White-winged Swallow"
+  date: 2024-06-07
+  location: "Orellana, Ecuador"
+
+- species: "Palm Tanager"
+  date: 2024-06-06
+  location: "Orellana, Ecuador"
+
+- species: "Blue-gray Tanager"
+  date: 2024-06-06
+  location: "Orellana, Ecuador"
+
+- species: "Crested Oropendola"
+  date: 2024-06-06
+  location: "Orellana, Ecuador"
+
+- species: "Southern House Wren"
+  date: 2024-06-06
+  location: "Orellana, Ecuador"
+
+- species: "Snail Kite"
+  date: 2024-06-06
+  location: "Orellana, Ecuador"
+
+- species: "White-banded Swallow"
+  date: 2024-06-06
+  location: "Orellana, Ecuador"
+
+- species: "Social Flycatcher"
+  date: 2024-06-06
+  location: "Orellana, Ecuador"
+
+- species: "Saffron Finch"
+  date: 2024-06-06
+  location: "Orellana, Ecuador"
+
+- species: "Russet-backed Oropendola"
+  date: 2024-06-06
+  location: "Orellana, Ecuador"
+
+- species: "Tropical Mockingbird"
+  date: 2024-06-06
+  location: "Orellana, Ecuador"
+
+- species: "Tropical Kingbird"
+  date: 2024-06-06
+  location: "Orellana, Ecuador"
+
+- species: "Great Kiskadee"
+  date: 2024-06-06
+  location: "Orellana, Ecuador"
+
+- species: "Glittering-throated Emerald"
+  date: 2024-06-06
+  location: "Orellana, Ecuador"
+
+- species: "Ruddy Ground Dove"
+  date: 2024-06-06
+  location: "Orellana, Ecuador"
+
+- species: "Rufous-collared Sparrow"
+  date: 2024-06-06
+  location: "Pichincha, Ecuador"
+
+- species: "Gray Catbird"
+  date: 2024-06-02
+  location: "Illinois"
+
+- species: "Western Kingbird"
+  date: 2024-05-18
+  location: "Washington"
+
+- species: "Pine Grosbeak"
+  date: 2024-04-07
+  location: "Washington"
+
+- species: "Black-and-white Warbler"
+  date: 2023-12-03
+  location: "Washington"
+
+- species: "Evening Grosbeak"
+  date: 2023-09-12
+  location: "Washington"
+
+- species: "Red Knot"
+  date: 2023-09-03
+  location: "Oregon"
+
+- species: "Sooty Shearwater"
+  date: 2023-09-01
+  location: "Oregon"
+
+- species: "Surfbird"
+  date: 2023-09-01
+  location: "Oregon"
+
+- species: "Cassin's Auklet"
+  date: 2023-09-01
+  location: "Oregon"
+
+- species: "Cetti's Warbler"
+  date: 2023-08-15
+  location: "England, United Kingdom"
+
+- species: "Common Reed Warbler"
+  date: 2023-08-15
+  location: "England, United Kingdom"
+
+- species: "Great Spotted Woodpecker"
+  date: 2023-08-15
+  location: "England, United Kingdom"
+
+- species: "Stock Dove"
+  date: 2023-08-15
+  location: "England, United Kingdom"
+
+- species: "Rock Pigeon"
+  date: 2023-08-13
+  location: "England, United Kingdom"
+
+- species: "Exotic: Naturalized"
+  date: 2023-08-13
+  location: "England, United Kingdom"
+
+- species: "Exotic: Naturalized"
+  date: 2023-08-13
+  location: "England, United Kingdom"
+
+- species: "Eurasian Kestrel"
+  date: 2023-08-10
+  location: "England, United Kingdom"
+
+- species: "Eurasian Nuthatch"
+  date: 2023-08-10
+  location: "England, United Kingdom"
+
+- species: "Goldcrest"
+  date: 2023-08-10
+  location: "England, United Kingdom"
+
+- species: "Eurasian Green Woodpecker"
+  date: 2023-08-10
+  location: "England, United Kingdom"
+
+- species: "Common Buzzard"
+  date: 2023-08-10
+  location: "England, United Kingdom"
+
+- species: "Gray Heron"
+  date: 2023-08-10
+  location: "England, United Kingdom"
+
+- species: "Little Grebe"
+  date: 2023-08-10
+  location: "England, United Kingdom"
+
+- species: "Tufted Duck"
+  date: 2023-08-10
+  location: "England, United Kingdom"
+
+- species: "Common Pochard"
+  date: 2023-08-10
+  location: "England, United Kingdom"
+
+- species: "Exotic: Provisional"
+  date: 2023-08-10
+  location: "England, United Kingdom"
+
+- species: "Exotic: Naturalized"
+  date: 2023-08-10
+  location: "England, United Kingdom"
+
+- species: "Eurasian Jackdaw"
+  date: 2023-08-10
+  location: "England, United Kingdom"
+
+- species: "Western House-Martin"
+  date: 2023-08-10
+  location: "England, United Kingdom"
+
+- species: "Red Kite"
+  date: 2023-08-10
+  location: "England, United Kingdom"
+
+- species: "Song Thrush"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Eurasian Jay"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Reed Bunting"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "European Goldfinch"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Eurasian Linnet"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "White Wagtail"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "European Stonechat"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "European Starling"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Eurasian Wren"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Eurasian Treecreeper"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Greater Whitethroat"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Eurasian Blackcap"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Long-tailed Tit"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Common Chiffchaff"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Bearded Reedling"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Marsh Tit"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Rook"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Eurasian Magpie"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Western Marsh Harrier"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Little Egret"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Eurasian Spoonbill"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Great Cormorant"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Great Crested Grebe"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Sandwich Tern"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Common Tern"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Little Tern"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Lesser Black-backed Gull"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "European Herring Gull"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Black-headed Gull"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Black-legged Kittiwake"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Little Gull"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Dunlin"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Ruff"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Common Redshank"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Common Sandpiper"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Black-tailed Godwit"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Pied Avocet"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Eurasian Coot"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Eurasian Moorhen"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Long-tailed Duck"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Common Shelduck"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Mute Swan"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Barnacle Goose"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Graylag Goose"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "European Greenfinch"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Common Chaffinch"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "House Sparrow"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Dunnock"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "European Robin"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Eurasian Blackbird"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Coal Tit"
+  date: 2023-08-09
+  location: "England, United Kingdom"
+
+- species: "Great Tit"
+  date: 2023-08-08
+  location: "England, United Kingdom"
+
+- species: "Eurasian Blue Tit"
+  date: 2023-08-08
+  location: "England, United Kingdom"
+
+- species: "Carrion Crow"
+  date: 2023-08-08
+  location: "England, United Kingdom"
+
+- species: "Northern Lapwing"
+  date: 2023-08-08
+  location: "England, United Kingdom"
+
+- species: "Common Wood-Pigeon"
+  date: 2023-08-08
+  location: "England, United Kingdom"
+
+- species: "Marbled Murrelet"
+  date: 2023-07-12
+  location: "Washington"
+
+- species: "Common Nighthawk"
+  date: 2023-07-11
+  location: "Washington"
+
+- species: "Tufted Puffin"
+  date: 2023-06-17
+  location: "Oregon"
+
+- species: "Sage Thrasher"
+  date: 2023-06-05
+  location: "Washington"
+
+- species: "Golden Eagle"
+  date: 2023-03-24
+  location: "Utah"
+
+- species: "Juniper Titmouse"
+  date: 2023-03-23
+  location: "Utah"
+
+- species: "Pinyon Jay"
+  date: 2023-03-21
+  location: "Utah"
+
+- species: "Greater Sage-Grouse"
+  date: 2023-03-20
+  location: "Utah"
+
+- species: "Woodhouse's Scrub-Jay"
+  date: 2023-03-19
+  location: "Utah"
+
+- species: "California Condor"
+  date: 2023-03-19
+  location: "Utah"
+
+- species: "Horned Grebe"
+  date: 2023-01-20
+  location: "Washington"
+
+- species: "Black Turnstone"
+  date: 2023-01-20
+  location: "Washington"
+
+- species: "Red-breasted Merganser"
+  date: 2023-01-20
+  location: "Washington"
+
+- species: "Brant"
+  date: 2023-01-20
+  location: "Washington"
+
+- species: "Greater Scaup"
+  date: 2022-12-31
+  location: "Oregon"
+
+- species: "Northern Shrike"
+  date: 2022-12-18
+  location: "Oregon"
+
+- species: "Rough-legged Hawk"
+  date: 2022-12-18
+  location: "Oregon"
+
+- species: "Canvasback"
+  date: 2022-12-01
+  location: "Washington"
+
+- species: "Merlin"
+  date: 2022-10-29
+  location: "Washington"
+
+- species: "Snow Bunting"
+  date: 2022-10-23
+  location: "Washington"
+
+- species: "Pectoral Sandpiper"
+  date: 2022-09-27
+  location: "Washington"
+
+- species: "Sharp-tailed Sandpiper"
+  date: 2022-09-27
+  location: "Washington"
+
+- species: "Rhinoceros Auklet"
+  date: 2022-09-26
+  location: "Washington"
+
+- species: "White-winged Scoter"
+  date: 2022-09-26
+  location: "Washington"
+
+- species: "Canyon Wren"
+  date: 2022-09-05
+  location: "Oregon"
+
+- species: "Clark's Nutcracker"
+  date: 2022-09-03
+  location: "Oregon"
+
+- species: "Lewis's Woodpecker"
+  date: 2022-09-03
+  location: "Oregon"
+
+- species: "Townsend's Solitaire"
+  date: 2022-09-02
+  location: "Oregon"
+
+- species: "Yellow-headed Blackbird"
+  date: 2022-09-02
+  location: "Oregon"
+
+- species: "Eared Grebe"
+  date: 2022-09-02
+  location: "Oregon"
+
+- species: "Red-necked Phalarope"
+  date: 2022-09-02
+  location: "Oregon"
+
+- species: "Swainson's Hawk"
+  date: 2022-09-01
+  location: "Oregon"
+
+- species: "Short-billed Dowitcher"
+  date: 2022-08-30
+  location: "Oregon"
+
+- species: "Semipalmated Sandpiper"
+  date: 2022-08-23
+  location: "Oregon"
+
+- species: "Baird's Sandpiper"
+  date: 2022-08-23
+  location: "Oregon"
+
+- species: "Wrentit"
+  date: 2022-08-20
+  location: "California"
+
+- species: "Heermann's Gull"
+  date: 2022-08-20
+  location: "California"
+
+- species: "Sanderling"
+  date: 2022-08-20
+  location: "California"
+
+- species: "Willet"
+  date: 2022-08-20
+  location: "California"
+
+- species: "Lesser Yellowlegs"
+  date: 2022-08-20
+  location: "California"
+
+- species: "Marbled Godwit"
+  date: 2022-08-20
+  location: "California"
+
+- species: "Hudsonian Whimbrel"
+  date: 2022-08-20
+  location: "California"
+
+- species: "Black-bellied Plover"
+  date: 2022-08-20
+  location: "California"
+
+- species: "California Towhee"
+  date: 2022-08-19
+  location: "California"
+
+- species: "Western Bluebird"
+  date: 2022-08-19
+  location: "California"
+
+- species: "Oak Titmouse"
+  date: 2022-08-19
+  location: "California"
+
+- species: "Nuttall's Woodpecker"
+  date: 2022-08-19
+  location: "California"
+
+- species: "Short-eared Owl"
+  date: 2022-07-18
+  location: "Hawaii"
+
+- species: "Hawaiian Petrel"
+  date: 2022-07-17
+  location: "Hawaii"
+
+- species: "Kauai Amakihi"
+  date: 2022-07-17
+  location: "Hawaii"
+
+- species: "Anianiau"
+  date: 2022-07-17
+  location: "Hawaii"
+
+- species: "Kauai Elepaio"
+  date: 2022-07-17
+  location: "Hawaii"
+
+- species: "Exotic: Naturalized"
+  date: 2022-07-17
+  location: "Hawaii"
+
+- species: "Exotic: Naturalized"
+  date: 2022-07-17
+  location: "Hawaii"
+
+- species: "Common Gallinule"
+  date: 2022-07-15
+  location: "Hawaii"
+
+- species: "Pacific Golden-Plover"
+  date: 2022-07-15
+  location: "Hawaii"
+
+- species: "Brown Booby"
+  date: 2022-07-14
+  location: "Hawaii"
+
+- species: "Red-footed Booby"
+  date: 2022-07-14
+  location: "Hawaii"
+
+- species: "Great Frigatebird"
+  date: 2022-07-14
+  location: "Hawaii"
+
+- species: "Laysan Albatross"
+  date: 2022-07-14
+  location: "Hawaii"
+
+- species: "Red-tailed Tropicbird"
+  date: 2022-07-14
+  location: "Hawaii"
+
+- species: "White-tailed Tropicbird"
+  date: 2022-07-14
+  location: "Hawaii"
+
+- species: "Exotic: Naturalized"
+  date: 2022-07-13
+  location: "Hawaii"
+
+- species: "Hawaiian Duck"
+  date: 2022-07-13
+  location: "Hawaii"
+
+- species: "Exotic: Naturalized"
+  date: 2022-07-12
+  location: "Hawaii"
+
+- species: "Exotic: Naturalized"
+  date: 2022-07-12
+  location: "Hawaii"
+
+- species: "Exotic: Naturalized"
+  date: 2022-07-12
+  location: "Hawaii"
+
+- species: "Hermit Warbler"
+  date: 2022-07-04
+  location: "Washington"
+
+- species: "Northern House Wren"
+  date: 2022-06-21
+  location: "Washington"
+
+- species: "Yellow-breasted Chat"
+  date: 2022-06-16
+  location: "Washington"
+
+- species: "Bank Swallow"
+  date: 2022-06-16
+  location: "Washington"
+
+- species: "Olive-sided Flycatcher"
+  date: 2022-06-10
+  location: "Washington"
+
+- species: "Neotropic Cormorant"
+  date: 2022-03-25
+  location: "Arizona"
+
+- species: "American Avocet"
+  date: 2022-03-25
+  location: "Arizona"
+
+- species: "Black-chinned Hummingbird"
+  date: 2022-03-25
+  location: "Arizona"
+
+- species: "Ruddy Duck"
+  date: 2022-03-25
+  location: "Arizona"
+
+- species: "Phainopepla"
+  date: 2022-03-24
+  location: "Arizona"
+
+- species: "Violet-crowned Hummingbird"
+  date: 2022-03-24
+  location: "Arizona"
+
+- species: "Western Meadowlark"
+  date: 2022-03-24
+  location: "Arizona"
+
+- species: "Lark Sparrow"
+  date: 2022-03-23
+  location: "Arizona"
+
+- species: "Brewer's Sparrow"
+  date: 2022-03-23
+  location: "Arizona"
+
+- species: "Rufous-winged Sparrow"
+  date: 2022-03-23
+  location: "Arizona"
+
+- species: "Redhead"
+  date: 2022-03-23
+  location: "Arizona"
+
+- species: "Lucy's Warbler"
+  date: 2022-03-23
+  location: "Arizona"
+
+- species: "Ladder-backed Woodpecker"
+  date: 2022-03-23
+  location: "Arizona"
+
+- species: "Gray Hawk"
+  date: 2022-03-23
+  location: "Arizona"
+
+- species: "Common Black Hawk"
+  date: 2022-03-23
+  location: "Arizona"
+
+- species: "Mexican Duck"
+  date: 2022-03-23
+  location: "Arizona"
+
+- species: "Hepatic Tanager"
+  date: 2022-03-23
+  location: "Arizona"
+
+- species: "Scott's Oriole"
+  date: 2022-03-23
+  location: "Arizona"
+
+- species: "Bridled Titmouse"
+  date: 2022-03-23
+  location: "Arizona"
+
+- species: "Rivoli's Hummingbird"
+  date: 2022-03-23
+  location: "Arizona"
+
+- species: "Painted Redstart"
+  date: 2022-03-23
+  location: "Arizona"
+
+- species: "Mexican Jay"
+  date: 2022-03-23
+  location: "Arizona"
+
+- species: "Arizona Woodpecker"
+  date: 2022-03-23
+  location: "Arizona"
+
+- species: "Acorn Woodpecker"
+  date: 2022-03-23
+  location: "Arizona"
+
+- species: "Broad-billed Hummingbird"
+  date: 2022-03-23
+  location: "Arizona"
+
+- species: "Wild Turkey"
+  date: 2022-03-23
+  location: "Arizona"
+
+- species: "Northern Cardinal"
+  date: 2022-03-23
+  location: "Arizona"
+
+- species: "Townsend's Warbler"
+  date: 2022-03-23
+  location: "Arizona"
+
+- species: "Green-tailed Towhee"
+  date: 2022-03-23
+  location: "Arizona"
+
+- species: "Rufous-crowned Sparrow"
+  date: 2022-03-23
+  location: "Arizona"
+
+- species: "Blue-gray Gnatcatcher"
+  date: 2022-03-23
+  location: "Arizona"
+
+- species: "Hutton's Vireo"
+  date: 2022-03-23
+  location: "Arizona"
+
+- species: "Bell's Vireo"
+  date: 2022-03-23
+  location: "Arizona"
+
+- species: "Abert's Towhee"
+  date: 2022-03-22
+  location: "Arizona"
+
+- species: "Northern Rough-winged Swallow"
+  date: 2022-03-22
+  location: "Arizona"
+
+- species: "Black Phoebe"
+  date: 2022-03-22
+  location: "Arizona"
+
+- species: "Blue-winged Teal"
+  date: 2022-03-22
+  location: "Arizona"
+
+- species: "Black-throated Sparrow"
+  date: 2022-03-22
+  location: "Arizona"
+
+- species: "Ash-throated Flycatcher"
+  date: 2022-03-22
+  location: "Arizona"
+
+- species: "Gilded Flicker"
+  date: 2022-03-22
+  location: "Arizona"
+
+- species: "Snow Goose"
+  date: 2022-01-02
+  location: "Washington"
+
+- species: "American Tree Sparrow"
+  date: 2021-11-03
+  location: "Washington"
+
+- species: "Burrowing Owl"
+  date: 2021-10-31
+  location: "Washington"
+
+- species: "Barrow's Goldeneye"
+  date: 2021-10-31
+  location: "Washington"
+
+- species: "Sharp-shinned Hawk"
+  date: 2021-09-28
+  location: "Washington"
+
+- species: "Red-necked Grebe"
+  date: 2021-09-28
+  location: "Washington"
+
+- species: "Greater White-fronted Goose"
+  date: 2021-09-28
+  location: "Washington"
+
+- species: "Palm Warbler"
+  date: 2021-09-26
+  location: "Washington"
+
+- species: "Northern Saw-whet Owl"
+  date: 2021-09-21
+  location: "Washington"
+
+- species: "Caspian Tern"
+  date: 2021-09-18
+  location: "Washington"
+
+- species: "Black-billed Magpie"
+  date: 2021-09-04
+  location: "Oregon"
+
+- species: "Rock Wren"
+  date: 2021-09-04
+  location: "Oregon"
+
+- species: "Gray Flycatcher"
+  date: 2021-09-03
+  location: "Oregon"
+
+- species: "Iiwi"
+  date: 2021-08-02
+  location: "Hawaii"
+
+- species: "Maui Alauahio"
+  date: 2021-08-02
+  location: "Hawaii"
+
+- species: "Exotic: Naturalized"
+  date: 2021-07-31
+  location: "Hawaii"
+
+- species: "Exotic: Naturalized"
+  date: 2021-07-30
+  location: "Hawaii"
+
+- species: "Exotic: Naturalized"
+  date: 2021-07-30
+  location: "Hawaii"
+
+- species: "Exotic: Provisional"
+  date: 2021-07-30
+  location: "Hawaii"
+
+- species: "Wedge-tailed Shearwater"
+  date: 2021-07-30
+  location: "Hawaii"
+
+- species: "Exotic: Naturalized"
+  date: 2021-07-29
+  location: "Hawaii"
+
+- species: "Hawaii Amakihi"
+  date: 2021-07-28
+  location: "Hawaii"
+
+- species: "Apapane"
+  date: 2021-07-28
+  location: "Hawaii"
+
+- species: "Exotic: Naturalized"
+  date: 2021-07-28
+  location: "Hawaii"
+
+- species: "Exotic: Naturalized"
+  date: 2021-07-28
+  location: "Hawaii"
+
+- species: "Exotic: Naturalized"
+  date: 2021-07-28
+  location: "Hawaii"
+
+- species: "Hawaiian Goose"
+  date: 2021-07-28
+  location: "Hawaii"
+
+- species: "Wandering Tattler"
+  date: 2021-07-27
+  location: "Hawaii"
+
+- species: "Hawaiian Coot"
+  date: 2021-07-27
+  location: "Hawaii"
+
+- species: "Exotic: Naturalized"
+  date: 2021-07-27
+  location: "Hawaii"
+
+- species: "Black-crowned Night Heron"
+  date: 2021-07-27
+  location: "Hawaii"
+
+- species: "Black-necked Stilt"
+  date: 2021-07-27
+  location: "Hawaii"
+
+- species: "Exotic: Naturalized"
+  date: 2021-07-27
+  location: "Hawaii"
+
+- species: "Exotic: Naturalized"
+  date: 2021-07-27
+  location: "Hawaii"
+
+- species: "Exotic: Naturalized"
+  date: 2021-07-27
+  location: "Hawaii"
+
+- species: "Exotic: Naturalized"
+  date: 2021-07-27
+  location: "Hawaii"
+
+- species: "Exotic: Naturalized"
+  date: 2021-07-27
+  location: "Hawaii"
+
+- species: "Hermit Thrush"
+  date: 2021-04-10
+  location: "Oregon"
+
+- species: "Say's Phoebe"
+  date: 2021-04-10
+  location: "Oregon"
+
+- species: "American Pipit"
+  date: 2021-04-07
+  location: "Oregon"
+
+- species: "Mountain Bluebird"
+  date: 2021-04-05
+  location: "Oregon"
+
+- species: "Fox Sparrow"
+  date: 2021-01-09
+  location: "Washington"
+
+- species: "Marsh Wren"
+  date: 2020-12-23
+  location: "Washington"
+
+- species: "Common Goldeneye"
+  date: 2020-12-23
+  location: "Washington"
+
+- species: "Northern Pintail"
+  date: 2020-12-23
+  location: "Washington"
+
+- species: "Trumpeter Swan"
+  date: 2020-12-23
+  location: "Washington"
+
+- species: "Short-billed Gull"
+  date: 2020-11-26
+  location: "Washington"
+
+- species: "Red-shouldered Hawk"
+  date: 2020-10-19
+  location: "Washington"
+
+- species: "Lincoln's Sparrow"
+  date: 2020-10-06
+  location: "Washington"
+
+- species: "Lazuli Bunting"
+  date: 2020-07-14
+  location: "Oregon"
+
+- species: "Least Sandpiper"
+  date: 2020-07-14
+  location: "Oregon"
+
+- species: "Long-billed Dowitcher"
+  date: 2020-07-14
+  location: "Oregon"
+
+- species: "American Dipper"
+  date: 2020-07-02
+  location: "Oregon"
+
+- species: "Cliff Swallow"
+  date: 2020-06-25
+  location: "Washington"
+
+- species: "Common Murre"
+  date: 2020-06-21
+  location: "Oregon"
+
+- species: "Black Oystercatcher"
+  date: 2020-06-21
+  location: "Oregon"
+
+- species: "Northern Shoveler"
+  date: 2020-05-28
+  location: "Washington"
+
+- species: "Spotted Sandpiper"
+  date: 2020-05-27
+  location: "Washington"
+
+- species: "Chipping Sparrow"
+  date: 2020-05-09
+  location: "Washington"
+
+- species: "Western Tanager"
+  date: 2020-05-07
+  location: "Washington"
+
+- species: "Northern Yellow Warbler"
+  date: 2020-05-07
+  location: "Washington"
+
+- species: "Bullock's Oriole"
+  date: 2020-05-07
+  location: "Washington"
+
+- species: "Purple Martin"
+  date: 2020-05-07
+  location: "Washington"
+
+- species: "Western Warbling Vireo"
+  date: 2020-05-07
+  location: "Washington"
+
+- species: "Vaux's Swift"
+  date: 2020-05-07
+  location: "Washington"
+
+- species: "Black-throated Gray Warbler"
+  date: 2020-05-01
+  location: "Washington"
+
+- species: "Lesser Goldfinch"
+  date: 2020-05-01
+  location: "Washington"
+
+- species: "Lesser Scaup"
+  date: 2020-05-01
+  location: "Washington"
+
+- species: "Wilson's Warbler"
+  date: 2020-05-01
+  location: "Washington"
+
+- species: "Western Wood-Pewee"
+  date: 2020-05-01
+  location: "Washington"
+
+- species: "Cinnamon Teal"
+  date: 2020-05-01
+  location: "Washington"
+
+- species: "Black-headed Grosbeak"
+  date: 2020-04-29
+  location: "Washington"
+
+- species: "Brewer's Blackbird"
+  date: 2020-04-29
+  location: "Washington"
+
+- species: "Brown-headed Cowbird"
+  date: 2020-04-29
+  location: "Washington"
+
+- species: "Pine Siskin"
+  date: 2020-04-29
+  location: "Washington"
+
+- species: "Western Flycatcher"
+  date: 2020-04-29
+  location: "Washington"
+
+- species: "Hammond's Flycatcher"
+  date: 2020-04-26
+  location: "Washington"
+
+- species: "Yellow-rumped Warbler"
+  date: 2020-04-19
+  location: "Washington"
+
+- species: "Common Yellowthroat"
+  date: 2020-04-19
+  location: "Washington"
+
+- species: "Orange-crowned Warbler"
+  date: 2020-04-19
+  location: "Washington"
+
+- species: "White-crowned Sparrow"
+  date: 2020-04-19
+  location: "Washington"
+
+- species: "Barn Swallow"
+  date: 2020-04-19
+  location: "Washington"
+
+- species: "Common Raven"
+  date: 2020-04-19
+  location: "Washington"
+
+- species: "Wilson's Snipe"
+  date: 2020-04-19
+  location: "Washington"
+
+- species: "Sora"
+  date: 2020-04-19
+  location: "Washington"
+
+- species: "Virginia Rail"
+  date: 2020-04-19
+  location: "Washington"
+
+- species: "Exotic: Naturalized"
+  date: 2020-04-19
+  location: "Washington"
+
+- species: "Savannah Sparrow"
+  date: 2020-04-10
+  location: "Washington"
+
+- species: "House Finch"
+  date: 2020-04-10
+  location: "Washington"
+
+- species: "Osprey"
+  date: 2020-04-10
+  location: "Washington"
+
+- species: "Greater Yellowlegs"
+  date: 2020-04-10
+  location: "Washington"
+
+- species: "Harlequin Duck"
+  date: 2020-04-09
+  location: "Washington"
+
+- species: "American Goldfinch"
+  date: 2020-03-29
+  location: "Washington"
+
+- species: "Cedar Waxwing"
+  date: 2020-03-29
+  location: "Washington"
+
+- species: "Varied Thrush"
+  date: 2020-03-29
+  location: "Washington"
+
+- species: "Pacific Wren"
+  date: 2020-03-29
+  location: "Washington"
+
+- species: "Red-tailed Hawk"
+  date: 2020-03-29
+  location: "Washington"
+
+- species: "Dark-eyed Junco"
+  date: 2020-03-25
+  location: "Washington"
+
+- species: "Golden-crowned Kinglet"
+  date: 2020-03-25
+  location: "Washington"
+
+- species: "Barred Owl"
+  date: 2020-03-25
+  location: "Washington"
+
+- species: "Great Horned Owl"
+  date: 2020-03-25
+  location: "Washington"
+
+- species: "Cooper's Hawk"
+  date: 2020-03-25
+  location: "Washington"
+
+- species: "Rufous Hummingbird"
+  date: 2020-03-25
+  location: "Washington"
+
+- species: "Mourning Dove"
+  date: 2020-03-25
+  location: "Washington"
+
+- species: "Western Grebe"
+  date: 2020-03-20
+  location: "Washington"
+
+- species: "Red-winged Blackbird"
+  date: 2020-03-20
+  location: "Washington"
+
+- species: "American Robin"
+  date: 2020-03-20
+  location: "Washington"
+
+- species: "Bushtit"
+  date: 2020-03-20
+  location: "Washington"
+
+- species: "Tree Swallow"
+  date: 2020-03-20
+  location: "Washington"
+
+- species: "Northern Flicker"
+  date: 2020-03-20
+  location: "Washington"
+
+- species: "Turkey Vulture"
+  date: 2020-03-20
+  location: "Washington"
+
+- species: "American Bittern"
+  date: 2020-03-20
+  location: "Washington"
+
+- species: "Pied-billed Grebe"
+  date: 2020-03-20
+  location: "Washington"
+
+- species: "Killdeer"
+  date: 2020-03-20
+  location: "Washington"
+
+- species: "Common Merganser"
+  date: 2020-03-20
+  location: "Washington"
+
+- species: "Green-winged Teal"
+  date: 2020-03-20
+  location: "Washington"
+
+- species: "Wood Duck"
+  date: 2020-03-20
+  location: "Washington"
+
+- species: "American Wigeon"
+  date: 2020-02-05
+  location: "Washington"
+
+- species: "Gadwall"
+  date: 2020-02-05
+  location: "Washington"
+
+- species: "Spotted Towhee"
+  date: 2019-12-30
+  location: "Washington"
+
+- species: "Golden-crowned Sparrow"
+  date: 2019-12-30
+  location: "Washington"
+
+- species: "Ruby-crowned Kinglet"
+  date: 2019-12-30
+  location: "Washington"
+
+- species: "California Scrub-Jay"
+  date: 2019-12-30
+  location: "Washington"
+
+- species: "Peregrine Falcon"
+  date: 2019-12-30
+  location: "Washington"
+
+- species: "American Kestrel"
+  date: 2019-12-30
+  location: "Washington"
+
+- species: "Pileated Woodpecker"
+  date: 2019-12-30
+  location: "Washington"
+
+- species: "Belted Kingfisher"
+  date: 2019-12-30
+  location: "Washington"
+
+- species: "Northern Harrier"
+  date: 2019-12-30
+  location: "Washington"
+
+- species: "Great Blue Heron"
+  date: 2019-12-30
+  location: "Washington"
+
+- species: "Hooded Merganser"
+  date: 2019-12-30
+  location: "Washington"
+
+- species: "Bufflehead"
+  date: 2019-12-30
+  location: "Washington"
+
+- species: "Ring-necked Duck"
+  date: 2019-12-30
+  location: "Washington"
+
+- species: "Mallard"
+  date: 2019-12-30
+  location: "Washington"
+
+- species: "Tundra Swan"
+  date: 2019-12-30
+  location: "Washington"
+
+- species: "Canada Goose"
+  date: 2019-12-30
+  location: "Washington"
+
+- species: "Cackling Goose"
+  date: 2019-12-30
+  location: "Washington"
+
+- species: "Canada Jay"
+  date: 2019-12-20
+  location: "Oregon"
+
+- species: "American Crow"
+  date: 2019-08-15
+  location: "Washington"
+
+- species: "Bald Eagle"
+  date: 2019-08-15
+  location: "Washington"
+
+- species: "Brown Pelican"
+  date: 2019-08-15
+  location: "Washington"
+
+- species: "Common Loon"
+  date: 2019-08-15
+  location: "Washington"
+
+- species: "Pacific Loon"
+  date: 2019-08-15
+  location: "Washington"
+
+- species: "Glaucous-winged Gull"
+  date: 2019-08-15
+  location: "Washington"
+
+- species: "California Gull"
+  date: 2019-08-15
+  location: "Washington"
+
+- species: "American Herring Gull"
+  date: 2019-08-15
+  location: "Washington"
+
+- species: "Semipalmated Plover"
+  date: 2019-08-15
+  location: "Washington"
+
+- species: "Red Crossbill"
+  date: 2019-08-14
+  location: "Washington"
+
+- species: "Band-tailed Pigeon"
+  date: 2019-08-14
+  location: "Washington"
+
+- species: "Sooty Grouse"
+  date: 2019-08-14
+  location: "Washington"
+
+- species: "Red-breasted Nuthatch"
+  date: 2019-07-29
+  location: "Oregon"
+
+- species: "Pygmy Nuthatch"
+  date: 2019-07-29
+  location: "Oregon"
+
+- species: "White-breasted Nuthatch"
+  date: 2019-07-29
+  location: "Oregon"
+
+- species: "Mountain Chickadee"
+  date: 2019-07-29
+  location: "Oregon"
+
+- species: "Song Sparrow"
+  date: 2019-07-23
+  location: "Washington"
+
+- species: "Swainson's Thrush"
+  date: 2019-07-23
+  location: "Washington"
+
+- species: "Bewick's Wren"
+  date: 2019-07-23
+  location: "Washington"
+
+- species: "Brown Creeper"
+  date: 2019-07-23
+  location: "Washington"
+
+- species: "Chestnut-backed Chickadee"
+  date: 2019-07-23
+  location: "Washington"
+
+- species: "Black-capped Chickadee"
+  date: 2019-07-23
+  location: "Washington"
+
+- species: "Steller's Jay"
+  date: 2019-07-23
+  location: "Washington"
+
+- species: "Hairy Woodpecker"
+  date: 2019-07-23
+  location: "Washington"
+
+- species: "Downy Woodpecker"
+  date: 2019-07-23
+  location: "Washington"
+
+- species: "Red-breasted Sapsucker"
+  date: 2019-07-23
+  location: "Washington"
+
+- species: "Anna's Hummingbird"
+  date: 2019-07-23
+  location: "Washington"
+
+- species: "Willow Flycatcher"
+  date: 2019-07-02
+  location: "Oregon"
+
+- species: "Double-crested Cormorant"
+  date: 2019-07-02
+  location: "Oregon"
+
+- species: "Pelagic Cormorant"
+  date: 2019-07-02
+  location: "Oregon"
+
+- species: "Brandt's Cormorant"
+  date: 2019-07-02
+  location: "Oregon"
+
+- species: "Western Gull"
+  date: 2019-07-02
+  location: "Oregon"
+
+- species: "Western Sandpiper"
+  date: 2019-07-02
+  location: "Oregon"
+
+- species: "Pigeon Guillemot"
+  date: 2019-07-01
+  location: "Oregon"
+
+- species: "Surf Scoter"
+  date: 2019-07-01
+  location: "Oregon"
+
+- species: "Violet-green Swallow"
+  date: 2019-04-30
+  location: "Washington"
+
+- species: "Boat-tailed Grackle"
+  date: 2019-04-04
+  location: "FL"
+
+- species: "Common Grackle"
+  date: 2019-04-04
+  location: "FL"
+
+- species: "Northern Mockingbird"
+  date: 2019-04-04
+  location: "FL"
+
+- species: "Fish Crow"
+  date: 2019-04-04
+  location: "FL"
+
+- species: "Swallow-tailed Kite"
+  date: 2019-04-04
+  location: "FL"
+
+- species: "American White Pelican"
+  date: 2019-04-04
+  location: "FL"
+
+- species: "Great Egret"
+  date: 2019-04-04
+  location: "FL"
+
+- species: "Green Heron"
+  date: 2019-04-04
+  location: "FL"
+
+- species: "Snowy Egret"
+  date: 2019-04-04
+  location: "FL"
+
+- species: "White Ibis"
+  date: 2019-04-04
+  location: "FL"
+
+- species: "Anhinga"
+  date: 2019-04-04
+  location: "FL"
+
+- species: "Ring-billed Gull"
+  date: 2019-04-04
+  location: "FL"
 
 - species: "Sandhill Crane"
-  date: 2018-04-21
-  location: "Baker Sanctuary, Bellevue, MI"
-
-- code: bkcchi
-  date: 2019-05-14
-  location: "Magee Marsh, OH"
+  date: 2019-04-04
+  location: "FL"
 
 - species: "Ruby-throated Hummingbird"
-  date: 2020-06-02
-  location: "Burke Museum, Seattle, WA"
+  date: 2019-04-04
+  location: "FL"
+
+- species: "Exotic: Naturalized"
+  date: 2019-04-04
+  location: "FL"
+
+- species: "Carolina Chickadee"
+  date: 2019-02-22
+  location: "NJ"
+
+- species: "Blue Jay"
+  date: 2019-02-22
+  location: "NJ"
+
+- species: "Black Vulture"
+  date: 2019-02-22
+  location: "NJ"
+
+- species: "Great-tailed Grackle"
+  date: 2019-01-03
+  location: "Arizona"
+
+- species: "Curve-billed Thrasher"
+  date: 2019-01-03
+  location: "Arizona"
+
+- species: "Cactus Wren"
+  date: 2019-01-03
+  location: "Arizona"
+
+- species: "Verdin"
+  date: 2019-01-03
+  location: "Arizona"
+
+- species: "Vermilion Flycatcher"
+  date: 2019-01-03
+  location: "Arizona"
+
+- species: "Gila Woodpecker"
+  date: 2019-01-03
+  location: "Arizona"
+
+- species: "American Coot"
+  date: 2019-01-03
+  location: "Arizona"
+
+- species: "Costa's Hummingbird"
+  date: 2019-01-03
+  location: "Arizona"
+
+- species: "Greater Roadrunner"
+  date: 2019-01-03
+  location: "Arizona"
+
+- species: "White-winged Dove"
+  date: 2019-01-03
+  location: "Arizona"
+
+- species: "Inca Dove"
+  date: 2019-01-03
+  location: "Arizona"
+
+- species: "Gambel's Quail"
+  date: 2019-01-03
+  location: "Arizona"
+
+- species: "Exotic: Naturalized"
+  date: 2018-04-03
+  location: "California"
+
+- species: "California Quail"
+  date: 2017-07-06
+  location: "Oregon"
