@@ -30,5 +30,5 @@ Species interactions are a crucial aspect of ecosystem functioning and biodivers
 </div>
 
 <div class="caption">
-    Cover photo: A Common Raven (*Corvus corax*) in Arches National Park. Photo taken by me.
+    Cover photo: A Common Raven (Corvus corax) in Arches National Park. Photo taken by me.
 </div>
