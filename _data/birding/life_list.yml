@@ -1,0 +1,42 @@
+# -----------------------------------------------------------------------------
+# Your life list.
+# -----------------------------------------------------------------------------
+# One entry per species you've ever seen. At build time, scripts/build-avicommons-data.mjs
+# downloads the latest Avicommons photo dataset and matches each entry below
+# to a photo + photographer credit, writing the result to
+# _data/birding/avicommons_resolved.json (do not edit that file by hand —
+# it's regenerated on every build, see README in scripts/).
+#
+# For each entry, identify the species with EITHER:
+#   code:    the 6-letter eBird species code (preferred, e.g. "norcar")
+#   species: the common name, exactly as eBird/Avicommons spells it (e.g. "Northern Cardinal")
+# You only need one of the two. If both are given, `code` wins.
+#
+# Required fields: (code OR species), date
+# Optional fields: location, notes
+#
+# Don't worry about what order you add these in or what "number" they end up
+# with — the build script sorts everything by date and numbers your life list
+# chronologically (#1 = the first bird you ever ID'd) automatically.
+# -----------------------------------------------------------------------------
+
+- code: norcar
+  date: 2012-08-03
+  location: "Backyard, East Lansing, MI"
+  notes: "The one that started it all."
+
+- code: amerob
+  date: 2012-08-03
+  location: "Backyard, East Lansing, MI"
+
+- species: "Sandhill Crane"
+  date: 2018-04-21
+  location: "Baker Sanctuary, Bellevue, MI"
+
+- code: bkcchi
+  date: 2019-05-14
+  location: "Magee Marsh, OH"
+
+- species: "Ruby-throated Hummingbird"
+  date: 2020-06-02
+  location: "Burke Museum, Seattle, WA"

@@ -84,6 +84,8 @@ jobs:
           cache: "npm"
       - name: Install JS deps 📦
         run: npm ci
+      - name: Build birding life list data 🐦
+        run: npm run build:avicommons
       - name: Update _config.yml ⚙️
         uses: fjogeleit/yaml-update-action@main
         with:

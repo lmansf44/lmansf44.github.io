@@ -1,0 +1,99 @@
+{% comment %}
+  Lightbox for the full gallery pages. Include once, near the end of the page.
+  Works against any `.birding-lightbox-trigger` button with these data attrs:
+    data-full, data-title, data-sub, data-credit (optional), data-license-url (optional)
+{% endcomment %}
+<div class="birding-lightbox" id="birding-lightbox" role="dialog" aria-modal="true" aria-hidden="true">
+  <button type="button" class="birding-lightbox-prev" aria-label="Previous photo">&#8249;</button>
+  <div class="birding-lightbox-content">
+    <img id="birding-lightbox-img" src="" alt="" />
+    <div class="birding-lightbox-caption">
+      <div class="title" id="birding-lightbox-title"></div>
+      <div class="sub" id="birding-lightbox-sub"></div>
+      <div class="credit" id="birding-lightbox-credit"></div>
+    </div>
+  </div>
+  <button type="button" class="birding-lightbox-next" aria-label="Next photo">&#8250;</button>
+  <button type="button" class="birding-lightbox-close" aria-label="Close">&times;</button>
+</div>
+
+<script>
+  (function () {
+    var triggers = Array.prototype.slice.call(document.querySelectorAll(".birding-lightbox-trigger"));
+    if (!triggers.length) return;
+
+    var lightbox = document.getElementById("birding-lightbox");
+    var img = document.getElementById("birding-lightbox-img");
+    var titleEl = document.getElementById("birding-lightbox-title");
+    var subEl = document.getElementById("birding-lightbox-sub");
+    var creditEl = document.getElementById("birding-lightbox-credit");
+    var closeBtn = lightbox.querySelector(".birding-lightbox-close");
+    var prevBtn = lightbox.querySelector(".birding-lightbox-prev");
+    var nextBtn = lightbox.querySelector(".birding-lightbox-next");
+
+    var currentIndex = 0;
+
+    function renderAt(index) {
+      currentIndex = (index + triggers.length) % triggers.length;
+      var t = triggers[currentIndex];
+      img.src = t.getAttribute("data-full") || "";
+      img.alt = t.getAttribute("data-title") || "";
+      titleEl.textContent = t.getAttribute("data-title") || "";
+      subEl.textContent = t.getAttribute("data-sub") || "";
+
+      var creditText = t.getAttribute("data-credit");
+      var licenseUrl = t.getAttribute("data-license-url");
+      if (creditText) {
+        creditEl.innerHTML = "";
+        creditEl.appendChild(document.createTextNode(creditText + " "));
+        if (licenseUrl) {
+          var a = document.createElement("a");
+          a.href = licenseUrl;
+          a.target = "_blank";
+          a.rel = "noopener noreferrer license";
+          a.textContent = "license";
+          creditEl.appendChild(a);
+        }
+      } else {
+        creditEl.innerHTML = "";
+      }
+    }
+
+    function open(index) {
+      renderAt(index);
+      lightbox.classList.add("is-open");
+      lightbox.setAttribute("aria-hidden", "false");
+      document.body.style.overflow = "hidden";
+    }
+
+    function close() {
+      lightbox.classList.remove("is-open");
+      lightbox.setAttribute("aria-hidden", "true");
+      document.body.style.overflow = "";
+    }
+
+    triggers.forEach(function (trigger, index) {
+      trigger.addEventListener("click", function (e) {
+        e.preventDefault();
+        open(index);
+      });
+    });
+
+    closeBtn.addEventListener("click", close);
+    prevBtn.addEventListener("click", function () {
+      renderAt(currentIndex - 1);
+    });
+    nextBtn.addEventListener("click", function () {
+      renderAt(currentIndex + 1);
+    });
+    lightbox.addEventListener("click", function (e) {
+      if (e.target === lightbox) close();
+    });
+    document.addEventListener("keydown", function (e) {
+      if (!lightbox.classList.contains("is-open")) return;
+      if (e.key === "Escape") close();
+      if (e.key === "ArrowLeft") renderAt(currentIndex - 1);
+      if (e.key === "ArrowRight") renderAt(currentIndex + 1);
+    });
+  })();
+</script>

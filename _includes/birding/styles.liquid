@@ -1,0 +1,290 @@
+{% comment %}
+  Shared styles for /birding/, /birding/photos/, and /birding/life-list/.
+  Include once near the top of each page's content.
+
+  Colors use var(--global-x, fallback) so they pick up al-folio's light/dark
+  theme tokens where available, and degrade gracefully to sane fallbacks if
+  a token name ever changes upstream.
+{% endcomment %}
+<style>
+  .birding-page {
+    color: var(--global-text-color, inherit);
+  }
+
+  /* ---------- Intro / bio section ---------- */
+  .birding-intro {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: flex-start;
+    margin-bottom: 2.5rem;
+  }
+  .birding-intro-text {
+    flex: 1 1 320px;
+    min-width: 0;
+  }
+  .birding-intro-photos {
+    display: flex;
+    gap: 0.5rem;
+    flex: 1 1 280px;
+    flex-wrap: wrap;
+  }
+  .birding-intro-photos img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  }
+
+  /* ---------- Section header (title + "see full gallery" link) ---------- */
+  .birding-section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: 0.75rem;
+  }
+  .birding-section-header h2 {
+    margin: 0;
+  }
+  .birding-see-all {
+    white-space: nowrap;
+    font-size: 0.95rem;
+    text-decoration: none;
+    color: var(--global-theme-color, #4a6f8a);
+  }
+  .birding-see-all:hover {
+    text-decoration: underline;
+  }
+  .birding-gallery-section {
+    margin-bottom: 2.5rem;
+  }
+
+  /* ---------- Horizontal scroller (landing page) ---------- */
+  .birding-scroller {
+    display: flex;
+    gap: 0.85rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding: 0.25rem 0.25rem 0.75rem;
+    -webkit-overflow-scrolling: touch;
+  }
+  .birding-scroller .birding-card {
+    flex: 0 0 auto;
+    width: 170px;
+    scroll-snap-align: start;
+  }
+
+  /* ---------- Full gallery grid ---------- */
+  .birding-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 0.85rem;
+  }
+  .birding-back {
+    display: inline-block;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: var(--global-theme-color, #4a6f8a);
+  }
+  .birding-back:hover {
+    text-decoration: underline;
+  }
+
+  /* ---------- Card ---------- */
+  .birding-card {
+    position: relative;
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    border-radius: 0.6rem;
+    overflow: hidden;
+    background: var(--global-card-bg-color, #e7e7e7);
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  }
+  .birding-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .birding-placeholder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: var(--global-text-color-light, #999);
+    background: var(--global-divider-color, #ddd);
+  }
+
+  /* ---------- Hover overlay (species/date/location/credit) ---------- */
+  .birding-overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 0.15rem;
+    padding: 0.5rem 0.6rem;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.35) 55%, rgba(0, 0, 0, 0) 100%);
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.15s ease;
+    pointer-events: none;
+  }
+  .birding-card:hover .birding-overlay,
+  .birding-card:focus-visible .birding-overlay {
+    opacity: 1;
+  }
+  .birding-overlay-title {
+    font-weight: 600;
+    font-size: 0.9rem;
+    line-height: 1.2;
+  }
+  .birding-overlay-sub {
+    font-size: 0.78rem;
+    opacity: 0.92;
+    line-height: 1.2;
+  }
+  .birding-credit {
+    font-size: 0.68rem;
+    opacity: 0.85;
+    line-height: 1.2;
+  }
+  .birding-credit a {
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  /* ---------- Life-list specific: number badge + default name caption ---------- */
+  .birding-number {
+    position: absolute;
+    top: 0.4rem;
+    left: 0.4rem;
+    z-index: 2;
+    min-width: 1.6rem;
+    height: 1.6rem;
+    padding: 0 0.35rem;
+    border-radius: 999px;
+    background: rgba(0, 0, 0, 0.65);
+    color: #fff;
+    font-size: 0.72rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .birding-caption-default {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.4rem 0.5rem;
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    transition: opacity 0.15s ease;
+  }
+  .birding-card:hover .birding-caption-default,
+  .birding-card:focus-visible .birding-caption-default {
+    opacity: 0;
+  }
+
+  /* ---------- Lightbox ---------- */
+  .birding-lightbox {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.88);
+    padding: 1.5rem;
+  }
+  .birding-lightbox.is-open {
+    display: flex;
+  }
+  .birding-lightbox-content {
+    max-width: min(90vw, 900px);
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .birding-lightbox-content img {
+    max-width: 100%;
+    max-height: 70vh;
+    border-radius: 0.4rem;
+    object-fit: contain;
+  }
+  .birding-lightbox-caption {
+    color: #fff;
+    text-align: center;
+    margin-top: 0.75rem;
+  }
+  .birding-lightbox-caption .title {
+    font-weight: 600;
+    font-size: 1.05rem;
+  }
+  .birding-lightbox-caption .sub {
+    font-size: 0.9rem;
+    opacity: 0.85;
+  }
+  .birding-lightbox-caption .credit {
+    font-size: 0.78rem;
+    opacity: 0.7;
+    margin-top: 0.25rem;
+  }
+  .birding-lightbox-caption .credit a {
+    color: #fff;
+    text-decoration: underline;
+  }
+  .birding-lightbox-close,
+  .birding-lightbox-prev,
+  .birding-lightbox-next {
+    position: fixed;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1;
+    border-radius: 999px;
+    width: 2.4rem;
+    height: 2.4rem;
+    cursor: pointer;
+  }
+  .birding-lightbox-close:hover,
+  .birding-lightbox-prev:hover,
+  .birding-lightbox-next:hover {
+    background: rgba(255, 255, 255, 0.25);
+  }
+  .birding-lightbox-close {
+    top: 1.25rem;
+    right: 1.25rem;
+  }
+  .birding-lightbox-prev {
+    left: 1.25rem;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .birding-lightbox-next {
+    right: 1.25rem;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  @media (max-width: 600px) {
+    .birding-intro {
+      flex-direction: column;
+    }
+  }
+</style>
