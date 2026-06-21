@@ -816,11 +816,11 @@
   date: 2023-08-13
   location: "England, United Kingdom"
 
-- species: "Exotic: Naturalized"
+- species: "Mandarin Duck"
   date: 2023-08-13
   location: "England, United Kingdom"
 
-- species: "Exotic: Naturalized"
+- species: "Rose-ringed Parakeet"
   date: 2023-08-13
   location: "England, United Kingdom"
 
@@ -860,11 +860,11 @@
   date: 2023-08-10
   location: "England, United Kingdom"
 
-- species: "Exotic: Provisional"
+- species: "Ruddy Shelduck"
   date: 2023-08-10
   location: "England, United Kingdom"
 
-- species: "Exotic: Naturalized"
+- species: "Egyptian Goose"
   date: 2023-08-10
   location: "England, United Kingdom"
 
@@ -1312,11 +1312,11 @@
   date: 2022-07-17
   location: "Hawaii"
 
-- species: "Exotic: Naturalized"
+- species: "Erckel's Spurfowl"
   date: 2022-07-17
   location: "Hawaii"
 
-- species: "Exotic: Naturalized"
+- species: "American Barn Owl"
   date: 2022-07-17
   location: "Hawaii"
 
@@ -1352,7 +1352,7 @@
   date: 2022-07-14
   location: "Hawaii"
 
-- species: "Exotic: Naturalized"
+- species: "Japanese Bush Warbler"
   date: 2022-07-13
   location: "Hawaii"
 
@@ -1360,15 +1360,15 @@
   date: 2022-07-13
   location: "Hawaii"
 
-- species: "Exotic: Naturalized"
+- species: "Chestnut Munia"
   date: 2022-07-12
   location: "Hawaii"
 
-- species: "Exotic: Naturalized"
+- species: "Java Sparrow"
   date: 2022-07-12
   location: "Hawaii"
 
-- species: "Exotic: Naturalized"
+- species: "White-rumped Shama"
   date: 2022-07-12
   location: "Hawaii"
 
@@ -1612,19 +1612,19 @@
   date: 2021-08-02
   location: "Hawaii"
 
-- species: "Exotic: Naturalized"
+- species: "Chukar"
   date: 2021-07-31
   location: "Hawaii"
 
-- species: "Exotic: Naturalized"
+- species: "Scaly-breasted Munia"
   date: 2021-07-30
   location: "Hawaii"
 
-- species: "Exotic: Naturalized"
+- species: "African Silverbill"
   date: 2021-07-30
   location: "Hawaii"
 
-- species: "Exotic: Provisional"
+- species: "Rosy-faced Lovebird"
   date: 2021-07-30
   location: "Hawaii"
 
@@ -1632,7 +1632,7 @@
   date: 2021-07-30
   location: "Hawaii"
 
-- species: "Exotic: Naturalized"
+- species: "Gray Francolin"
   date: 2021-07-29
   location: "Hawaii"
 
@@ -1644,15 +1644,15 @@
   date: 2021-07-28
   location: "Hawaii"
 
-- species: "Exotic: Naturalized"
+- species: "Chinese Hwamei"
   date: 2021-07-28
   location: "Hawaii"
 
-- species: "Exotic: Naturalized"
+- species: "Warbling White-eye"
   date: 2021-07-28
   location: "Hawaii"
 
-- species: "Exotic: Naturalized"
+- species: "Ring-necked Pheasant"
   date: 2021-07-28
   location: "Hawaii"
 
@@ -1668,7 +1668,7 @@
   date: 2021-07-27
   location: "Hawaii"
 
-- species: "Exotic: Naturalized"
+- species: "Zebra Dove"
   date: 2021-07-27
   location: "Hawaii"
 
@@ -1680,23 +1680,23 @@
   date: 2021-07-27
   location: "Hawaii"
 
-- species: "Exotic: Naturalized"
+- species: "Red-crested Cardinal"
   date: 2021-07-27
   location: "Hawaii"
 
-- species: "Exotic: Naturalized"
+- species: "Common Myna"
   date: 2021-07-27
   location: "Hawaii"
 
-- species: "Exotic: Naturalized"
+- species: "Western Cattle-Egret"
   date: 2021-07-27
   location: "Hawaii"
 
-- species: "Exotic: Naturalized"
+- species: "Spotted Dove"
   date: 2021-07-27
   location: "Hawaii"
 
-- species: "Exotic: Naturalized"
+- species: "Red Junglefowl"
   date: 2021-07-27
   location: "Hawaii"
 
@@ -1896,7 +1896,7 @@
   date: 2020-04-19
   location: "Washington"
 
-- species: "Exotic: Naturalized"
+- species: "Eurasian Collared-Dove"
   date: 2020-04-19
   location: "Washington"
 
@@ -2300,7 +2300,7 @@
   date: 2019-04-04
   location: "FL"
 
-- species: "Exotic: Naturalized"
+- species: "Muscovy Duck"
   date: 2019-04-04
   location: "FL"
 
@@ -2364,7 +2364,7 @@
   date: 2019-01-03
   location: "Arizona"
 
-- species: "Exotic: Naturalized"
+- species: "Red-masked Parakeet"
   date: 2018-04-03
   location: "California"
 

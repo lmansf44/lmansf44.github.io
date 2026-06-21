@@ -23,9 +23,8 @@ description: A look at my life as a birder.
     </div>
     <div class="birding-intro-photos">
       <!-- TODO: add 2-3 photos of yourself out birding to assets/img/birding/me/ and update these paths -->
-      <img src="{{ '/assets/img/birding/me/photo-1.jpg' | relative_url }}" alt="Lucas birding" />
-      <img src="{{ '/assets/img/birding/me/photo-2.jpg' | relative_url }}" alt="Lucas birding" />
-      <img src="{{ '/assets/img/birding/me/photo-3.jpg' | relative_url }}" alt="Lucas birding" />
+      <img src="{{ '/assets/img/birding1.jpg' | relative_url }}" />
+      <img src="{{ '/assets/img/birding2.jpg' | relative_url }}" />
     </div>
   </section>
 
