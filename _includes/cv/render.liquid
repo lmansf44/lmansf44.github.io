@@ -57,13 +57,26 @@
     list-style: disc !important;
   }
 
+  .cv .card {
+    overflow: visible;
+  }
+
+  .cv .list-group,
+  .cv .list-group-item {
+    overflow: visible;
+  }
+
+  .cv .list-group-item {
+    border-color: rgba(0, 0, 0, 0.08);
+  }
+
   .cv .date-column {
-    width: 110px;
-    min-width: 110px;
-    max-width: 110px;
-    padding-right: 0.75rem;
+    width: 100px;
+    min-width: 100px;
+    max-width: 100px;
+    padding-right: 0.6rem;
     padding-left: 0;
-    flex: 0 0 110px;
+    flex: 0 0 100px;
   }
 
   .cv .table-cv {
@@ -72,6 +85,7 @@
     border-collapse: separate;
     border-spacing: 0;
     table-layout: fixed;
+    overflow: visible;
   }
 
   .cv .table-cv td {
@@ -81,12 +95,16 @@
   }
 
   .cv .table-cv .badge {
-    display: inline-block;
+    display: block;
     width: 100%;
     max-width: 100%;
     min-width: 0;
-    padding: 0.25rem 0.35rem;
-    white-space: nowrap;
+    padding: 0.2rem 0.3rem;
+    font-size: 0.72rem;
+    line-height: 1.15;
+    text-align: center;
+    white-space: normal;
+    overflow-wrap: anywhere;
     box-shadow: none !important;
     text-shadow: none !important;
     filter: none !important;
@@ -94,22 +112,23 @@
 
   .cv .table-cv .location {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    gap: 0.35rem;
-    margin: 0.35rem 0 0;
-    line-height: 1.2;
+    gap: 0.25rem;
+    margin: 0.3rem 0 0;
+    line-height: 1.1;
     text-align: center;
     white-space: normal;
     word-break: break-word;
-    font-size: 0.9rem;
+    font-size: 0.78rem;
   }
 
   .cv .table-cv .iconlocation {
     display: inline-block;
     flex: 0 0 auto;
     line-height: 1;
-    margin-top: 1px;
+    margin-top: 0.15rem;
+    font-size: 0.78rem;
   }
 </style>
 
@@ -262,12 +281,16 @@
               {% elsif section_title == 'Skills' %}
                 <ul class="card-text font-weight-light list-group list-group-flush">
                   {% for entry in section_entries %}
-                    <li class="list-group-item">
+                    <li class="list-group-item py-2">
                       <div class="d-flex align-items-start">
                         {% if entry.icon %}
-                          <i class="fa-solid {{ entry.icon }} fa-fw mr-2 mt-1" aria-hidden="true"></i>
+                          <i
+                            class="fa-solid {{ entry.icon }} fa-fw flex-shrink-0 mt-1 me-2"
+                            style="width: 1rem; text-align: center;"
+                            aria-hidden="true"
+                          ></i>
                         {% endif %}
-                        <div>
+                        <div class="flex-grow-1">
                           {% if entry.name %}<strong>{{ entry.name }}</strong>{% endif %}
                           {% if entry.keywords %}
                             <div class="font-weight-light">{{ entry.keywords }}</div>
@@ -296,19 +319,25 @@
               {% elsif section_title == 'Memberships' %}
                 <ul class="card-text font-weight-light list-group list-group-flush">
                   {% for entry in section_entries %}
-                    <li class="list-group-item">
+                    <li class="list-group-item py-2">
                       <div class="d-flex align-items-start">
                         {% if entry.icon %}
-                          <i class="fa-solid {{ entry.icon }} fa-fw mr-2 mt-1" aria-hidden="true"></i>
+                          <i
+                            class="fa-solid {{ entry.icon }} fa-fw flex-shrink-0 mt-1 me-2"
+                            style="width: 1rem; text-align: center;"
+                            aria-hidden="true"
+                          ></i>
                         {% endif %}
-                        <div>
+                        <div class="flex-grow-1 d-flex justify-content-between align-items-start gap-2">
                           <strong>{{ entry.name }}</strong>
-                          {% if entry.start_date %}
-                            <span class="ml-1">
-                              {{ entry.start_date | split: '-' | first }}
-                              -
-                              {{ entry.end_date | split: '-' | first | default: 'Present' }}
-                            </span>
+                          {% assign start_date = entry.start_date | default: '' %}
+                          {% assign end_date = entry.end_date | default: '' %}
+                          {% assign start_year = start_date | split: '-' | first | strip %}
+                          {% assign end_year = end_date | split: '-' | first | strip %}
+                          {% if start_date != '' and end_date != '' and start_year != '' and end_year != '' and start_year == end_year and end_year != 'Present' %}
+                            <span class="text-muted small">{{ start_year }}</span>
+                          {% elsif start_date != '' %}
+                            <span class="text-muted small">{{ start_year }} - {{ end_year | default: 'Present' }}</span>
                           {% endif %}
                         </div>
                       </div>

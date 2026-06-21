@@ -21,12 +21,14 @@
             {% if entry.date %}{{ entry.date }}{% endif %}
           {% endcapture %}
           {% assign single_date_stripped = single_date | strip %}
+          {% assign start_year = start_date | split: '-' | first | strip %}
+          {% assign end_year = end_date | split: '-' | first | strip %}
           {% if single_date_stripped != '' %}
             {% assign date = single_date_stripped %}
+          {% elsif start_date != '' and end_date != '' and start_year != '' and end_year != '' and start_year == end_year and end_year != 'Present' %}
+            {% assign date = start_year %}
           {% elsif start_date != '' %}
-            {% assign startDate = start_date | split: '-' | first %}
-            {% assign endDate = end_date | split: '-' | first | default: 'Present' %}
-            {% assign date = startDate | append: ' - ' | append: endDate %}
+            {% assign date = start_year | append: ' - ' | append: end_year | default: 'Present' %}
           {% else %}
             {% assign date = '' %}
           {% endif %}
@@ -35,7 +37,9 @@
             <tbody>
               <tr>
                 <td>
-                  <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">{{ date }}</span>
+                  {% if date != '' %}
+                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle">{{ date }}</span>
+                  {% endif %}
                 </td>
               </tr>
               {% capture location %}
