@@ -23,6 +23,3 @@ This project leverages data from the [National Ecological Observatory Network (N
 <div class="caption">
     This is a picture of the NSF National Ecological Observatory Network (NEON) terrestrial site at the Wind River Experimental Forest (WREF) in Washington state. The photo shows a flux tower in the trees. Sensors on the tower measure carbon fluxes between the forest and the atmosphere among other data. Credit: Photo courtesy of NEON operated by Battelle.
 </div>
-
-
-{% endraw %}
