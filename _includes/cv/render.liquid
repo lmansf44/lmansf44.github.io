@@ -58,14 +58,16 @@
   }
 
   .cv .date-column {
-    padding-right: 0.35rem;
-    padding-left: 0;
+    flex: 0 0 110px;
+    max-width: 110px;
+    padding: 0 0.75rem 0 0;
   }
 
   .cv .table-cv {
-    width: 100%;
-    margin: 0;
-    border-collapse: collapse;
+    width: auto;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 0;
   }
 
   .cv .table-cv td {
@@ -75,8 +77,9 @@
   }
 
   .cv .table-cv .badge {
-    display: inline-block;
-    min-width: 75px;
+    display: block;
+    width: 100%;
+    min-width: 0;
     white-space: nowrap;
     box-shadow: none !important;
     text-shadow: none !important;
@@ -91,6 +94,8 @@
     margin: 0.35rem 0 0;
     line-height: 1.2;
     text-align: center;
+    white-space: normal;
+    word-break: break-word;
   }
 
   .cv .table-cv .iconlocation {
@@ -247,8 +252,23 @@
                 {% assign entries = section_entries %}
                 {% include cv/publications.liquid %}
               {% elsif section_title == 'Skills' %}
-                {% assign entries = section_entries %}
-                {% include cv/skills.liquid %}
+                <ul class="card-text font-weight-light list-group list-group-flush">
+                  {% for entry in section_entries %}
+                    <li class="list-group-item">
+                      <div class="d-flex align-items-start">
+                        {% if entry.icon %}
+                          <i class="fa-solid {{ entry.icon }} mr-2 mt-1"></i>
+                        {% endif %}
+                        <div>
+                          {% if entry.name %}<strong>{{ entry.name }}</strong>{% endif %}
+                          {% if entry.keywords %}
+                            <div class="font-weight-light">{{ entry.keywords }}</div>
+                          {% endif %}
+                        </div>
+                      </div>
+                    </li>
+                  {% endfor %}
+                </ul>
               {% elsif section_title == 'Languages' %}
                 {% assign entries = section_entries %}
                 {% include cv/languages.liquid %}
@@ -269,14 +289,21 @@
                 <ul class="card-text font-weight-light list-group list-group-flush">
                   {% for entry in section_entries %}
                     <li class="list-group-item">
-                      <strong>{{ entry.name }}</strong>
-                      {% if entry.start_date %}
-                        <span class="ml-1">
-                          {{ entry.start_date | split: '-' | first }}
-                          -
-                          {{ entry.end_date | split: '-' | first | default: 'Present' }}
-                        </span>
-                      {% endif %}
+                      <div class="d-flex align-items-start">
+                        {% if entry.icon %}
+                          <i class="fa-solid {{ entry.icon }} mr-2 mt-1"></i>
+                        {% endif %}
+                        <div>
+                          <strong>{{ entry.name }}</strong>
+                          {% if entry.start_date %}
+                            <span class="ml-1">
+                              {{ entry.start_date | split: '-' | first }}
+                              -
+                              {{ entry.end_date | split: '-' | first | default: 'Present' }}
+                            </span>
+                          {% endif %}
+                        </div>
+                      </div>
                     </li>
                   {% endfor %}
                 </ul>
