@@ -127,7 +127,6 @@ cv:
 
       - company: Science Olympiad
         position: Test Writer and Proctor
-        location: ""
         start_date: 2021-12
         end_date: 2025-06
         highlights:
@@ -144,12 +143,15 @@ cv:
     Awards:
       - title: John R. Shaver Research Fellowship
         summary: "Award amount: $1,950"
+        date: 2026
 
       - title: EEB Professional Horizons Grant
         summary: "Award amount: $500"
+        date: 2026
 
       - title: EEB Engagement Fellowship
         summary: "Award amount: $5,000"
+        date: 2025
 
     Publications:
       - title: "The AvianMetaNetwork: biotic interactions among birds of the continental United States and Canada"
