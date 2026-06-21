@@ -2,7 +2,7 @@
 layout: page
 title: Rainforest Remote Sensing and Tree Emergence
 description: Imaging the rainforest with drones
-img: assets/img/xprize_cover.jpg
+img: assets/img/project_photos/xprize_cover.jpg
 importance: 3
 category: past
 ---
@@ -12,7 +12,7 @@ In 2024, I joined Team Welcome to the Jungle as part of the [XPRIZE Rainforest C
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/xprize.jpg" title="example image" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_photos/xprize.jpg" title="example image" class="img-fluid rounded" %}
     </div>
 </div>
 <div class="caption">

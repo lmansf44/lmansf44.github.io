@@ -2,7 +2,7 @@
 layout: page
 title: NEON Sync
 description: Quantifying drivers of ecological synchrony across taxa and trophic levels 
-img: assets/img/sync_cover.jpg
+img: assets/img/project_photos/sync_cover.jpg
 importance: 3
 category: current
 ---
@@ -12,7 +12,7 @@ Populations of different taxa often rise and fall together through time (a patte
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/sync_fig.png" title="example image" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_photos/sync_fig.png" title="example image" class="img-fluid rounded" %}
     </div>
 </div>
 <div class="caption">
@@ -21,5 +21,5 @@ Populations of different taxa often rise and fall together through time (a patte
 
 
 <div class="caption">
-    Cover photo: A Utah Juniper (Juniperus osteosperma) in Zion National Park. Photo taken by me.
+    Cover photo: A Utah Juniper (<i>Juniperus osteosperma</i>) in Zion National Park. Photo taken by me.
 </div>

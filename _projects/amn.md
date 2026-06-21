@@ -2,7 +2,7 @@
 layout: page
 title: Avian MetaNetwork
 description: Mapping networks of bird-bird species interactions
-img: assets/img/amn_cover.jpg
+img: assets/img/project_photos/amn_cover.jpg
 importance: 1
 category: current
 related_publications: false
@@ -14,7 +14,7 @@ Species interactions are a crucial aspect of ecosystem functioning and biodivers
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/amn_workflow.jpg" title="example image" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_photos/amn_workflow.jpg" title="example image" class="img-fluid rounded" %}
     </div>
 </div>
 <div class="caption">
@@ -22,13 +22,13 @@ Species interactions are a crucial aspect of ecosystem functioning and biodivers
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/amn_example.jpg" title="example image" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_photos/amn_example.jpg" title="example image" class="img-fluid rounded" %}
     </div>
 </div>
 <div class="caption">
-    Example networks generated from AvianMetaNetwork, for the three focal species: Oak Titmouse (Baeolophus inornatus, red diamond), Nuttall’s Woodpecker (Dryobates nuttallii, blue triangle), and Northern Pygmy-Owl (Glaucidium gnoma, yellow square). The networks represent the focal species and all of their interacting species. Each focal species is represented on all three networks with its corresponding symbol, and other interacting species are represented with white circles. Line color designates interaction type. See Data Code and Availability for network plotting code. Pictures obtained from Avicommons (Oak Titmouse: Adam Jackson | CC0 2.0; Nuttall’s Woodpecker: guyincognito | CC BY-NC 2.0; Northern Pygmy-Owl: Liam Hutcheson | CC BY-NC 2.0).
+    Example networks generated from AvianMetaNetwork, for the three focal species: Oak Titmouse (<i>Baeolophus inornatus</i>, red diamond), Nuttall’s Woodpecker (<i>Dryobates nuttallii</i>, blue triangle), and Northern Pygmy-Owl (<i>Glaucidium gnoma</i>, yellow square). The networks represent the focal species and all of their interacting species. Each focal species is represented on all three networks with its corresponding symbol, and other interacting species are represented with white circles. Line color designates interaction type. See Data Code and Availability for network plotting code. Pictures obtained from Avicommons (Oak Titmouse: Adam Jackson | CC0 2.0; Nuttall’s Woodpecker: guyincognito | CC BY-NC 2.0; Northern Pygmy-Owl: Liam Hutcheson | CC BY-NC 2.0).
 </div>
 
 <div class="caption">
-    Cover photo: A Common Raven (Corvus corax) in Arches National Park. Photo taken by me.
+    Cover photo: A Common Raven (<i>Corvus corax</i>) in Arches National Park. Photo taken by me.
 </div>
