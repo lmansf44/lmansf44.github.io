@@ -13,7 +13,6 @@ description: A look at my life as a birder.
   <section class="birding-intro">
     <div class="birding-intro-text">
       <p>
-        <!-- TODO: replace this with your own words! -->
         Birding has been a constant alongside my work in ecology — equal parts hobby, fieldwork
         habit, and excuse to be outside at dawn. Below are a few recent shots, my running photo
         gallery, and my life list, automatically illustrated with
@@ -22,9 +21,9 @@ description: A look at my life as a birder.
       </p>
     </div>
     <div class="birding-intro-photos">
-      <!-- TODO: add 2-3 photos of yourself out birding to assets/img/birding/me/ and update these paths -->
       <img src="{{ '/assets/img/birding1.jpg' | relative_url }}" />
       <img src="{{ '/assets/img/birding2.jpg' | relative_url }}" />
+      <img src="{{ '/assets/img/birding3.jpg' | relative_url }}" />
     </div>
   </section>
 
