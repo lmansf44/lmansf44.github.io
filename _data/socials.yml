@@ -5,6 +5,6 @@ email: mansfi79@msu.edu # your email address
 orcid_id: 0009-0003-9852-9948
 github_username: lmansf44
 custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
-  logo: https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/EBird-2024-logo.svg/1280px-EBird-2024-logo.svg.png # can be png, svg, jpg
+  logo: https://www.allaboutbirds.org/news/wp-content/uploads/2009/03/cl_birdonly_rgb_4502.jpg # can be png, svg, jpg
   title: eBird
   url: https://ebird.org/profile/MTIyMDAyNw/US
