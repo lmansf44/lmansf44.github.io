@@ -1,0 +1,25 @@
+# -----------------------------------------------------------------------------
+# Your own bird photos.
+# -----------------------------------------------------------------------------
+# One entry per photo. Add the image file to assets/img/birding/photos/ first,
+# then add an entry here pointing to it. No build step needed for this file —
+# Jekyll reads it directly.
+#
+# Required fields: image, species, date
+# Optional fields: location, notes
+# -----------------------------------------------------------------------------
+
+- image: /assets/img/birding/photos/sandhill-crane.jpg
+  species: "Sandhill Crane"
+  date: 2024-05-12
+  location: "Baker Sanctuary, Bellevue, MI"
+
+- image: /assets/img/birding/photos/northern-cardinal.jpg
+  species: "Northern Cardinal"
+  date: 2024-02-03
+  location: "Backyard, East Lansing, MI"
+
+- image: /assets/img/birding/photos/ruby-throated-hummingbird.jpg
+  species: "Ruby-throated Hummingbird"
+  date: 2023-07-19
+  location: "MSU Horticulture Gardens, East Lansing, MI"
