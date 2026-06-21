@@ -5,11 +5,11 @@
   - JSONResume: institution, area, studyType, startDate, endDate, location, courses, highlights
 {% endcomment %}
 
-<div class="card-text font-weight-light cv-entry-list">
+<ul class="card-text font-weight-light list-group list-group-flush">
   {% for entry in entries %}
-    <div class="cv-entry-item">
+    <li class="list-group-item">
       <div class="row">
-        <div class="col-xs-2 col-sm-2 col-md-2 text-center date-column">
+        <div class="col-xs-2 col-sm-2 col-md-2 text-center">
           {% capture start_date %}
             {% if entry.start_date %}{{ entry.start_date }}{% elsif entry.startDate %}{{ entry.startDate }}{% endif %}
           {% endcapture %}
@@ -32,7 +32,9 @@
               <tr>
                 <td>
                   {% if date %}
-                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle">{{ date }}</span>
+                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">
+                      {{ date }}
+                    </span>
                   {% endif %}
                 </td>
               </tr>
@@ -89,6 +91,6 @@
           {% endif %}
         </div>
       </div>
-    </div>
+    </li>
   {% endfor %}
-</div>
+</ul>
