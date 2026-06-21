@@ -2,7 +2,7 @@
 layout: page
 title: NEON Networks
 description: Building terrestrial networks with data from the National Ecological Observatory Network
-img: assets/img/neon_cover.jpg
+img: assets/img/project_photos/neon_cover.jpg
 importance: 2
 category: current
 ---
@@ -12,7 +12,7 @@ This project leverages data from the [National Ecological Observatory Network (N
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/neon_workflow.jpg" title="example image" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_photos/neon_workflow.jpg" title="example image" class="img-fluid rounded" %}
     </div>
 </div>
 <div class="caption">
