@@ -1,12 +1,12 @@
 ---
 layout: page
-title: submenus
+title: fun stuff!
 nav: true
 nav_order: 8
 dropdown: true
 children:
-  - title: bookshelf
-    permalink: /books/
+  - title: birding
+    permalink: /birding/
   - title: divider
   - title: blog
     permalink: /blog/
