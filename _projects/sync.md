@@ -11,14 +11,22 @@ Populations of different taxa often rise and fall together through time (a patte
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_photos/sync_fig.png" title="example image" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager"
+            path="assets/img/project_photos/sync_fig.png"
+            title="example image"
+            class="img-fluid rounded" %}
     </div>
+
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_photos/sync_concept.png" title="example image" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager"
+            path="assets/img/project_photos/sync_concept.png"
+            title="example image"
+            class="img-fluid rounded" %}
+
+        <div class="caption mt-2">
+            Conceptual illustration of temporal synchrony among interacting taxa.
+        </div>
     </div>
-</div>
-<div class="caption">
-    A figure illustrating temporal extent of mammal sampling at NEON sites.
 </div>
 
 
