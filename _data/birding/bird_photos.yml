@@ -9,47 +9,47 @@
 # Optional fields: location, notes
 # -----------------------------------------------------------------------------
 
-- image: /assets/img/birds/amgo2026.jpg
+- image: /assets/img/birds/amgo2026.JPG
   species: "American Goldfinch"
   location: "East Lansing, MI"
 
-- image: /assets/img/birds/baor2026.jpg
+- image: /assets/img/birds/baor2026.JPG
   species: "Baltimore Oriole"
   location: "Lansing, MI"
 
-- image: /assets/img/birds/ewvi2026.jpg
+- image: /assets/img/birds/ewvi2026.JPG
   species: "Eastern Warbling Vireo"
   location: "Lansing, MI"
 
-- image: /assets/img/birds/amke2026.jpg
+- image: /assets/img/birds/amke2026.JPG
   species: "American Kestrel"
   location: "Ridgefield, WA"
 
-- image: /assets/img/birds/ybfl2025.jpg
+- image: /assets/img/birds/ybfl2025.JPG
   species: "Yellow-bellied Flycatcher"
   location: "Corey Marsh, MI"
 
-- image: /assets/img/birds/whwo2025.jpg
+- image: /assets/img/birds/whwo2025.JPG
   species: "White-headed Woodpecker"
   location: "Conboy Lake, WA"
 
-- image: /assets/img/birds/noha2025.jpg
+- image: /assets/img/birds/noha2025.JPG
   species: "Northern Harrier"
   location: "Conboy Lake, WA" 
 
-- image: /assets/img/birds/ggow2025.jpg
+- image: /assets/img/birds/ggow2025.JPG
   species: "Great Gray Owl"
   location: "WA"
 
-- image: /assets/img/birds/dtki2024.jpg
+- image: /assets/img/birds/dtki2024.JPG
   species: "Double-toothed Kite"
   location: "Tiputini, EC"
 
-- image: /assets/img/birds/mbar2024.jpg
+- image: /assets/img/birds/mbar2024.JPG
   species: "Many-banded Aracari"
   location: "Tiputini, EC"
 
-- image: /assets/img/birds/weki2024.jpg
+- image: /assets/img/birds/weki2024.JPG
   species: "Western Kingbird"
   location: "Seattle, WA"
 
@@ -57,43 +57,43 @@
   species: "Dunlin"
   location: "Belingham, WA"
 
-- image: /assets/img/birds/wegu2023.jpg
+- image: /assets/img/birds/wegu2023.JPG
   species: "Western Gull"
   location: "Seattle, WA"
 
-- image: /assets/img/birds/seow2023.jpg
+- image: /assets/img/birds/seow2023.JPG
   species: "Short-eared Owl"
   location: "Ridgefield, WA"
 
-- image: /assets/img/birds/ruhu2023.jpg
+- image: /assets/img/birds/ruhu2023.JPG
   species: " Rufous Hummingbird"
   location: "Seattle, WA"
 
-- image: /assets/img/birds/ltti2023.jpg
+- image: /assets/img/birds/ltti2023.JPG
   species: "Long-tailed Tit"
   location: "London, UK"
 
-- image: /assets/img/birds/hegu2023.jpg
+- image: /assets/img/birds/hegu2023.JPG
   species: "Herring Gull"
   location: "Depoe Bay, OR"
 
-- image: /assets/img/birds/cawr2023.jpg
+- image: /assets/img/birds/cawr2023.JPG
   species: "Canyon Wren"
   location: "Zion NP, UT"
 
-- image: /assets/img/birds/cate2023.jpg
+- image: /assets/img/birds/cate2023.JPG
   species: "Caspian Tern"
   location: "Seattle, WA"
 
-- image: /assets/img/birds/bltu2023.jpg
+- image: /assets/img/birds/bltu2023.JPG
   species: "Black Turnstone"
   location: "Seattle, WA"
 
-- image: /assets/img/birds/bloy2023.jpg
+- image: /assets/img/birds/bloy2023.JPG
   species: "Black Oystercatcher"
   location: "Depoe Bay, OR"
 
-- image: /assets/img/birds/clnu2022.jpg
+- image: /assets/img/birds/clnu2022.JPG
   species: "Clark's Nutcracker"
   location: "Paulina Peak, OR"
 
@@ -101,15 +101,15 @@
   species: "Harris' Hawk"
   location: "Tucson, AZ"
 
-- image: /assets/img/birds/tuvu2022.jpg
+- image: /assets/img/birds/tuvu2022.JPG
   species: "Turkey Vulture"
   location: "Sunriver, OR"
 
-- image: /assets/img/birds/whim2022.jpg
+- image: /assets/img/birds/whim2022.JPG
   species: "Hudsonian Whimbrel"
   location: "Half Moon Bay, CA"
 
-- image: /assets/img/birds/will2022.jpg
+- image: /assets/img/birds/will2022.JPG
   species: "Willet"
   location: "Half Moon Bay, CA"
 
