@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Avian MetaNetwork
-description: Mapping networks of bird-bird species interactions
+title: avian metanetwork
+description: mapping networks of bird-bird species interactions
 img: assets/img/project_photos/amn_cover.jpg
 importance: 1
 category: current

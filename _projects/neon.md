@@ -1,7 +1,7 @@
 ---
 layout: page
-title: NEON Networks
-description: Building terrestrial networks with data from the National Ecological Observatory Network
+title: neon networks
+description: building terrestrial networks with data from the National Ecological Observatory Network
 img: assets/img/project_photos/neon_cover.jpg
 importance: 2
 category: current
