@@ -7,8 +7,24 @@ importance: 1
 category: past
 ---
 
-Green Hermits (<i>Phaethornis guy</i>) are tropical species of hummingbirds that engage in aggressive leks during the breeding season. This species is also notable for its bill sexual dimorphism, in which females have visibly curvier bills than males. Using 3D bill models generated from museum specimens using photogrammetry, we showed that male bills are significantly straighter, stronger and sharper than female bills, indicating the sexual dimorphism might benefit male green hermits who spar with their bills during intense leks.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <p>
+            Green Hermits (<i>Phaethornis guy</i>) are tropical species of hummingbirds that engage in aggressive leks during the breeding season. This species is also notable for its bill sexual dimorphism, in which females have visibly curvier bills than males. We utilized PicoCam's photogrammetry to generate 3D models from museum specimens and analyzed their morphology with both precision measurements and Finite Element Analysis (a force simulation). Through this we showed that male bills are significantly straighter, stronger and sharper than female bills, indicating the sexual dimorphism might benefit male green hermits who spar with their bills during intense leks.
+        </p>
 
+        <div class="caption mt-2">
+            <b>Right:</b> Female and Male Green Hermit (<i>Phaethornis guy</i>) to demonstrate differences in bill shape. Both images obtained from Wikimedia Commons. Female Credit: Cephas, CC BY-SA 4.0. Male Credit: Kathy & sam from Beaverton OR, USA, CC BY 2.0.
+        </div>
+
+
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager"
+            path="assets/img/project_photos/hermits.pngg"
+            title="example image"
+            class="img-fluid rounded" %}
+    </div>
+</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
