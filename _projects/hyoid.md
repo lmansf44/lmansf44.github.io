@@ -29,7 +29,7 @@ The [Tuamotu Sandpiper (<i>Prosobonia parvirostris</i>)](https://ebird.org/speci
         </div>
 
         <div class="caption mt-2">
-            <b>Right:</b> One horn of the hyoid bone from the same (<i>C. pusilla </i>) individual. These bones are extremely small and fragile for most of the shorebird species!
+            <b>Left:</b> One horn of the hyoid bone from the same (<i>C. pusilla </i>) individual. These bones are extremely small and fragile for most of the shorebird species!
         </div>
     </div>
 </div>
@@ -37,6 +37,6 @@ The [Tuamotu Sandpiper (<i>Prosobonia parvirostris</i>)](https://ebird.org/speci
 This project is part of ongoing work at the [Burke Museum of Natural History and Culture](https://www.burkemuseum.org/).
 
 <div class="caption">
-    Cover photo: A Tuamotu sandpiper (<i>Prosobonia parvirostris</i>) feeding on a. Credit: Roland van der Vliet from the following paper: <b>Howell, S.N.G. & R.E. van der Vliet</b>. 2014. Bristle-thighed Curlew and Tuamotu Sandpiper: Two endangered shore-birds from the South Pacific. <i>Dutch Birding</i> 36: 178–187. 
+    Cover photo: A Tuamotu sandpiper (<i>Prosobonia parvirostris</i>) feeding on a flower. Credit: <b>Howell, S.N.G. & R.E. van der Vliet</b>. 2014. Bristle-thighed Curlew and Tuamotu Sandpiper: Two endangered shore-birds from the South Pacific. <i>Dutch Birding</i> 36: 178–187. 
 
 </div>
