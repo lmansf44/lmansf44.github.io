@@ -38,7 +38,7 @@ PicoCam is a device at the [Burke Museum of Natural History and Culture](https:/
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <p>
-            The methods for PicoCam were develop using museum specimens from the Burke Museum alongside a lot of trial and error with light positioning, arm angles and camera settings. After a repeatable, high-quality workflow was finalized, we tested PicoCam in the field, using live Rufous Hummingbirds (<i>Selasphorus rufus </i>) caught on Shaw Island, a small member of Washington's San Juan Islands. The photo to the right  is me holding a particularly calm one of these individuals during this field work.
+            The methods for PicoCam were developed using museum specimens from the Burke Museum alongside a lot of trial and error with light positioning, arm angles and camera settings. After a repeatable, high-quality workflow was finalized, we tested PicoCam in the field, using live Rufous Hummingbirds (<i>Selasphorus rufus </i>) caught on Shaw Island, a small member of Washington's San Juan Islands. The photo to the right  is me holding a particularly calm one of these individuals during this field work.
         </p>
 
         <p>
