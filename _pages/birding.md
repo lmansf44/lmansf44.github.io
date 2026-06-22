@@ -39,7 +39,7 @@ description: A look at my life as a birder.
           <img src="{{ photo.image | relative_url }}" alt="{{ photo.species | escape }}" loading="lazy" />
           <div class="birding-overlay">
             <span class="birding-overlay-title">{{ photo.species }}</span>
-            <span class="birding-overlay-sub">{{ photo.date | date: "%b %-d, %Y" }} &middot; {{ photo.location }}</span>
+            <span class="birding-overlay-sub">{{ photo.location }}</span>
           </div>
         </a>
       {% endfor %}

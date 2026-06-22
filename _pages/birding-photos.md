@@ -15,7 +15,7 @@ description: My own bird photography.
   <div class="birding-grid">
     {% assign all_photos = site.data.birding.bird_photos | sort: "date" | reverse %}
     {% for photo in all_photos %}
-      {% assign sub_text = photo.date | date: "%B %-d, %Y" | append: " · " | append: photo.location | escape %}
+      {% assign sub_text = photo.location | escape %}
       <button
         type="button"
         class="birding-card birding-lightbox-trigger"
@@ -26,7 +26,7 @@ description: My own bird photography.
         <img src="{{ photo.image | relative_url }}" alt="{{ photo.species | escape }}" loading="lazy" />
         <div class="birding-overlay">
           <span class="birding-overlay-title">{{ photo.species }}</span>
-          <span class="birding-overlay-sub">{{ photo.date | date: "%b %-d, %Y" }} &middot; {{ photo.location }}</span>
+          <span class="birding-overlay-sub">{{ photo.location }}</span>
         </div>
       </button>
     {% endfor %}
