@@ -1,6 +1,6 @@
 ---
 layout: page
-title: green hermit sexual dimorphism
+title: green hermit dimorphism
 description: investigating the difference in bill shape between male and female Green Hermits
 img: assets/img/project_photos/pguy_cover.jpg
 importance: 1
