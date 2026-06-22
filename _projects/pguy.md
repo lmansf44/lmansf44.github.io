@@ -16,7 +16,7 @@ category: past
         <div class="caption mt-2">
             <b>Right:</b> Female and Male Green Hermit (<i>Phaethornis guy</i>) to demonstrate differences in bill shape. Both images obtained from Wikimedia Commons. Female Credit: Cephas, CC BY-SA 4.0. Male Credit: Kathy & sam from Beaverton OR, USA, CC BY 2.0.
         </div>
-
+    </div>
 
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager"
@@ -35,7 +35,7 @@ category: past
     Graphical abstract of hermit bill measurements.
 </div>
 
-*Press:*\
+*Press:*
 [Scientific American](https://www.scientificamerican.com/article/videos-show-hummingbirds-jousting-like-medieval-knights-in-rare-mating/)\
 [Smithsonian Magazine](https://www.smithsonianmag.com/smart-news/these-male-hummingbirds-evolved-straighter-sharper-bills-so-they-could-better-joust-for-mates-180987883/)\
 [UW News](https://www.washington.edu/news/2025/11/21/sharper-straighter-stiffer-stronger-male-green-hermit-hummingbirds-have-bills-evolved-for-fighting/)\
