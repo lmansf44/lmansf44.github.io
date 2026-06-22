@@ -33,7 +33,7 @@ description: A look at my life as a birder.
       <a class="birding-see-all" href="{{ '/birding/photos/' | relative_url }}">See full gallery &rarr;</a>
     </div>
     <div class="birding-scroller">
-      {% assign recent_photos = site.data.birding.bird_photos | sort: "date" | reverse %}
+      {% assign recent_photos = site.data.birding.bird_photos | reverse %}
       {% for photo in recent_photos limit: 12 %}
         <a class="birding-card" href="{{ '/birding/photos/' | relative_url }}">
           <img src="{{ photo.image | relative_url }}" alt="{{ photo.species | escape }}" loading="lazy" />

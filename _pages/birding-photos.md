@@ -13,7 +13,7 @@ description: My own bird photography.
   <h1>My Bird Photos</h1>
 
   <div class="birding-grid">
-    {% assign all_photos = site.data.birding.bird_photos | sort: "date" | reverse %}
+    {% assign all_photos = site.data.birding.bird_photos |  reverse %}
     {% for photo in all_photos %}
       {% assign sub_text = photo.location | escape %}
       <button

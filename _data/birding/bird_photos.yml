@@ -15,51 +15,41 @@
 
 - image: /assets/img/birds/mobl2021.jpg
   species: "Mountain Bluebird"
-  date: 2021
   location: "Sunriver, OR"
 
 - image: /assets/img/birds/anhu2021.jpg
   species: "Anna's Hummingbird"
-  date: 2021
   location: "Camas, WA"
 
 - image: /assets/img/birds/stja2021.jpg
   species: "Steller's Jay"
-  date: 2021
   location: "Camas, WA"
 
 - image: /assets/img/birds/sacr2020.jpg
   species: "Sandhill Crane"
-  date: 2020
   location: "Ridgefield, WA"
 
 - image: /assets/img/birds/yrwa2020.jpg
   species: "Yellow-rumped Warbler"
-  date: 2020
   location: "Camas, WA"
 
 - image: /assets/img/birds/anhu2020.jpg
   species: "Anna's Hummingbird"
-  date: 2020
   location: "Camas, WA"
 
 - image: /assets/img/birds/bcch2020.jpg
   species: "Black-capped Chickadee"
-  date: 2020
   location: "Camas, WA"
 
 - image: /assets/img/birds/ocwa2020.jpg
   species: "Orange-crowned Warbler"
-  date: 2020
   location: "Camas, WA"
 
 - image: /assets/img/birds/rwbl2020.jpg
   species: "Red-winged Blackbird"
-  date: 2020
   location: "Camas, WA"
 
 - image: /assets/img/birds/sosp2020.jpg
   species: "Song Sparrow"
-  date: 2020
   location: "Camas, WA"
 
