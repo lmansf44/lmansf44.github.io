@@ -28,23 +28,27 @@ description:
   </section>
 
   <section class="birding-gallery-section">
-    <div class="birding-section-header">
-      <h2>my bird photos</h2>
-      <a class="birding-see-all" href="{{ '/birding/photos/' | relative_url }}">see full gallery &rarr;</a>
-    </div>
-    <div class="birding-scroller">
-      {% assign recent_photos = site.data.birding.bird_photos %}
-      {% for photo in recent_photos limit: 12 %}
-        <a class="birding-card" href="{{ '/birding/photos/' | relative_url }}">
-          <img src="{{ photo.image | relative_url }}" alt="{{ photo.species | escape }}" loading="lazy" />
-          <div class="birding-overlay">
-            <span class="birding-overlay-title">{{ photo.species }}</span>
-            <span class="birding-overlay-sub">{{ photo.location }}</span>
-          </div>
-        </a>
-      {% endfor %}
-    </div>
-  </section>
+  <div class="birding-section-header">
+    <h2>my bird photos</h2>
+    <a class="birding-see-all" href="{{ '/birding/photos/' | relative_url }}">see full gallery &rarr;</a>
+  </div>
+
+  <div class="birding-scroller">
+    {% assign random_photos = site.data.birding.bird_photos | sample: 12 %}
+
+    {% for photo in random_photos %}
+      <a class="birding-card" href="{{ '/birding/photos/' | relative_url }}">
+        <img src="{{ photo.image | relative_url }}"
+             alt="{{ photo.species | escape }}"
+             loading="lazy" />
+        <div class="birding-overlay">
+          <span class="birding-overlay-title">{{ photo.species }}</span>
+          <span class="birding-overlay-sub">{{ photo.location }}</span>
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+</section>
 
   <section class="birding-gallery-section">
     <div class="birding-section-header">

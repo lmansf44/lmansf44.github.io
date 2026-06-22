@@ -9,10 +9,6 @@
 # Optional fields: location, notes
 # -----------------------------------------------------------------------------
 
-- image: /assets/img/birds/amgo2026.JPG
-  species: "American Goldfinch"
-  location: "East Lansing, MI"
-
 - image: /assets/img/birds/baor2026.JPG
   species: "Baltimore Oriole"
   location: "Lansing, MI"
@@ -92,6 +88,22 @@
 - image: /assets/img/birds/bloy2023.JPG
   species: "Black Oystercatcher"
   location: "Depoe Bay, OR"
+
+- image: /assets/img/birds/nene2022.jpg
+  species: "Nene (Hawaiian Goose)"
+  location: "Princeville, HI"
+
+- image: /assets/img/birds/wttr2022.jpg
+  species: "White-tailed Tropicbird"
+  location: "Kilauea Point NWR, HI"
+
+- image: /assets/img/birds/rttr2022.jpg
+  species: "Red-tailed Tropicbird"
+  location: "Kilauea Point NWR, HI"
+
+- image: /assets/img/birds/grfr2022.jpg
+  species: "Great Frigatebird"
+  location: "Kilauea Point NWR, HI"
 
 - image: /assets/img/birds/clnu2022.JPG
   species: "Clark's Nutcracker"
