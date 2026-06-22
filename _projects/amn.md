@@ -21,20 +21,16 @@ Species interactions are a crucial aspect of ecosystem functioning and biodivers
     Workflow diagram for the creation of the AvianMetaNetwork. Steps are shown in green boxes. Gray boxes indicate data sets (i.e., species lists, interaction data); L0 = level 0 (raw) data; L1 = level 1 (cleaned data); L2 = level 2 (summarized data in analyses).
 </div>
 
-Interaction data is pulled from species accounts (in Cornell Lab of Ornithology's [Birds of the World](https://birdsoftheworld.org/bow/home)) and primary literature, and enetered into a standardized spreadsheet. These sheets are concatenated into a single csv that contains all of the interaction data for birds in North America! This dataset can be used to create species interaction networks, such as the ones illustrated below.
 
-<div class="caption">
-    Example networks generated from AvianMetaNetwork, for the three focal species: Oak Titmouse (<i>Baeolophus inornatus</i>, red diamond), Nuttall’s Woodpecker (<i>Dryobates nuttallii</i>, blue triangle), and Northern Pygmy-Owl (<i>Glaucidium gnoma</i>, yellow square). The networks represent the focal species and all of their interacting species. Each focal species is represented on all three networks with its corresponding symbol, and other interacting species are represented with white circles. Line color designates interaction type. See Data Code and Availability for network plotting code. Pictures obtained from Avicommons (Oak Titmouse: Adam Jackson | CC0 2.0; Nuttall’s Woodpecker: guyincognito | CC BY-NC 2.0; Northern Pygmy-Owl: Liam Hutcheson | CC BY-NC 2.0).
-</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <p>
-            Interaction data is pulled from species accounts (in Cornell Lab of Ornithology's [Birds of the World](https://birdsoftheworld.org/bow/home)) and primary literature, and enetered into a standardized spreadsheet. These sheets are concatenated into a single csv that contains all of the interaction data for birds in North America! This dataset can be used to create species interaction networks, such as the ones illustrated to the right. In this example, rhe networks represent the focal species and all of their interacting species.
+            Interaction data is pulled from species accounts (in Cornell Lab of Ornithology's <a href="https://birdsoftheworld.org/bow/home" target="_blank" rel="noopener noreferrer">Birds of the World</a>) and primary literature, and enetered into a standardized spreadsheet. These sheets are concatenated into a single csv that contains all of the interaction data for birds in North America! This dataset can be used to create species interaction networks, such as the ones illustrated to the right. In this example, rhe networks represent the focal species and all of their interacting species.
         </p>
 
         <p>
-            The preprint for the North American Avian MetaNetwork can be found on [biorXiv](https://www.biorxiv.org/content/10.64898/2026.05.11.723238v1). Additionally, the dataset can be accessed on [EDI](https://portal.edirepository.org/nis/mapbrowse?packageid=edi.2278.2). The Avian MetaNetwork is currently being expanded southward into Mexico and Central America as part of an ongoing project in the SpaCE Lab.
+            The preprint for the North American Avian MetaNetwork can be found on <a href="https://www.biorxiv.org/content/10.64898/2026.05.11.723238v1" target="_blank" rel="noopener noreferrer">biorXiv</a>. Additionally, the dataset can be accessed on <a href="https://portal.edirepository.org/nis/mapbrowse?packageid=edi.2278.2" target="_blank" rel="noopener noreferrer">EDI</a>. The Avian MetaNetwork is currently being expanded southward into Mexico and Central America as part of an ongoing project in the SpaCE Lab.
         </p>
     </div>
 
@@ -43,7 +39,8 @@ Interaction data is pulled from species accounts (in Cornell Lab of Ornithology'
             path="assets/img/project_photos/amn_example.jpg"
             title="example image"
             class="img-fluid rounded" %}
-        <div class="caption>
+
+        <div class="caption mt-2">
             Pictures obtained from Avicommons (Oak Titmouse: Adam Jackson | CC0 2.0; Nuttall’s Woodpecker: guyincognito | CC BY-NC 2.0; Northern Pygmy-Owl: Liam Hutcheson | CC BY-NC 2.0).
         </div>
     </div>

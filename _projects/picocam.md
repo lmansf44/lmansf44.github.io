@@ -42,7 +42,7 @@ PicoCam is a device at the [Burke Museum of Natural History and Culture](https:/
         </p>
 
         <p>
-            Picocam's [methods paper]() is published in <i>Methods in Ecology and Evolution</i>, and has been written about by the social media team at the [Burke Museum](https://www.burkemuseum.org/news/behind-glass-hummingbird-supermodels-using-photography-create-3d-models). 
+            Picocam's <a href="https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.14409" target="_blank" rel="noopener noreferrer">methods paper</a> is published in <i>Methods in Ecology and Evolution</i>, and has been written about by the social media team at the <a href="https://www.burkemuseum.org/news/behind-glass-hummingbird-supermodels-using-photography-create-3d-models" target="_blank" rel="noopener noreferrer">Burke Museum</a>. 
             PicoCam is still visible on the second floor of the Burke Museum, alongside several larger-than-life hummingbird bill models created by 3D-printing scans generated from PicoCam
         </p>
     </div>
