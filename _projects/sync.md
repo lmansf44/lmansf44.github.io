@@ -1,7 +1,7 @@
 ---
 layout: page
-title: NEON Sync
-description: Quantifying drivers of ecological synchrony across taxa and trophic levels 
+title: neon sync
+description: quantifying drivers of ecological synchrony across taxa and trophic levels 
 img: assets/img/project_photos/sync_cover.jpg
 importance: 3
 category: current

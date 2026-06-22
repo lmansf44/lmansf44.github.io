@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "PicoCam: Photogrammetry"
-description: Modeling hummingbird bills with precision
+title: picocam
+description: Modeling hummingbird bills with photogrammetry
 img: assets/img/project_photos/picocam_cover.jpg
-importance: 3
+importance: 4
 category: past
 ---
 

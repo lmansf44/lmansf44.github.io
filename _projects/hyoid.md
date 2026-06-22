@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Tuamotu Sandpiper and Hyoid Morphology
-description: Exploring a curious case of nectarivory
+title: sandpiper hyoid morphology
+description: exploring a curious case of nectarivory
 img: assets/img/project_photos/tuamotu_cover.jpg
 importance: 3
 category: past

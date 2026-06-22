@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Rainforest Remote Sensing and Tree Emergence
-description: Imaging the rainforest with drones
+title: xprize rainforest
+description: imaging the rainforest with drones
 img: assets/img/project_photos/xprize_cover.jpg
-importance: 3
+importance: 2
 category: past
 ---
 
