@@ -2,7 +2,7 @@
 layout: page
 title: xprize rainforest
 description: imaging the rainforest with drones
-img: assets/img/project_photos/hyoid.jpg
+img: assets/img/project_photos/xprize_cover.jpg
 importance: 2
 category: past
 ---
