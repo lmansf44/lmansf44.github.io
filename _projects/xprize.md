@@ -2,7 +2,7 @@
 layout: page
 title: xprize rainforest
 description: imaging the rainforest with drones
-img: assets/img/project_photos/xprize_cover.jpg
+img: assets/img/project_photos/hyoid.jpg
 importance: 2
 category: past
 ---
@@ -12,7 +12,7 @@ In 2024, I joined (Team Welcome to the Jungle)[https://w2j.team/] as part of the
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_photos/xprize.jpg" title="example image" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_photos/xprize_forest.jpg" title="example image" class="img-fluid rounded" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/project_photos/xprize_seg.jpg" title="example image" class="img-fluid rounded" %}
@@ -24,12 +24,13 @@ In 2024, I joined (Team Welcome to the Jungle)[https://w2j.team/] as part of the
     <b>Right:</b> Multispectral imagery of the canopy at Tiputini, with individual tree crowns segmented. 
 </div>
 
+Traveling to the Amazon Rainforest for research was a dream experience for an ecologist, and I spent nearly all of my free time [birdwatching](https://ebird.org/tripreport/253055). I also [wrote a blog post ](https://mortonarb.org/science/opportunities-in-science/research-experiences-for-undergraduates-program/2024-student-blog-series/#mansfield) about the experience for my REU program's website. 
 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <p>
-            Later, we used the Tiputini dataset to develop a new metric of relative tree emergence to locate and quantify how "prominent" certain trees are in the canopy. Emergent trees (like the one to the left) have critical ecological importance, as they are easy to access for fruit-eating birds and monkeys, and can attract lightning strikes from the many storms in the tropics. Past studies have quantified emergence by using a heigh threshold, which is not comparable between sites with different canopy heights. Preprint coming soon!
+            Later, we used the Tiputini dataset to develop a new metric of relative tree emergence to locate and quantify how "prominent" certain trees are in the canopy. Emergent trees (like the one to the left) have critical ecological importance, as they are easy to access for fruit-eating birds and monkeys, and can attract lightning strikes from the many storms in the tropics. Past studies have quantified emergence by using a heigh threshold, which is not comparable between sites with different canopy heights. Our metric also showed some differences in spatial patterns between tall trees and relatively emergent trees. Preprint coming soon!
         </p>
     </div>
 
