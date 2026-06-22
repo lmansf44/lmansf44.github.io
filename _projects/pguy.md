@@ -20,7 +20,7 @@ category: past
 
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager"
-            path="assets/img/project_photos/hermits.pngg"
+            path="assets/img/project_photos/hermits.jpg"
             title="example image"
             class="img-fluid rounded" %}
     </div>
