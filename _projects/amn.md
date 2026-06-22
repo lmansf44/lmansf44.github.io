@@ -8,7 +8,7 @@ category: current
 related_publications: false
 ---
 
-Species interactions are a crucial aspect of ecosystem functioning and biodiversity, yet we lack comprehensive information on interactions at broad scales. The AvianMetaNetwork is a comprehensive database of bird-bird species interactions that attempts to fill this knowledge gap and enable research that answers macroecological and eco-evolutionary questions about species interactions. The database is built by undergraduates in the SpaCE lab through systematic literature review! Currently, the database is complete for North America (Canada, Alaska and the conterminous United States).
+Species interactions are a crucial aspect of ecosystem functioning and biodiversity, yet we lack comprehensive information on interactions for most taxa at broad scales. The AvianMetaNetwork is a comprehensive database of bird-bird species interactions that attempts to fill this knowledge gap and enable research that answers macroecological and eco-evolutionary questions about species interactions. The database is built by undergraduates in the SpaCE lab through systematic literature review! Currently, the database is complete for North America (Canada, Alaska and the conterminous United States).
 
 
 
@@ -20,6 +20,9 @@ Species interactions are a crucial aspect of ecosystem functioning and biodivers
 <div class="caption">
     Workflow diagram for the creation of the AvianMetaNetwork. Steps are shown in green boxes. Gray boxes indicate data sets (i.e., species lists, interaction data); L0 = level 0 (raw) data; L1 = level 1 (cleaned data); L2 = level 2 (summarized data in analyses).
 </div>
+
+Interaction data is pulled from species accounts (in Cornell Lab of Ornithology's [Birds of the World](https://birdsoftheworld.org/bow/home)) and primary literature, and enetered into a standardized spreadsheet. These sheets are concatenated into a single csv that contains all of the interaction data for birds in North America! This dataset can be used to create species interaction networks, such as the ones illustrated below.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/project_photos/amn_example.jpg" title="example image" class="img-fluid rounded" %}
@@ -28,6 +31,8 @@ Species interactions are a crucial aspect of ecosystem functioning and biodivers
 <div class="caption">
     Example networks generated from AvianMetaNetwork, for the three focal species: Oak Titmouse (<i>Baeolophus inornatus</i>, red diamond), Nuttall’s Woodpecker (<i>Dryobates nuttallii</i>, blue triangle), and Northern Pygmy-Owl (<i>Glaucidium gnoma</i>, yellow square). The networks represent the focal species and all of their interacting species. Each focal species is represented on all three networks with its corresponding symbol, and other interacting species are represented with white circles. Line color designates interaction type. See Data Code and Availability for network plotting code. Pictures obtained from Avicommons (Oak Titmouse: Adam Jackson | CC0 2.0; Nuttall’s Woodpecker: guyincognito | CC BY-NC 2.0; Northern Pygmy-Owl: Liam Hutcheson | CC BY-NC 2.0).
 </div>
+
+The preprint for the North American Avian MetaNetwork can be [found here](https://www.biorxiv.org/content/10.64898/2026.05.11.723238v1). Additionally, the dataset can be [found here](https://portal.edirepository.org/nis/mapbrowse?packageid=edi.2278.2). The Avian MetaNetwork is currently being expanded southward into Mexico and Central America.
 
 <div class="caption">
     Cover photo: A Common Raven (<i>Corvus corax</i>) in Arches National Park. Photo taken by me.
