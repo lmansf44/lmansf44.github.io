@@ -37,21 +37,23 @@ PicoCam is a device at the [Burke Museum of Natural History and Culture](https:/
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
+        <p>
+            The methods for PicoCam were develop using museum specimens from the Burke Museum alongside a lot of trial and error with light positioning, arm angles and camera settings. After a repeatable, high-quality workflow was finalized, we tested PicoCam in the field, using live Rufous Hummingbirds (<i>Selasphorus rufus </i>) caught on Shaw Island, a small member of Washington's San Juan Islands. The photo to the right  is me holding a particularly calm one of these individuals during this field work.
+        </p>
+
+        <p>
+            Picocam's [methods paper]() is published in <i>Methods in Ecology and Evolution</i>, and has been written about by the social media team at the [Burke Museum](https://www.burkemuseum.org/news/behind-glass-hummingbird-supermodels-using-photography-create-3d-models). 
+            PicoCam is still visible on the second floor of the Burke Museum, alongside several larger-than-life hummingbird bill models created by 3D-printing scans generated from PicoCam
+        </p>
+    </div>
+
+    <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager"
             path="assets/img/project_photos/fieldwork.jpeg"
             title="example image"
             class="img-fluid rounded" %}
     </div>
-
-    <div class="col-sm mt-3 mt-md-0">
-        <p>
-            Testing the caption ordering thing
-        </p>
-    </div>
 </div>
-
-*Press:*\
-[Burke Museum](https://www.burkemuseum.org/news/behind-glass-hummingbird-supermodels-using-photography-create-3d-models)
 
 
 <div class="caption">
