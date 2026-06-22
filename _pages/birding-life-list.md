@@ -19,20 +19,12 @@ description:
   <div class="birding-grid">
     {% assign all_lifers = site.data.birding.avicommons_resolved | sort: "date" | reverse %}
     {% for bird in all_lifers %}
-      {% assign sub_text = bird.date | date: "%B %-d, %Y" | append: " · " | append: bird.location | escape %}
-      {% assign credit_text = "" %}
-      {% if bird.matched %}
-        {% assign credit_text = "Photo: " | append: bird.by | append: " · Avicommons (" | append: bird.license | append: ")" | escape %}
+      {% if bird.code %}
+        {% assign ebird_url = "https://ebird.org/species/" | append: bird.code %}
+      {% else %}
+        {% assign ebird_url = "https://ebird.org/search?q=" | append: bird.name | url_encode %}
       {% endif %}
-      <button
-        type="button"
-        class="birding-card birding-lightbox-trigger"
-        data-full="https://static.avicommons.org/{{ bird.code }}-{{ bird.key }}-480.jpg"
-        data-title="{{ bird.name | escape }}"
-        data-sub="{{ sub_text }}"
-        {% if bird.matched %}data-credit="{{ credit_text }}"{% endif %}
-        {% if bird.license_url %}data-license-url="{{ bird.license_url }}"{% endif %}
-      >
+      <a class="birding-card" href="{{ ebird_url }}" target="_blank" rel="noopener noreferrer">
         {% if bird.matched %}
           <img
             src="https://static.avicommons.org/{{ bird.code }}-{{ bird.key }}-240.jpg"
@@ -50,10 +42,10 @@ description:
           {% if bird.matched %}
             <span class="birding-credit">Photo: {{ bird.by }} &middot; Avicommons ({{ bird.license }})</span>
           {% endif %}
+          <span class="birding-overlay-link-hint">View on eBird &rarr;</span>
         </div>
-      </button>
+      </a>
     {% endfor %}
   </div>
 </div>
-
-{% include birding/lightbox.liquid %}
+</div>
