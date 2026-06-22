@@ -24,8 +24,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I’m Lucas Mansfield, and I’m an ecologist with interests in birds, ecological communities, spatial analyses, and global change ecology.
+Hi! I’m Lucas Mansfield, and I’m a data-minded ecologist with interests in birds, ecological communities, spatial analyses, and global change ecology.
 
 I’m currently a PhD student at Michigan State University in the Department of Integrative Biology and Ecology, Evolution, and Behavior program as a part of the [Spatial and Community Ecology (SpaCE)](https://www.communityecologylab.com/) Lab.
 
 My current work focuses on species interaction networks, and understanding the drivers of ecological network change across temporal and spatial scales in North America. To do this, I am leveraging data on species interactions, species occurrences, land cover change, and climate.
+
+My dissertation work focuses on species interaction networks, a method for using mathematical graph to represent biological communities and their structure. I am leveraging these networks to understand the drivers of change in community structure across temporal and spatial scales in North America. To enable this, aspects of my research involve loacting and harmonizing species interaction data from literature, relating network structure to large datasets of land cover and climate change, and levaraging machine learning models to forecast potential future changes to communities.
