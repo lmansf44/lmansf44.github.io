@@ -9,9 +9,8 @@
 # Optional fields: location, notes
 # -----------------------------------------------------------------------------
 
-- image: /assets/img/birds/photos/grhe2021.jpg
+- image: /assets/img/birds/grhe2021.jpg
   species: "Green Heron"
-  date: 2021
   location: "Seattle, WA"
 
 - image: /assets/img/birds/mobl2021.jpg
@@ -44,7 +43,7 @@
   date: 2020
   location: "Camas, WA"
 
-- image: /assets/img/birds/bcch020.jpg
+- image: /assets/img/birds/bcch2020.jpg
   species: "Black-capped Chickadee"
   date: 2020
   location: "Camas, WA"
