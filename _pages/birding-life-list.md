@@ -3,18 +3,17 @@ layout: page
 title: my life list
 permalink: /birding/life-list/
 nav: false
-description: My birding life list, illustrated with Avicommons photos.
+description: 
 ---
 
 {% include birding/styles.liquid %}
 
 <div class="birding-page">
-  <a class="birding-back" href="{{ '/birding/' | relative_url }}">&larr; Back to Birding</a>
-  <h1>My Life List</h1>
+  <a class="birding-back" href="{{ '/birding/' | relative_url }}">&larr; back to birding</a>
+  
   <p>
     Photos are courtesy of <a href="https://avicommons.org/" target="_blank" rel="noopener noreferrer">Avicommons</a>,
-    a library of Creative Commons&ndash;licensed bird photos. Hover (or tap) a photo for when and where I first saw
-    that species; click through for photographer credit and license details.
+    a library of Creative Commons&ndash;licensed bird photos.
   </p>
 
   <div class="birding-grid">

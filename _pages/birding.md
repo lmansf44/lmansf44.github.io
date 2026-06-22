@@ -2,8 +2,9 @@
 layout: page
 title: birding
 permalink: /birding/
-nav: false
-description: A look at my life as a birder.
+nav: true
+nav_order: 7
+description: 
 ---
 
 {% include birding/styles.liquid %}
@@ -13,9 +14,7 @@ description: A look at my life as a birder.
   <section class="birding-intro">
     <div class="birding-intro-text">
       <p>
-        Birding has been a constant alongside my work in ecology — equal parts hobby, fieldwork
-        habit, and excuse to be outside at dawn. Below are a few recent shots, my running photo
-        gallery, and my life list, automatically illustrated with
+        I began birding in early 2019 after deciding to participate in the Ornithology event as a part of Science Olympiad. Since then, I have been hooked on birds, and credit the hobby for furthering my interest in the natural world and my career in science.  Below are a few recent shots, my running photo gallery, and my life list illustrated with
         <a href="https://avicommons.org/" target="_blank" rel="noopener noreferrer">Avicommons</a>
         photos.
       </p>

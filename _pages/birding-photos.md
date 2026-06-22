@@ -3,14 +3,13 @@ layout: page
 title: my bird photos
 permalink: /birding/photos/
 nav: false
-description: My own bird photography.
+description:
 ---
 
 {% include birding/styles.liquid %}
 
 <div class="birding-page">
-  <a class="birding-back" href="{{ '/birding/' | relative_url }}">&larr; Back to Birding</a>
-  <h1>My Bird Photos</h1>
+  <a class="birding-back" href="{{ '/birding/' | relative_url }}">&larr; back to birding</a>
 
   <div class="birding-grid">
     {% assign all_photos = site.data.birding.bird_photos |  reverse %}

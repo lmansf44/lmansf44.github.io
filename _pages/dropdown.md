@@ -3,7 +3,7 @@ layout: page
 title: fun stuff!
 nav: true
 nav_order: 8
-dropdown: true
+dropdown: false
 children:
   - title: birding
     permalink: /birding/
