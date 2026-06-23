@@ -125,7 +125,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    gap: 0.25rem;
+    gap: 0.1rem;
     margin: 0.3rem 0 0;
     line-height: 1.1;
     text-align: center;
@@ -139,8 +139,18 @@
     flex: 0 0 auto;
     line-height: 1;
     margin-top: 0.15rem;
-    margin-right: 0.1rem;
+    margin-right: 0.05rem;
     font-size: 0.78rem;
+  }
+
+  /* Mini table-of-contents sidebar (Tocbot) — suppress the always-on
+     scrollbar; the list itself still scrolls if it ever needs to. */
+  #toc-sidebar {
+    scrollbar-width: none;
+  }
+
+  #toc-sidebar::-webkit-scrollbar {
+    display: none;
   }
 </style>
 
@@ -297,7 +307,7 @@
                       <div class="d-flex align-items-start">
                         {% if entry.icon %}
                           <i
-                            class="fa-solid {{ entry.icon }} fa-fw flex-shrink-0 mt-1 me-1"
+                            class="fa-solid {{ entry.icon }} fa-fw flex-shrink-0 mt-1 me-2"
                             style="width: 1rem; text-align: center;"
                             aria-hidden="true"
                           ></i>
@@ -335,7 +345,7 @@
                       <div class="d-flex align-items-start">
                         {% if entry.icon %}
                           <i
-                            class="fa-solid {{ entry.icon }} fa-fw flex-shrink-0 mt-1 me-1"
+                            class="fa-solid {{ entry.icon }} fa-fw flex-shrink-0 mt-1 me-2"
                             style="width: 1rem; text-align: center;"
                             aria-hidden="true"
                           ></i>
