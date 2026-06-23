@@ -24,7 +24,7 @@ In 2024, I joined (Team Welcome to the Jungle)[https://w2j.team/] as part of the
     <b>Right:</b> Multispectral imagery of the canopy at Tiputini, with individual tree crowns segmented. 
 </div>
 
-Traveling to the Amazon Rainforest for research was a dream experience for an ecologist, and I spent nearly all of my free time [birdwatching](https://ebird.org/tripreport/253055). I also [wrote a blog post ](https://mortonarb.org/science/opportunities-in-science/research-experiences-for-undergraduates-program/2024-student-blog-series/#mansfield) about the experience for my REU program's website. 
+Traveling to the Amazon Rainforest for research was a dream experience for an ecologist, and I spent nearly all of my free time [birdwatching](https://ebird.org/tripreport/253055)! I also [wrote a blog post ](https://mortonarb.org/science/opportunities-in-science/research-experiences-for-undergraduates-program/2024-student-blog-series/#mansfield) about the experience for my REU program's website. 
 
 
 <div class="row">

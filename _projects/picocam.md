@@ -17,7 +17,7 @@ PicoCam is a device at the [Burke Museum of Natural History and Culture](https:/
             class="img-fluid rounded" %}
 
         <div class="caption mt-2">
-            <b>Above:</b> A graphical overview of PicoCam operation. (1) PicoCam is assembled from six cameras around a rotating platform that holds a hummingbird. (2) Each camera simultaneously photographs the hummingbird from different angles while the platform is rotated. (3) The RAW photos are adjusted and exported as TIFS. (4) The photos are aligned using digital photogrammetry software, creating a 3D mesh (A), and analysed (B) using 3D modelling software.
+            <b>Above:</b> A graphical overview of PicoCam operation. (1) PicoCam is assembled from six cameras around a rotating platform that holds a hummingbird. (2) Each camera simultaneously photographs the hummingbird from different angles while the platform is rotated. (3) The RAW photos are adjusted and exported as TIFs. (4) The photos are aligned using digital photogrammetry software, creating a 3D mesh (A), and analysed (B) using 3D modelling software.
         </div>
 
         <div class="caption mt-2">
@@ -36,7 +36,7 @@ PicoCam is a device at the [Burke Museum of Natural History and Culture](https:/
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <p>
-            The methods for PicoCam were developed using museum specimens from the Burke Museum alongside a lot of trial and error with light positioning, arm angles and camera settings. After a repeatable, high-quality workflow was finalized, we tested PicoCam in the field, using live Rufous Hummingbirds (<i>Selasphorus rufus </i>) caught on Shaw Island, a small member of Washington's San Juan Islands. The photo to the right  is me holding a particularly calm one of these individuals during this field work.
+            The methods for PicoCam were developed using museum specimens from the Burke and repeated trial and error with light positioning, arm angles and camera settings. After a repeatable, high-quality workflow was finalized, we tested PicoCam in the field, using live Rufous Hummingbirds (<i>Selasphorus rufus </i>) caught on Shaw Island, a small member of Washington's San Juan Islands. The photo to the right  is me holding a particularly calm one of these individuals during the field work.
         </p>
 
         <p>

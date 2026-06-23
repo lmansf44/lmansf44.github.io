@@ -7,7 +7,7 @@ importance: 3
 category: past
 ---
 
-The [Tuamotu Sandpiper (<i>Prosobonia parvirostris</i>)](https://ebird.org/species/tuasan1) is a unique species of shorebird native to the Tuamotu Archipelago of French Polynesia. It has been observed to feed on nectar, a behavior that is exceedingly rare for shorebirds. This provides a rare opportunity to explore the recent adaptation of nectarivory within a clade and explore the morphological precursors that are necessary to develop nectarivory from similar feeding strategies, like biofilm feeding. To investigate this, we took morphological measurements of the hyoid, bill and skull from species across the Scolopacidae (sandpiper) family, and compared these with dietary categorizations.
+The [Tuamotu Sandpiper (<i>Prosobonia parvirostris</i>)](https://ebird.org/species/tuasan1) is a unique species of shorebird native to the Tuamotu Archipelago of French Polynesia. It has been observed to feed on nectar, a behavior that is exceedingly rare for shorebirds. This provides a rare opportunity to explore the recent adaptation of nectar feeding within a clade and explore the morphological precursors that are necessary to develop nectarivory from similar feeding strategies, like biofilm feeding. To investigate this, we took morphological measurements of the hyoid, bill and skull from species across the Scolopacidae (sandpiper) family, and compared these with dietary categorizations.
 
 
 <div class="row">
