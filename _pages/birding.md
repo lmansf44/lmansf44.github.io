@@ -33,22 +33,63 @@ description:
     <a class="birding-see-all" href="{{ '/birding/photos/' | relative_url }}">see full gallery &rarr;</a>
   </div>
 
-  <div class="birding-scroller">
-    {% assign random_photos = site.data.birding.bird_photos | sample: 12 %}
-
-    {% for photo in random_photos %}
-      <a class="birding-card" href="{{ '/birding/photos/' | relative_url }}">
-        <img src="{{ photo.image | relative_url }}"
-             alt="{{ photo.species | escape }}"
-             loading="lazy" />
-        <div class="birding-overlay">
-          <span class="birding-overlay-title">{{ photo.species }}</span>
-          <span class="birding-overlay-sub">{{ photo.location }}</span>
-        </div>
-      </a>
-    {% endfor %}
+  <div class="birding-scroller" id="birding-photo-scroller">
+    <!-- populated client-side below so the selection changes on every page load -->
   </div>
 </section>
+
+<script type="application/json" id="birding-photo-data">
+[
+  {% for photo in site.data.birding.bird_photos %}
+  {
+    "image": {{ photo.image | relative_url | jsonify }},
+    "species": {{ photo.species | jsonify }},
+    "location": {{ photo.location | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
+</script>
+
+<script>
+  (function () {
+    var dataEl = document.getElementById('birding-photo-data');
+    var scroller = document.getElementById('birding-photo-scroller');
+    if (!dataEl || !scroller) return;
+
+    var photos = JSON.parse(dataEl.textContent);
+    var galleryUrl = {{ '/birding/photos/' | relative_url | jsonify }};
+
+    // Fisher-Yates shuffle
+    for (var i = photos.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var tmp = photos[i];
+      photos[i] = photos[j];
+      photos[j] = tmp;
+    }
+
+    var chosen = photos.slice(0, 12);
+
+    scroller.innerHTML = chosen.map(function (photo) {
+      var species = escapeHtml(photo.species);
+      var location = escapeHtml(photo.location);
+      return (
+        '<a class="birding-card" href="' + galleryUrl + '">' +
+          '<img src="' + photo.image + '" alt="' + species + '" loading="lazy" />' +
+          '<div class="birding-overlay">' +
+            '<span class="birding-overlay-title">' + species + '</span>' +
+            '<span class="birding-overlay-sub">' + location + '</span>' +
+          '</div>' +
+        '</a>'
+      );
+    }).join('');
+
+    function escapeHtml(str) {
+      var div = document.createElement('div');
+      div.textContent = str == null ? '' : str;
+      return div.innerHTML;
+    }
+  })();
+</script>
 
   <section class="birding-gallery-section">
     <div class="birding-section-header">
