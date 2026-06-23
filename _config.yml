@@ -3,9 +3,9 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Lucas
+first_name: lucas
 middle_name: 
-last_name: Mansfield
+last_name: mansfield
 contact_note: >
   Please feel free to email me at any time!!
 footer_text: >
@@ -119,8 +119,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: my blog # blog_name will be displayed in your blog page
+blog_description: ramblings about science, birds, sports, travel and other things
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
