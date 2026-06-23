@@ -24,13 +24,13 @@ category: past
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager"
             path="assets/img/project_photos/hermits.jpg"
-            class="img-fluid rounded" %}
+            class="img-fluid rounded" zoomable=true%}
     </div>
 </div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_photos/pguy_fig.png" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_photos/pguy_fig.png" class="img-fluid rounded" zoomable=true%}
     </div>
 </div>
 <div class="caption">

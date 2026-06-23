@@ -14,13 +14,13 @@ The [Tuamotu Sandpiper (<i>Prosobonia parvirostris</i>)](https://ebird.org/speci
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager"
             path="assets/img/project_photos/hyoid.jpg"
-            class="img-fluid rounded" %}
+            class="img-fluid rounded" zoomable=true%}
     </div>
 
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager"
             path="assets/img/project_photos/skull.jpg"
-            class="img-fluid rounded" %}
+            class="img-fluid rounded" zoomable=true%}
 
         <div class="caption mt-2">
             <b>Above:</b> The skull of a Semipalmated Sandpiper (<i>Calidris pusilla </i>) being imaged as part of the project. 

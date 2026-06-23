@@ -14,7 +14,7 @@ PicoCam is a device at the [Burke Museum of Natural History and Culture](https:/
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager"
             path="assets/img/project_photos/picocam_concept.jpg"
-            class="img-fluid rounded" %}
+            class="img-fluid rounded" zoomable=true%}
 
         <div class="caption mt-2">
             <b>Above:</b> A graphical overview of PicoCam operation. (1) PicoCam is assembled from six cameras around a rotating platform that holds a hummingbird. (2) Each camera simultaneously photographs the hummingbird from different angles while the platform is rotated. (3) The RAW photos are adjusted and exported as TIFs. (4) The photos are aligned using digital photogrammetry software, creating a 3D mesh (A), and analysed (B) using 3D modelling software.
@@ -28,7 +28,7 @@ PicoCam is a device at the [Burke Museum of Natural History and Culture](https:/
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager"
             path="assets/img/project_photos/picocam_fig.jpg"
-            class="img-fluid rounded" %}
+            class="img-fluid rounded" zoomable=true%}
     </div>
 </div>
 
@@ -46,13 +46,13 @@ PicoCam is a device at the [Burke Museum of Natural History and Culture](https:/
 
         {% include figure.liquid loading="eager"
             path="assets/img/project_photos/bills.png"
-            class="img-fluid rounded" %}
+            class="img-fluid rounded" zoomable=true%}
     </div>
 
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager"
             path="assets/img/project_photos/fieldwork.jpeg"
-            class="img-fluid rounded" %}
+            class="img-fluid rounded" zoomable=true%}
     </div>
 </div>
 

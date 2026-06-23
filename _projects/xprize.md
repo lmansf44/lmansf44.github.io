@@ -12,10 +12,10 @@ In 2024, I joined (Team Welcome to the Jungle)[https://w2j.team/] as part of the
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_photos/xprize_forest.jpg" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_photos/xprize_forest.jpg" class="img-fluid rounded" zoomable=true%}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_photos/xprize_seg.jpg" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_photos/xprize_seg.jpg" class="img-fluid rounded" zoomable=true%}
     </div>
 </div>
 <div class="caption">
@@ -37,7 +37,7 @@ Traveling to the Amazon Rainforest for research was a dream experience for an ec
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager"
             path="assets/img/project_photos/emergent.jpeg"
-            class="img-fluid rounded" %}
+            class="img-fluid rounded" zoomable=true%}
 
         <div class="caption mt-2">
             An emergent Brazil Nut (<i>Bertholletia excelsa</i>) tree. Credit: Camino Verde.

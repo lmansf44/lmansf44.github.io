@@ -13,7 +13,7 @@ Populations of different taxa often rise and fall together through time (a patte
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager"
             path="assets/img/project_photos/sync_concept.png"
-            class="img-fluid rounded" %}
+            class="img-fluid rounded" zoomable=true%}
 
         <div class="caption mt-2">
             <b>Above:</b> A conceptual illustration of temporal synchrony, which is the degree to which different taxa or populations co-vary over time. (a) Three types of synchrony: Synchrony, Anti-Synchrony and Asynchrony. (b) Example of modulators of synchrony such as disturbance and seasonality.
@@ -27,7 +27,7 @@ Populations of different taxa often rise and fall together through time (a patte
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager"
             path="assets/img/project_photos/sync_fig.png"
-            class="img-fluid rounded" %}
+            class="img-fluid rounded" zoomable=true%}
     </div>
 </div>
 

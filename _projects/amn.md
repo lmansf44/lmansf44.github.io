@@ -14,7 +14,7 @@ Species interactions are a crucial aspect of ecosystem functioning and biodivers
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_photos/amn_workflow.jpg" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_photos/amn_workflow.jpg" class="img-fluid rounded" zoomable=true%}
     </div>
 </div>
 <div class="caption">
@@ -37,7 +37,7 @@ Species interactions are a crucial aspect of ecosystem functioning and biodivers
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager"
             path="assets/img/project_photos/amn_example.jpg"
-            class="img-fluid rounded" %}
+            class="img-fluid rounded" zoomable=true%}
 
         <div class="caption mt-2">
             Pictures obtained from Avicommons (Oak Titmouse: Adam Jackson | CC0 2.0; Nuttall’s Woodpecker: guyincognito | CC BY-NC 2.0; Northern Pygmy-Owl: Liam Hutcheson | CC BY-NC 2.0).
