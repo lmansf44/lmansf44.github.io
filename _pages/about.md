@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi, I’m Lucas Mansfield! I’m a data-minded ecologist with interests in birds, ecological communities, spatial analyses, and global change ecology.
+Hi, I’m Lucas! I’m a data-minded ecologist with interests in birds, ecological communities, spatial analyses, and global change ecology.
 
 I’m currently a PhD student at Michigan State University in the Department of Integrative Biology and Ecology, Evolution, and Behavior program as a part of the [Spatial and Community Ecology (SpaCE)](https://www.communityecologylab.com/) Lab.
 
