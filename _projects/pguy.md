@@ -34,14 +34,12 @@ category: past
     </div>
 </div>
 <div class="caption">
-    Graphical abstract of hermit bill measurements.
+    Graphical abstract of hermit bill measurements. (A) 3D photogrammetry model with landmarks used to quantify bill shape and selected area to quantify surface area. Close-up of the bill-tip (right) showing the outer maxillary areas used to calculate the sharpness ratio. (B) P. guy hypothetical stabbing behavior based on P. longirostris fight. (C) Boundary conditions for finite element analyses simulating stabbing behavior using 3D CT models. Loads were applied at two different angles from the bill-tip.
 </div>
 
-*Press:*
-[Scientific American](https://www.scientificamerican.com/article/videos-show-hummingbirds-jousting-like-medieval-knights-in-rare-mating/)\
-[Smithsonian Magazine](https://www.smithsonianmag.com/smart-news/these-male-hummingbirds-evolved-straighter-sharper-bills-so-they-could-better-joust-for-mates-180987883/)\
-[UW News](https://www.washington.edu/news/2025/11/21/sharper-straighter-stiffer-stronger-male-green-hermit-hummingbirds-have-bills-evolved-for-fighting/)\
-[Inside JEB](https://journals.biologists.com/jeb/article/228/21/jeb251783/369729/Sharper-straighter-bills-give-male-green-hermits)
+This project was published in [Journal of Experimental Biology](https://journals.biologists.com/jeb/article/228/21/jeb250769/369723/Sharper-straighter-stiffer-stronger-sexually) and had a lot of press! There was a great [Inside JEB article](https://journals.biologists.com/jeb/article/228/21/jeb251783/369729/Sharper-straighter-bills-give-male-green-hermits) written about the paper in the same issue, and we were interviewed for a piece in [UW News](https://www.washington.edu/news/2025/11/21/sharper-straighter-stiffer-stronger-male-green-hermit-hummingbirds-have-bills-evolved-for-fighting/)! There were also articles in [Scientific American](https://www.scientificamerican.com/article/videos-show-hummingbirds-jousting-like-medieval-knights-in-rare-mating/) and [Smithsonian Magazine](https://www.smithsonianmag.com/smart-news).
+
+I also was invited to do a guest Q&A about the paper for a class at the University of Cincinnati: BIOL 3041, Biology of Sex!
 
 <div class="caption">
     Cover photo: A female Green Hermit (<i>Phaethornis guy</i>). Credit: Jan Lenaert

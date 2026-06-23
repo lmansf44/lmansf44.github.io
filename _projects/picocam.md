@@ -14,7 +14,6 @@ PicoCam is a device at the [Burke Museum of Natural History and Culture](https:/
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager"
             path="assets/img/project_photos/picocam_concept.jpg"
-            title="example image"
             class="img-fluid rounded" %}
 
         <div class="caption mt-2">
@@ -29,7 +28,6 @@ PicoCam is a device at the [Burke Museum of Natural History and Culture](https:/
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager"
             path="assets/img/project_photos/picocam_fig.jpg"
-            title="example image"
             class="img-fluid rounded" %}
     </div>
 </div>
@@ -48,14 +46,12 @@ PicoCam is a device at the [Burke Museum of Natural History and Culture](https:/
 
         {% include figure.liquid loading="eager"
             path="assets/img/project_photos/bills.png"
-            title="example image"
             class="img-fluid rounded" %}
     </div>
 
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager"
             path="assets/img/project_photos/fieldwork.jpeg"
-            title="example image"
             class="img-fluid rounded" %}
     </div>
 </div>

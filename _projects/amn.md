@@ -14,7 +14,7 @@ Species interactions are a crucial aspect of ecosystem functioning and biodivers
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/project_photos/amn_workflow.jpg" title="example image" class="img-fluid rounded" %}
+        {% include figure.liquid loading="eager" path="assets/img/project_photos/amn_workflow.jpg" class="img-fluid rounded" %}
     </div>
 </div>
 <div class="caption">
@@ -37,7 +37,6 @@ Species interactions are a crucial aspect of ecosystem functioning and biodivers
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager"
             path="assets/img/project_photos/amn_example.jpg"
-            title="example image"
             class="img-fluid rounded" %}
 
         <div class="caption mt-2">
