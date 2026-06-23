@@ -7,7 +7,7 @@ importance: 2
 category: current
 ---
 
-This project leverages data from the [National Ecological Observatory Network (NEON)](https://www.neonscience.org/) to study the impacts of anthropogenic disturbance and climate change on ecological communities across the United States. Terrestrial NEON sites contain annually sampled data on breeding birds, ground beetles, plants and small mammals. This taxa information is supplemented with interaction data from sources such as the **AvianMetaNetwork** and [Global Biotic Interactions (GloBI)](https://www.globalbioticinteractions.org/) to build species interaction networks. Using rasters of land cover change and climate, I am exploring the factors that cause interaction network strucutre change across space and time.
+This project leverages data from the [National Ecological Observatory Network (NEON)](https://www.neonscience.org/) to study the impacts of anthropogenic disturbance and climate change on ecological communities across the United States. Terrestrial NEON sites contain annually sampled data on breeding birds, ground beetles, plants and small mammals. This taxa information is supplemented with interaction data from sources such as the **Avian MetaNetwork** and [Global Biotic Interactions (GloBI)](https://www.globalbioticinteractions.org/) to build species interaction networks. Using rasters of land cover change and climate, I am exploring the factors that cause change in interaction networks structure across space and time.
 
 
 <div class="row">
@@ -27,7 +27,7 @@ I plan to link the species interaction networks at terrestrial NEON sites with i
     </div>
 </div>
 <div class="caption">
-    Preliminary results for eight NEON study sites represent forested sites across four different domains. Each site is represented by a 15km circle with 2024 NLCD land cover, and a terrestrial species interaction network generated using taxa observed in 2023/24. Network metrics are calculated for each site based on their 2023/2024 structure. This figure was originally featured in a poster presented at the 2026 MSU EEB Symposium. 
+    Preliminary results for eight forested NEON study sites. Each site is represented by a 15km circle with 2024 NLCD land cover, and a terrestrial species interaction network generated using taxa observed in 2023/24. Network metrics are calculated for each site based on their 2023/2024 structure. This figure was originally featured in a poster presented at the 2026 MSU EEB Symposium. 
 </div>
 
 <div class="caption">

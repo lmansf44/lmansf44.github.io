@@ -8,7 +8,7 @@ category: current
 related_publications: false
 ---
 
-Species interactions are a crucial aspect of ecosystem functioning and biodiversity, yet we lack complete information on interactions for most taxa at broad scales. The AvianMetaNetwork is a comprehensive database of bird-bird species interactions that attempts to fill this knowledge gap and enable research that answers macroecological and eco-evolutionary questions about avian species interactions. The database is built by undergraduates in the SpaCE lab through systematic literature review! Currently, the database is complete for North America (Canada, Alaska and the conterminous United States).
+Species interactions are a crucial aspect of ecosystem functioning and biodiversity, yet we lack complete information on interactions for most taxa at broad scales. The Avian MetaNetwork is a comprehensive database of bird-bird species interactions that attempts to fill this knowledge gap and enable research that answers macroecological and eco-evolutionary questions. The database is built by undergraduates in the SpaCE lab through systematic literature review! Currently, the database is complete for North America (Canada, Alaska and the conterminous United States).
 
 
 
@@ -18,7 +18,7 @@ Species interactions are a crucial aspect of ecosystem functioning and biodivers
     </div>
 </div>
 <div class="caption">
-    Workflow diagram for the creation of the AvianMetaNetwork. Steps are shown in green boxes. Gray boxes indicate data sets (i.e., species lists, interaction data); L0 = level 0 (raw) data; L1 = level 1 (cleaned data); L2 = level 2 (summarized data in analyses).
+    Workflow diagram for the creation of the Avian MetaNetwork. Steps are shown in green boxes. Gray boxes indicate data sets (i.e., species lists, interaction data); L0 = level 0 (raw) data; L1 = level 1 (cleaned data); L2 = level 2 (summarized data in analyses).
 </div>
 
 
@@ -26,7 +26,7 @@ Species interactions are a crucial aspect of ecosystem functioning and biodivers
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <p>
-            Interaction data is pulled from species accounts (in Cornell Lab of Ornithology's <a href="https://birdsoftheworld.org/bow/home" target="_blank" rel="noopener noreferrer">Birds of the World</a>) and primary literature, and enetered into a standardized spreadsheet. These sheets are concatenated into a single csv that contains all of the interaction data for birds in North America! This dataset can be used to create species interaction networks, such as the ones illustrated to the right. In this example, the networks represent the focal species and all of their interacting species.
+            Interaction data is pulled from species accounts (in Cornell Lab of Ornithology's <a href="https://birdsoftheworld.org/bow/home" target="_blank" rel="noopener noreferrer">Birds of the World</a>) and primary literature, and enetered into a standardized spreadsheet. These sheets are concatenated into a single table that contains all of the interaction data for birds in North America! This dataset can be used to create species interaction networks, such as the ones illustrated to the right. In this example, the networks represent the focal species and all of their interacting species.
         </p>
 
         <p>

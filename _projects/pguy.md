@@ -10,7 +10,7 @@ category: past
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <p>
-            Green Hermits (<i>Phaethornis guy</i>) are tropical species of hummingbirds that engage in aggressive leks during the breeding season. This species is also notable for its bill sexual dimorphism, in which females have visibly curvier bills than males. Prior studies discovered a sharp, daggerlike structure on the male bill tip which could represent an example of weaponry in birds. We wanted to explore whether or not the different bill shape in males could provide structure during combat, which would further support the potential weapon.
+            The Green Hermit (<i>Phaethornis guy</i>) is a tropical species of hummingbird that engages in aggressive leks during the breeding season. This species is also notable for its bill sexual dimorphism, in which females have visibly curvier bills than males. Prior studies discovered a sharp, daggerlike structure on the male bill tip which could represent an example of weaponry in birds. We wanted to explore whether or not the different bill shape in males could provide structural advantages during combat, which would provide further support the potential weapon.
         </p>  
         <p> 
             We utilized PicoCam's photogrammetry to generate 3D models from museum specimens and analyzed their morphology with both precision measurements and Finite Element Analysis (a mechanical force simulation). Through this we showed that male bills are significantly straighter, stronger and sharper than female bills, indicating the sexual dimorphism might benefit male green hermits who spar with their bills during intense leks.

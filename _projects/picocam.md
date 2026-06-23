@@ -7,7 +7,7 @@ importance: 4
 category: past
 ---
 
-PicoCam is a device at the [Burke Museum of Natural History and Culture](https://www.burkemuseum.org/) that uses photogrammetry to build 3D models of bird bills from a series of 2D photos. This method allows biologists to get complex morphological measurements (such as sharpness or curvature) with a high degree of accuracy from living organisms in the field. PicoCam has aided several morphological studies at the Burke (see the Green Hermit Project) and is currently being used to build a library of bird bill models.
+PicoCam is a device at the [Burke Museum of Natural History and Culture](https://www.burkemuseum.org/) that uses photogrammetry to build 3D models of bird bills from a series of 2D photos. This method allows biologists to get complex morphological measurements (such as sharpness or curvature) from living organisms in the field with a high degree of accuracy. PicoCam has aided several morphological studies at the Burke (see the Green Hermit Project) and is currently being used to build a library of bird bill models.
 
 
 <div class="row">
@@ -36,7 +36,7 @@ PicoCam is a device at the [Burke Museum of Natural History and Culture](https:/
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <p>
-            The methods for PicoCam were developed using museum specimens from the Burke and repeated trial and error with light positioning, arm angles and camera settings. After a repeatable, high-quality workflow was finalized, we tested PicoCam in the field, using live Rufous Hummingbirds (<i>Selasphorus rufus </i>) caught on Shaw Island, a small member of Washington's San Juan Islands. The photo to the right  is me holding a particularly calm one of these individuals during the field work.
+            The methods for PicoCam were developed using museum specimens from the Burke and repeated trial and error with light positioning, arm angles and camera settings. After a repeatable, high-quality workflow was finalized, we tested PicoCam in the field, using live Rufous Hummingbirds (<i>Selasphorus rufus </i>) caught on Shaw Island, a small member of Washington's San Juan Islands. The photo to the right  is me holding a particularly calm one of these birds during the field work.
         </p>
 
         <p>
