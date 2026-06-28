@@ -14,8 +14,7 @@ description:
   <section class="birding-intro">
     <div class="birding-intro-text">
       <p>
-        I began birding in early 2019 after deciding to participate in the Ornithology event as a part of Science Olympiad. Since then, I have been hooked on birds, and credit the hobby for furthering my interest in the natural world and my career in science. As an ecologist and citizen science advocate, I am excited with how much the hobby is growing! You can check out my <a href="https://ebird.org/profile/MTIyMDAyNw/US" target="_blank" rel="noopener noreferrer">eBird profile here</a>
-        ! Below are a few recent shots, my running photo gallery, and my life list illustrated with
+        I began birding in early 2019 after deciding to participate in the Ornithology event as a part of Science Olympiad. Since then, I have been hooked on birds, and credit the hobby for furthering my interest in the natural world and my career in science. As an ecologist and citizen science advocate, I am excited with how much the hobby is growing! You can check out my <a href="https://ebird.org/profile/MTIyMDAyNw/US" target="_blank" rel="noopener noreferrer">eBird profile here</a>! Below are a few recent shots, my running photo gallery, and my life list illustrated with
         <a href="https://avicommons.org/" target="_blank" rel="noopener noreferrer">Avicommons</a>
         photos. 
       </p>
