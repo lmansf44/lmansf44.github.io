@@ -20,6 +20,14 @@
 # chronologically (#1 = the first bird you ever ID'd) automatically.
 # -----------------------------------------------------------------------------
 
+- species: "Henslow's Sparrow"
+  date: 2026-07-04
+  location: "Michigan"
+
+- species: "Dickcissel"
+  date: 2026-07-04
+  location: "Michigan"
+
 - species: "Black Tern"
   date: 2026-06-06
   location: "Michigan"

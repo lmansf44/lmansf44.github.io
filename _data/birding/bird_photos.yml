@@ -9,6 +9,10 @@
 # Optional fields: location, notes
 # -----------------------------------------------------------------------------
 
+- image: /assets/img/birds/dic2026.JPG
+  species: "Dickcissel"
+  location: "Grand Rapids, MI"
+
 - image: /assets/img/birds/baor2026.JPG
   species: "Baltimore Oriole"
   location: "Lansing, MI"
