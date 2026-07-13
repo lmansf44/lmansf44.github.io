@@ -20,6 +20,18 @@
 # chronologically (#1 = the first bird you ever ID'd) automatically.
 # -----------------------------------------------------------------------------
 
+- species: "Piping Plover"
+  date: 2026-07-12
+  location: "Michigan"
+
+- species: "Winter Wren"
+  date: 2026-07-12
+  location: "Michigan"
+
+- species: "Pine Warbler"
+  date: 2026-07-12
+  location: "Michigan"
+
 - species: "Henslow's Sparrow"
   date: 2026-07-04
   location: "Michigan"
