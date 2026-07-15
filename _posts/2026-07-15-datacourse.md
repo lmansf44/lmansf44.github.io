@@ -8,4 +8,4 @@ categories:
 thumbnail: 
 ---
 
-<embed type="text/html" src="/assets/html/cu_map.html" height="650" width="850">
+<embed type="text/html" src="/assets/html/cu_map.html" height="300" width="450">
