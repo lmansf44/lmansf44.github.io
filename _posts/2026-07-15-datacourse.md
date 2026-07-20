@@ -10,4 +10,6 @@ thumbnail:
 
 <embed type="text/html" src="/assets/html/cu_map.html" height="350" width="450">
 
-<embed type="text/html" src="/assets/html/boulder_plot.html" height="350" width="600">
+<embed type="text/html" src="/assets/html/boulder_plot.html" height="350" width="700">
+
+<embed type="text/html" src="/assets/html/portland_plot.html" height="350" width="700">
