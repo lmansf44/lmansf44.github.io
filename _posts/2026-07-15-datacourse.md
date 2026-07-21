@@ -21,8 +21,8 @@ I then used what I learned to create a map of my hometown, colored with the shad
 
 Next, we used [NOAA NCEI](https://www.ncei.noaa.gov/) data to create interactive time series of annual mean temperatures from a weather station near Boulder, CO.
 
-<embed type="text/html" src="/assets/html/boulder_plot.html" height="300" width="715">
+<embed type="text/html" src="/assets/html/boulder_plot.html" height="325" width="725">
 
 I then repeated this for a weather station near the Bull Run Reservoir in Portland, OR.
 
-<embed type="text/html" src="/assets/html/portland_plot.html" height="300" width="715">
+<embed type="text/html" src="/assets/html/portland_plot.html" height="325" width="725">
