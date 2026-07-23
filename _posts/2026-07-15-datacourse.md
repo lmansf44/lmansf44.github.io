@@ -39,7 +39,7 @@ I then repeated this for Clark County, WA, where I grew up. I was curious if the
 
 <embed type="text/html" src="/assets/html/clark_plot.html" height="390" width="450">
 
-See that purple patch on the lower right side of the map? If we look at a map of the fire, provided by Seattle Times, we can see that it lines up with the location of the fire, showing it had an impact on the NDVI observations from space!
+See that pinkish patch on the lower right side of the map? If we look at a map of the fire, provided by Seattle Times, we can see that it lines up with the location of the fire, showing it had an impact on the NDVI observations from space!
 
 <img src="/assets/img/blog/data_course/nakia.jpg" alt="ESIIL logo" width="450">
 
