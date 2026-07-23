@@ -26,3 +26,11 @@ Next, we used [NOAA NCEI](https://www.ncei.noaa.gov/) data to create interactive
 I then repeated this for a weather station near the Bull Run Reservoir in Portland, OR.
 
 <embed type="text/html" src="/assets/html/portland_plot.html" height="325" width="725">
+
+Finally, we learned how to use NDVI data to perform basic vegetation analyses! Here is a plot of the NDVI change in the Tubarjal Valley of the Al Jawf region of Saudi Arabia.
+
+<embed type="text/html" src="/assets/html/tubarjal_plot.html" height="325" width="725">
+
+And here is a time series of the vegetative pixels in the same region!
+
+<embed type="text/html" src="/assets/html/tubarjal_time_series.html" height="325" width="725">
