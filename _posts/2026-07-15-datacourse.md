@@ -29,7 +29,7 @@ I then repeated this for a weather station near the Bull Run Reservoir in Portla
 
 Finally, we learned how to use NDVI data to perform basic vegetation analyses! Here is a plot of the NDVI change in the Tubarjal Valley of the Al Jawf region of Saudi Arabia.
 
-<embed type="text/html" src="/assets/html/tubarjal_plot.html" height="400" width="7000">
+<embed type="text/html" src="/assets/html/tubarjal_plot.html" height="400" width="700">
 
 And here is a time series of the vegetative pixels in the same region!
 
