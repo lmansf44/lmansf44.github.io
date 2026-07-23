@@ -29,7 +29,7 @@ I then repeated this for a weather station near the Bull Run Reservoir in Portla
 
 Finally, we learned how to use NDVI data to perform basic vegetation analyses! Here is a plot of the NDVI change in the Tubarjal Valley of the Al Jawf region of Saudi Arabia.
 
-<embed type="text/html" src="/assets/html/tubarjal_plot.html" height="390" width="450">
+<embed type="text/html" src="/assets/html/tubarjal_plot.html" height="400" width="7000">
 
 And here is a time series of the vegetative pixels in the same region!
 
@@ -39,7 +39,7 @@ I then repeated this for Clark County, WA, where I grew up. I was curious if the
 
 <embed type="text/html" src="/assets/html/clark_plot.html" height="390" width="450">
 
-See that purple patch on the right side of the map? If we look at a map of the fire, provided by Seattle Times, we can see that it lines up with the location of the fire, showing it had an impact on the NDVI observations from space!
+See that purple patch on the lower right side of the map? If we look at a map of the fire, provided by Seattle Times, we can see that it lines up with the location of the fire, showing it had an impact on the NDVI observations from space!
 
 <img src="/assets/img/blog/data_course/nakia.jpg" alt="ESIIL logo" width="450">
 
