@@ -20,6 +20,10 @@
 # chronologically (#1 = the first bird you ever ID'd) automatically.
 # -----------------------------------------------------------------------------
 
+- species: "American Golden-Plover"
+  date: 2026-09-07
+  location: "Michigan"
+
 - species: "Blue-winged Warbler"
   date: 2026-08-07
   location: "Massachusetts"
