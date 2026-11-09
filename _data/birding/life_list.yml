@@ -20,8 +20,12 @@
 # chronologically (#1 = the first bird you ever ID'd) automatically.
 # -----------------------------------------------------------------------------
 
+- species: "Limpkin"
+  date: 2026-11-08
+  location: "Michigan"
+
 - species: "Purple Gallinule"
-  date: 2026-11-07
+  date: 2026-11-06
   location: "Michigan"
 
 - species: "American Golden-Plover"
